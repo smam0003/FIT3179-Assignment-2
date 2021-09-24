@@ -1,4 +1,4 @@
-Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,Women,P_Total,Population,P_TotalPer1MPop
+Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,Women,P_Total,Population,P_TotalPer10MPop
 1960,Rome,Italy,Argentina,ARG,2,3,1,6,5,4,9,20481781,4.394149122
 1960,Rome,Italy,Australia,AUS,3,6,1,10,10,1,11,10276477,10.70405743
 1960,Rome,Italy,Austria,AUT,11,8,11,30,12,7,19,7047539,26.95976567
