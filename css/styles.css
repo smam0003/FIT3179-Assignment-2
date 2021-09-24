@@ -1,3 +1,7 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 #choropleth_map {
 	top:100px;
 	bottom: 100px; 
