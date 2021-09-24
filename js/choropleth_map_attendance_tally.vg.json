@@ -28,12 +28,15 @@
     },
     {
       "transform": [
-        
+        {
+          "calculate": "datum.P_Total/datum.Population * 100000",
+          "as": "Athletes per 100,000 Population"
+        },
         {
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Paralympics%201960-2020/summer_paralympics.csv"
+              "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Normalised%20Para%201960-2020/summer_paralympics.csv"
             },
             "key": "Country",
             "fields": ["P_Total"]
