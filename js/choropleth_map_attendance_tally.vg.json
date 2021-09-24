@@ -29,8 +29,8 @@
     {
       "transform": [
         {
-          "calculate": "datum.P_Total/datum.Population * 100000",
-          "as": "Athletes per 100,000 Population"
+          "calculate": "datum.P_Total+1",
+          "as": "Athletes per 1,000,000 Population"
         },
         {
           "lookup": "properties.NAME",
@@ -47,10 +47,10 @@
       "mark": {"type": "geoshape", "stroke": "white"},
       "encoding": {
         "color": {
-          "field": "P_Total",
+          "field": "Athletes per 1,000,000 Population",
           "type": "quantitative",
           "scale": {
-            "type": "threshold",
+            "type": "linear",
             "domain": [10, 20, 50, 100, 150, 200],
             "range": ["#f0f9e8", "#ccebc5", "#a8ddb5", "#7bccc4", "#43a2ca", "#0868ac"]
           }
