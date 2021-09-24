@@ -22,7 +22,7 @@
       "encoding": {
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-          {"field": "P_TotalPer1MPop", "type": "quantitative"}
+          {"field": "P_TotalPer10MPop", "type": "quantitative"}
         ]
       }
     },
@@ -35,7 +35,7 @@
               "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Normalised%20Para%201960-2020/summer_paralympics.csv"
             },
             "key": "Country",
-            "fields": ["P_TotalPer1MPop"]
+            "fields": ["P_TotalPer10MPop"]
           }
 
         }
@@ -43,17 +43,17 @@
       "mark": {"type": "geoshape", "stroke": "white"},
       "encoding": {
         "color": {
-          "field": "P_TotalPer1MPop",
+          "field": "P_TotalPer10MPop",
           "type": "quantitative",
           "scale": {
-            "type": "linear",
-            "domain": [10, 20, 50, 100, 150, 200],
+            "type": "threshold",
+            "domain": [1, 2, 5, 10, 50, 100],
             "range": ["#f0f9e8", "#ccebc5", "#a8ddb5", "#7bccc4", "#43a2ca", "#0868ac"]
           }
         },
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-          {"field": "P_TotalPer1MPop", "type": "quantitative"}
+          {"field": "P_TotalPer10MPop", "type": "quantitative"}
         ]
       }
     }
