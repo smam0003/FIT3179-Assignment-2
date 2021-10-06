@@ -12,7 +12,7 @@
   },
 
   "projection": {
-    "type": "equalEarth"
+    "type": "equirectangular"
   },
   "layer": [
     {
