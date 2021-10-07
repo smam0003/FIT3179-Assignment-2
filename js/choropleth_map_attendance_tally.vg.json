@@ -102,10 +102,16 @@
           }
         },
         {
-          "mark": { "type": "text", "align": "center", "dy": -200 },
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "dy": -200,
+            "fontSize": 16
+          },
           "encoding": { "text": { "field": "host_country" } }
         }
       ]
     }
-  ]
+  ],
+  "config": { "font": "Open Sans", "title": { "fontSize": 20 } }
 }
