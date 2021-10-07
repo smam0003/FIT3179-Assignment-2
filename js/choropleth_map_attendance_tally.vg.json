@@ -66,7 +66,7 @@
       ],
       "mark": { "type": "geoshape", "stroke": "white", "strokeWidth": 0.5 },
       "encoding": {
-        "shape": {"field": "geo", "type": "geojson"},
+        "shape": { "field": "geo", "type": "geojson" },
         "color": {
           "field": "P_TotalPer10MPop",
           "type": "quantitative",
@@ -90,10 +90,9 @@
             "type": "quantitative",
             "title": "Total Per 10M Population"
           },
-          {"field": "Year", "type": "quantitative", "title": "Year"}
+          { "field": "Year", "type": "quantitative", "title": "Year" }
         ]
       }
     }
-  ],
-  "config": {}
+  ]
 }
