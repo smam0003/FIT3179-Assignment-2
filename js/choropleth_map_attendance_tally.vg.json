@@ -3,19 +3,34 @@
   "title": "Number of Athletes in Paralympics 2020",
   "width": 800,
   "height": 600,
-  "data": {
-    "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/js/ne_110m_admin_0_countries.topojson",
-    "format": {
-      "type": "topojson",
-      "feature": "ne_110m_admin_0_countries"
+  
+
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 1960,
+        "max": 2020,
+        "step": 4,
+        "name": "Year:  "
+      }
     }
-  },
+  ],
 
   "projection": {
     "type": "equirectangular"
   },
   "layer": [
     {
+      "data": {
+        "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/js/ne_110m_admin_0_countries.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_0_countries"
+        }
+      },
       "transform": [
         {
           "calculate": "'Data is not available in ' + datum.properties.NAME",
@@ -26,18 +41,28 @@
       "encoding": { "tooltip": { "field": "note" } }
     },
     {
+      "data": {
+        "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Normalised%20Para%201960-2020/summer_paralympics.csv"
+      },
       "transform": [
         {
-          "lookup": "properties.NAME",
+          "lookup": "",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Normalised%20Para%201960-2020/summer_paralympics.csv"
+              "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/js/ne_110m_admin_0_countries.topojson",
+              "format": {
+                "type": "topojson",
+                "feature": "ne_110m_admin_0_countries"
+              }
             },
-            "key": "Country",
+            "key": "properties.NAME",
             "fields": ["P_TotalPer10MPop"]
           }
-        }
+        },
+        {"filter": "datum.Year == Year_selection"}
+        
       ],
+      
       "mark": { "type": "geoshape", "stroke": "white" },
       "encoding": {
         "color": {
