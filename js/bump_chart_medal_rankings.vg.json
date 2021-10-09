@@ -1,21 +1,57 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Rankings of Continents 1960-2020 By Medals Won Per Participated Countries In Continents ",
+  "title": "Rankings of Continents 1960-2020 By Medals Won",
   "width": 800,
   "height": 600,
   "description": "Bump chart",
   "data": {
     "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/total_medals_per_country_rankings_by_continent_final_enhanced.csv"
   },
-
-  "layer": [
+  "params": [
     {
-      "mark": { "type": "line", "point": true },
-      "encoding": {
-        "x": { "field": "Year", "type": "ordinal" },
-        "y": { "field": "Ranking_total_medal", "type": "ordinal" },
-        "color": { "field": "Continent" }
+      "name": "Select_medal",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Medal_per_country_gold",
+          "Medal_per_country_silver",
+          "Medal_per_country_bronze"
+        ],
+        "labels": [
+          "Total Medals",
+          "Gold Medals",
+          "Silver Medals",
+          "Bronze Medals"
+        ],
+        "name": "Filter Medal: "
       }
     }
-  ]
+  ],
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "Highlight_continent",
+          "select": { "type": "point", "fields": ["Continent"] },
+          "bind": "legend"
+        }
+      ],
+      "mark": { "type": "line", "point": true, "size": 10 },
+      "encoding": {
+        "x": { "field": "Year", "type": "ordinal" },
+        "y": {
+          "field": "Ranking_total_medal",
+          "type": "ordinal",
+          "title": "Ranking of total medal"
+        },
+        "color": { "field": "Continent" },
+        "opacity": {
+          "condition": { "param": "Highlight_continent", "value": 1 },
+          "value": 0.1
+        }
+      }
+    }
+  ],
+  "config": { "font": "Open Sans", "title": { "fontSize": 20 } }
 }
