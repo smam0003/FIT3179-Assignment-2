@@ -5,29 +5,26 @@
   "height": 600,
   "description": "Bump chart",
   "data": {
-    "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/total_medals_per_country_rankings_by_continent_final_enhanced.csv"
+    "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/total_medals_per_country_rankings_by_continent_final_enhanced[test].csv"
   },
   "params": [
     {
       "name": "Select_medal",
       "bind": {
         "input": "select",
-        "options": [
-          null,
-          "Medal_per_country_gold",
-          "Medal_per_country_silver",
-          "Medal_per_country_bronze"
-        ],
+        "options": [null, "Total", "Gold", "Silver", "Bronze"],
         "labels": [
+          "Select one",
           "Total Medals",
           "Gold Medals",
           "Silver Medals",
           "Bronze Medals"
         ],
-        "name": "Filter Medal: "
+        "name": "Select Medal Type: "
       }
     }
   ],
+  "transform": [{ "filter": "datum.Type == Select_medal" }],
   "layer": [
     {
       "params": [
@@ -37,7 +34,23 @@
           "bind": "legend"
         }
       ],
-      "mark": { "type": "line", "point": true, "size": 10 },
+      "mark": { "type": "line", "size": 10 },
+      "encoding": {
+        "x": { "field": "Year", "type": "ordinal" },
+        "y": {
+          "field": "Ranking_total_medal",
+          "type": "ordinal",
+          "title": "Ranking of total medal"
+        },
+        "color": { "field": "Continent" },
+        "opacity": {
+          "condition": { "param": "Highlight_continent", "value": 1 },
+          "value": 0.1
+        }
+      }
+    },
+    {
+      "mark": { "type": "circle", "size": 250 },
       "encoding": {
         "x": { "field": "Year", "type": "ordinal" },
         "y": {
