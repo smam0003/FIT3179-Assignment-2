@@ -5,23 +5,31 @@
     "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Normalised%20Para%201960-2020/summer_paralympics.csv"
   },
   "layer": [
+    
     {
-      "transform": [{ "filter": "datum['Country'] == 'United States of America'" }],
-      "mark": { "type": "line", "point": true, "color": "blue" },
-      "encoding": {
-        "x": { "field": "Year", "type": "ordinal" },
-        "y": { "field": "M_Total", "type": "quantitative" },
-        "order": { "field": "Year", "type": "ordinal" }
-      }
-    },
-    {
-      "transform": [{ "filter": "datum['Country'] == 'Australia'" }],
-      "mark": { "type": "line", "point": true, "color": "black" },
-      "encoding": {
-        "x": { "field": "Year", "type": "ordinal" },
-        "y": { "field": "M_Total", "type": "quantitative" },
-        "order": { "field": "Year", "type": "ordinal" }
-      }
+      "transform": [
+        { "filter": "datum['Country_Code'] == 'USA'|| datum['Country_Code'] == 'ITA'"},
+        { "filter": "datum['Year'] == '1960'"},
+        {
+          "window": [{ "op": "rank", "as": "ranking" }],
+          "sort": [{ "field": "M_Total", "order": "descending" }]
+        }
+      ],
+      "layer": [
+        {
+          "mark": { "type": "point", "point": true, "color": "black" },
+          "encoding": {
+            "x": { "field": "Year", "type": "ordinal" },
+            "y": { "field": "ranking", "type": "ordinal" },
+            "order": { "field": "Year", "type": "ordinal" }
+          }
+        },
+        {
+          "mark": { "type": "text", "color": "black" },
+          "encoding": { "text": { "field": "Country" } }
+        }
+      ]
+      
     }
   ]
 }
