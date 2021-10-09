@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./css/styles.css" />
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,11 +14,15 @@
     <title>Number of Athletes in Paralympics 2020</title>
   </head>
   <body>
+    <script src="./js/vega_lite_visualisation.js"></script>
     <h1>Paralympics</h1>
-    <div id="choropleth_map">
-      <script src="./js/vega_lite_visualisation.js"></script>
-      <br /><br /><br /><br /><br />
-      <div id="desc"><p>The number of paralympians attended in the</p></div>
+    <div id="chart_1">
+      <div id="choropleth_map"></div>
+    </div>
+    <br /><br />
+    <div id="chart_2">
+      <div id="bump_chart"></div>
+      <p>(Normalised By Number of Countries Attended Each Continent)</p>
     </div>
   </body>
 </html>
