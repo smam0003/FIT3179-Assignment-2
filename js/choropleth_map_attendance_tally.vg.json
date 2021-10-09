@@ -66,6 +66,10 @@
         {
           "calculate": "'Host Country: ' + datum.Host_Country",
           "as": "host_country"
+        },
+        {
+          "calculate": "datum.P_TotalPer10MPop",
+          "as": "Athletes Per 10M Population"
         }
       ],
 
@@ -75,7 +79,7 @@
           "encoding": {
             "shape": { "field": "geo", "type": "geojson" },
             "color": {
-              "field": "P_TotalPer10MPop",
+              "field": "Athletes Per 10M Population",
               "type": "quantitative",
               "scale": {
                 "type": "threshold",
@@ -93,7 +97,7 @@
             "tooltip": [
               { "field": "Country", "type": "nominal", "title": "Country" },
               {
-                "field": "P_TotalPer10MPop",
+                "field": "Athletes Per 10M Population",
                 "type": "quantitative",
                 "title": "Total Per 10M Population"
               },

@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Rankings of Continents 1960-2020 By Medals Won",
-  "width": 800,
-  "height": 600,
+  "width": 1000,
+  "height": 800,
   "description": "Bump chart",
   "data": {
     "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/total_medals_per_country_rankings_by_continent_final_enhanced[test].csv"
@@ -40,7 +40,7 @@
         "y": {
           "field": "Ranking_total_medal",
           "type": "ordinal",
-          "title": "Ranking of total medal"
+          "title": "Ranking of medal"
         },
         "color": { "field": "Continent" },
         "opacity": {
@@ -56,13 +56,22 @@
         "y": {
           "field": "Ranking_total_medal",
           "type": "ordinal",
-          "title": "Ranking of total medal"
+          "title": "Ranking of medal"
         },
         "color": { "field": "Continent" },
         "opacity": {
           "condition": { "param": "Highlight_continent", "value": 1 },
           "value": 0.1
-        }
+        },
+        "tooltip": [
+          { "field": "Continent", "type": "nominal" },
+          {
+            "field": "Ranking_total_medal",
+            "type": "ordinal",
+            "title": "Ranking of medal"
+          },
+          { "field": "Year", "type": "ordinal" }
+        ]
       }
     }
   ],
