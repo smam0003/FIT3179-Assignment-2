@@ -1,35 +1,27 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Rankings of Continents 1960-2020 By Medals Won Per Participated Countries In Continents ",
+  "width": 800,
+  "height": 600,
   "description": "Bump chart",
   "data": {
-    "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Normalised%20Para%201960-2020/summer_paralympics.csv"
+    "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/total_medals_per_country_rankings_by_continent.csv",
+    "format": {
+      "type": "tsv"
+    }
   },
   "layer": [
-    
     {
-      "transform": [
-        { "filter": "datum['Country_Code'] == 'USA'|| datum['Country_Code'] == 'ITA'"},
-        { "filter": "datum['Year'] == '1960'"},
-        {
-          "window": [{ "op": "rank", "as": "ranking" }],
-          "sort": [{ "field": "M_Total", "order": "descending" }]
+      "mark": { "type": "line", "point": true },
+      "encoding": {
+        "x": { "field": "Year", "type": "ordinal" },
+        "y": { "field": "Ranking", "type": "ordinal" },
+        "order": { "field": "Year", "type": "ordinal" },
+        "color": {
+          "field": "Ranking",
+          "type": "ordinal"
         }
-      ],
-      "layer": [
-        {
-          "mark": { "type": "point", "point": true, "color": "black" },
-          "encoding": {
-            "x": { "field": "Year", "type": "ordinal" },
-            "y": { "field": "ranking", "type": "ordinal" },
-            "order": { "field": "Year", "type": "ordinal" }
-          }
-        },
-        {
-          "mark": { "type": "text", "color": "black" },
-          "encoding": { "text": { "field": "Country" } }
-        }
-      ]
-      
+      }
     }
   ]
 }
