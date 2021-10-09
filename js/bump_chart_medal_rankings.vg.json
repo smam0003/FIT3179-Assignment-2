@@ -5,7 +5,7 @@
   "height": 600,
   "description": "Bump chart",
   "data": {
-    "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/total_medals_per_country_rankings_by_continent_final.csv"
+    "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/total_medals_per_country_rankings_by_continent_final_enhanced.csv"
   },
 
   "layer": [
@@ -13,7 +13,7 @@
       "mark": { "type": "line", "point": true },
       "encoding": {
         "x": { "field": "Year", "type": "ordinal" },
-        "y": { "field": "Ranking", "type": "ordinal" },
+        "y": { "field": "Ranking_total_medal", "type": "ordinal" },
         "color": { "field": "Continent" }
       }
     }
