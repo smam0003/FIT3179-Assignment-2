@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Rankings of Continents 1960-2020 By Medals Won",
+  "description": "Bump chart",
+  "data": {
+    "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/summer_paralympics_with_continents.csv"
+  },
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 1960,
+        "max": 2020,
+        "step": 4,
+        "name": "Year:  "
+      }
+    }
+  ],
+  "transform": [
+    { "filter": "datum.Year == Year_selection" },
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "P_Total",
+          "as": "smP_Total"
+        },
+        {
+          "op": "sum",
+          "field": "Men",
+          "as": "smMen"
+        },
+        {
+          "op": "sum",
+          "field": "Women",
+          "as": "smWomen"
+        }
+      ],
+      "groupby": ["Continent"]
+    },
+    { "calculate": "(datum.smMen/datum.smP_Total)*100", "as": "diff" },
+    { "calculate": "100-datum.diff", "as": "diff2" }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "opacity": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "Continent",
+          "type": "nominal"
+        },
+        "y": { "field": "diff2", "type": "quantitative",
+        "stack":  "normalize" },
+        "color": {"field": "Men"}
+      }
+    }
+  ],
+  "config": { "font": "Open Sans", "title": { "fontSize": 20 } }
+}

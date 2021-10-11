@@ -1,0 +1,73 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Test Title",
+  "width": 800,
+  "height": 600,
+  "description": "Scatterplot",
+  "data": {
+    "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/summer_paralympics_with_continents.csv"
+  },
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 1960,
+        "max": 2020,
+        "step": 4,
+        "name": "Year:  "
+      }
+    },
+    {
+      "name": "Highlight_continent",
+      "select": { "type": "point", "fields": ["Continent"] },
+      "bind": "legend"
+    }
+  ],
+  "transform": [
+    { "filter": "datum.Year == Year_selection" },
+    {
+      "calculate": "datum.M_Total / datum.P_Total",
+      "as": "Ratio"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 75
+      },
+      "encoding": {
+        "x": {
+          "field": "P_Total",
+          "type": "quantitative",
+          "title": "Medal Count"
+        },
+        "y": {
+          "field": "M_Total",
+          "type": "quantitative",
+          "title": "Player Count"
+        },
+        "color": { "field": "Continent" },
+        "opacity": {
+          "condition": { "param": "Highlight_continent", "value": 1 },
+          "value": 0.2
+        },
+        "tooltip": [
+          { "field": "Ratio", "type": "quantitative" , "format": ".2f", "title": "Medal to Athlete Ratio"},
+          { "field": "Country", "type": "nominal" },
+          {
+            "field": "P_Total",
+            "type": "quantitative",
+            "title": "Total Athletes"
+          },
+          { "field": "M_Total", "type": "quantitative", "title": "Medals" },
+          { "field": "Continent", "type": "nominal" }
+        ]
+      }
+    }
+  ],
+  "config": { "font": "Open Sans", "title": { "fontSize": 20 } }
+}

@@ -34,18 +34,18 @@
           "bind": "legend"
         }
       ],
-      "mark": { "type": "line", "size": 10 },
+      "mark": { "type": "line", "size": 10 , "strokeCap": "round"},
       "encoding": {
         "x": { "field": "Year", "type": "ordinal" },
         "y": {
           "field": "Ranking_medal",
           "type": "ordinal",
-          "title": "Ranking of medal"
+          "title": "Ranking"
         },
         "color": { "field": "Continent" },
         "opacity": {
           "condition": { "param": "Highlight_continent", "value": 1 },
-          "value": 0.1
+          "value": 0.15
         }
       }
     },
@@ -56,12 +56,12 @@
         "y": {
           "field": "Ranking_medal",
           "type": "ordinal",
-          "title": "Ranking of medal"
+          "title": "Ranking"
         },
         "color": { "field": "Continent" },
         "opacity": {
           "condition": { "param": "Highlight_continent", "value": 1 },
-          "value": 0.1
+          "value": 0.2
         },
         "tooltip": [
           { "field": "Continent", "type": "nominal" },
