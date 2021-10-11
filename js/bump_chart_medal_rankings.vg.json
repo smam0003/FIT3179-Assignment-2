@@ -38,7 +38,7 @@
       "encoding": {
         "x": { "field": "Year", "type": "ordinal" },
         "y": {
-          "field": "Ranking_total_medal",
+          "field": "Ranking_medal",
           "type": "ordinal",
           "title": "Ranking of medal"
         },
@@ -54,7 +54,7 @@
       "encoding": {
         "x": { "field": "Year", "type": "ordinal" },
         "y": {
-          "field": "Ranking_total_medal",
+          "field": "Ranking_medal",
           "type": "ordinal",
           "title": "Ranking of medal"
         },
@@ -66,9 +66,14 @@
         "tooltip": [
           { "field": "Continent", "type": "nominal" },
           {
-            "field": "Ranking_total_medal",
+            "field": "Ranking_medal",
             "type": "ordinal",
-            "title": "Ranking of medal"
+            "title": "Rank"
+          },
+          {
+            "field": "Medal_Per_Country",
+            "type": "quantitative",
+            "title": "Medal Per Country"
           },
           { "field": "Year", "type": "ordinal" }
         ]

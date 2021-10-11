@@ -1,449 +1,449 @@
-﻿Year,Continent,Ranking_total_medal,Type
-1960,Asia,6,Total
-1960,Africa,5,Total
-1960,Europe,2,Total
-1960,North America,1,Total
-1960,South America,4,Total
-1960,Oceania,3,Total
-1960,Others,7,Total
-1964,Asia,4,Total
-1964,Africa,3,Total
-1964,Europe,6,Total
-1964,North America,1,Total
-1964,South America,2,Total
-1964,Oceania,5,Total
-1964,Others,7,Total
-1968,Asia,4,Total
-1968,Africa,6,Total
-1968,Europe,5,Total
-1968,North America,1,Total
-1968,South America,2,Total
-1968,Oceania,3,Total
-1968,Others,7,Total
-1972,Asia,5,Total
-1972,Africa,4,Total
-1972,Europe,3,Total
-1972,North America,1,Total
-1972,South America,6,Total
-1972,Oceania,2,Total
-1972,Others,7,Total
-1976,Asia,4,Total
-1976,Africa,5,Total
-1976,Europe,2,Total
-1976,North America,1,Total
-1976,South America,6,Total
-1976,Oceania,3,Total
-1976,Others,7,Total
-1980,Asia,4,Total
-1980,Africa,5,Total
-1980,Europe,2,Total
-1980,North America,1,Total
-1980,South America,6,Total
-1980,Oceania,3,Total
-1980,Others,7,Total
-1984,Asia,4,Total
-1984,Africa,6,Total
-1984,Europe,2,Total
-1984,North America,1,Total
-1984,South America,5,Total
-1984,Oceania,3,Total
-1984,Others,7,Total
-1988,Asia,4,Total
-1988,Africa,6,Total
-1988,Europe,3,Total
-1988,North America,1,Total
-1988,South America,5,Total
-1988,Oceania,2,Total
-1988,Others,7,Total
-1992,Asia,5,Total
-1992,Africa,6,Total
-1992,Europe,3,Total
-1992,North America,2,Total
-1992,South America,7,Total
-1992,Oceania,1,Total
-1992,Others,4,Total
-1996,Asia,4,Total
-1996,Africa,5,Total
-1996,Europe,3,Total
-1996,North America,2,Total
-1996,South America,6,Total
-1996,Oceania,1,Total
-1996,Others,7,Total
-2000,Asia,4,Total
-2000,Africa,5,Total
-2000,Europe,2,Total
-2000,North America,3,Total
-2000,South America,6,Total
-2000,Oceania,1,Total
-2000,Others,7,Total
-2004,Asia,4,Total
-2004,Africa,6,Total
-2004,Europe,2,Total
-2004,North America,3,Total
-2004,South America,5,Total
-2004,Oceania,1,Total
-2004,Others,7,Total
-2008,Asia,4,Total
-2008,Africa,6,Total
-2008,Europe,1,Total
-2008,North America,3,Total
-2008,South America,5,Total
-2008,Oceania,2,Total
-2008,Others,7,Total
-2012,Asia,4,Total
-2012,Africa,6,Total
-2012,Europe,1,Total
-2012,North America,3,Total
-2012,South America,5,Total
-2012,Oceania,2,Total
-2012,Others,7,Total
-2016,Asia,4,Total
-2016,Africa,6,Total
-2016,Europe,2,Total
-2016,North America,5,Total
-2016,South America,3,Total
-2016,Oceania,1,Total
-2016,Others,7,Total
-2020,Asia,4,Total
-2020,Africa,6,Total
-2020,Europe,2,Total
-2020,North America,5,Total
-2020,South America,3,Total
-2020,Oceania,1,Total
-2020,Others,7,Total
-1960,Asia,6,Gold
-1960,Africa,4,Gold
-1960,Europe,2,Gold
-1960,North America,1,Gold
-1960,South America,4,Gold
-1960,Oceania,3,Gold
-1960,Others,6,Gold
-1964,Asia,6,Gold
-1964,Africa,2,Gold
-1964,Europe,5,Gold
-1964,North America,1,Gold
-1964,South America,3,Gold
-1964,Oceania,3,Gold
-1964,Others,7,Gold
-1968,Asia,5,Gold
-1968,Africa,5,Gold
-1968,Europe,4,Gold
-1968,North America,1,Gold
-1968,South America,2,Gold
-1968,Oceania,3,Gold
-1968,Others,7,Gold
-1972,Asia,5,Gold
-1972,Africa,4,Gold
-1972,Europe,2,Gold
-1972,North America,1,Gold
-1972,South America,6,Gold
-1972,Oceania,3,Gold
-1972,Others,7,Gold
-1976,Asia,3,Gold
-1976,Africa,5,Gold
-1976,Europe,2,Gold
-1976,North America,1,Gold
-1976,South America,6,Gold
-1976,Oceania,4,Gold
-1976,Others,7,Gold
-1980,Asia,4,Gold
-1980,Africa,6,Gold
-1980,Europe,2,Gold
-1980,North America,1,Gold
-1980,South America,5,Gold
-1980,Oceania,3,Gold
-1980,Others,7,Gold
-1984,Asia,4,Gold
-1984,Africa,6,Gold
-1984,Europe,2,Gold
-1984,North America,1,Gold
-1984,South America,5,Gold
-1984,Oceania,3,Gold
-1984,Others,7,Gold
-1988,Asia,4,Gold
-1988,Africa,6,Gold
-1988,Europe,2,Gold
-1988,North America,1,Gold
-1988,South America,5,Gold
-1988,Oceania,3,Gold
-1988,Others,7,Gold
-1992,Asia,5,Gold
-1992,Africa,6,Gold
-1992,Europe,3,Gold
-1992,North America,2,Gold
-1992,South America,7,Gold
-1992,Oceania,1,Gold
-1992,Others,4,Gold
-1996,Asia,4,Gold
-1996,Africa,5,Gold
-1996,Europe,3,Gold
-1996,North America,2,Gold
-1996,South America,6,Gold
-1996,Oceania,1,Gold
-1996,Others,7,Gold
-2000,Asia,4,Gold
-2000,Africa,5,Gold
-2000,Europe,3,Gold
-2000,North America,2,Gold
-2000,South America,6,Gold
-2000,Oceania,1,Gold
-2000,Others,7,Gold
-2004,Asia,4,Gold
-2004,Africa,5,Gold
-2004,Europe,2,Gold
-2004,North America,3,Gold
-2004,South America,6,Gold
-2004,Oceania,1,Gold
-2004,Others,7,Gold
-2008,Asia,4,Gold
-2008,Africa,6,Gold
-2008,Europe,2,Gold
-2008,North America,1,Gold
-2008,South America,5,Gold
-2008,Oceania,3,Gold
-2008,Others,7,Gold
-2012,Asia,3,Gold
-2012,Africa,6,Gold
-2012,Europe,2,Gold
-2012,North America,4,Gold
-2012,South America,5,Gold
-2012,Oceania,1,Gold
-2012,Others,7,Gold
-2016,Asia,3,Gold
-2016,Africa,6,Gold
-2016,Europe,1,Gold
-2016,North America,4,Gold
-2016,South America,5,Gold
-2016,Oceania,2,Gold
-2016,Others,7,Gold
-2020,Asia,3,Gold
-2020,Africa,6,Gold
-2020,Europe,2,Gold
-2020,North America,5,Gold
-2020,South America,4,Gold
-2020,Oceania,1,Gold
-2020,Others,7,Gold
-1960,Asia,5,Silver
-1960,Africa,6,Silver
-1960,Europe,2,Silver
-1960,North America,1,Silver
-1960,South America,4,Silver
-1960,Oceania,3,Silver
-1960,Others,7,Silver
-1964,Asia,6,Silver
-1964,Africa,3,Silver
-1964,Europe,5,Silver
-1964,North America,1,Silver
-1964,South America,2,Silver
-1964,Oceania,4,Silver
-1964,Others,7,Silver
-1968,Asia,4,Silver
-1968,Africa,5,Silver
-1968,Europe,6,Silver
-1968,North America,1,Silver
-1968,South America,2,Silver
-1968,Oceania,3,Silver
-1968,Others,7,Silver
-1972,Asia,5,Silver
-1972,Africa,4,Silver
-1972,Europe,3,Silver
-1972,North America,1,Silver
-1972,South America,6,Silver
-1972,Oceania,2,Silver
-1972,Others,7,Silver
-1976,Asia,4,Silver
-1976,Africa,5,Silver
-1976,Europe,2,Silver
-1976,North America,1,Silver
-1976,South America,6,Silver
-1976,Oceania,3,Silver
-1976,Others,7,Silver
-1980,Asia,4,Silver
-1980,Africa,5,Silver
-1980,Europe,2,Silver
-1980,North America,1,Silver
-1980,South America,6,Silver
-1980,Oceania,3,Silver
-1980,Others,7,Silver
-1984,Asia,4,Silver
-1984,Africa,6,Silver
-1984,Europe,2,Silver
-1984,North America,1,Silver
-1984,South America,5,Silver
-1984,Oceania,3,Silver
-1984,Others,7,Silver
-1988,Asia,5,Silver
-1988,Africa,6,Silver
-1988,Europe,3,Silver
-1988,North America,2,Silver
-1988,South America,4,Silver
-1988,Oceania,1,Silver
-1988,Others,7,Silver
-1992,Asia,5,Silver
-1992,Africa,6,Silver
-1992,Europe,2,Silver
-1992,North America,3,Silver
-1992,South America,7,Silver
-1992,Oceania,1,Silver
-1992,Others,4,Silver
-1996,Asia,4,Silver
-1996,Africa,5,Silver
-1996,Europe,2,Silver
-1996,North America,3,Silver
-1996,South America,6,Silver
-1996,Oceania,1,Silver
-1996,Others,7,Silver
-2000,Asia,4,Silver
-2000,Africa,6,Silver
-2000,Europe,1,Silver
-2000,North America,2,Silver
-2000,South America,5,Silver
-2000,Oceania,3,Silver
-2000,Others,7,Silver
-2004,Asia,4,Silver
-2004,Africa,6,Silver
-2004,Europe,2,Silver
-2004,North America,3,Silver
-2004,South America,5,Silver
-2004,Oceania,1,Silver
-2004,Others,7,Silver
-2008,Asia,4,Silver
-2008,Africa,6,Silver
-2008,Europe,1,Silver
-2008,North America,3,Silver
-2008,South America,5,Silver
-2008,Oceania,2,Silver
-2008,Others,7,Silver
-2012,Asia,4,Silver
-2012,Africa,6,Silver
-2012,Europe,1,Silver
-2012,North America,3,Silver
-2012,South America,5,Silver
-2012,Oceania,2,Silver
-2012,Others,7,Silver
-2016,Asia,4,Silver
-2016,Africa,6,Silver
-2016,Europe,2,Silver
-2016,North America,5,Silver
-2016,South America,3,Silver
-2016,Oceania,1,Silver
-2016,Others,7,Silver
-2020,Asia,4,Silver
-2020,Africa,6,Silver
-2020,Europe,2,Silver
-2020,North America,5,Silver
-2020,South America,3,Silver
-2020,Oceania,1,Silver
-2020,Others,7,Silver
-1960,Asia,3,Bronze
-1960,Africa,3,Bronze
-1960,Europe,2,Bronze
-1960,North America,1,Bronze
-1960,South America,5,Bronze
-1960,Oceania,5,Bronze
-1960,Others,7,Bronze
-1964,Asia,3,Bronze
-1964,Africa,6,Bronze
-1964,Europe,4,Bronze
-1964,North America,1,Bronze
-1964,South America,2,Bronze
-1964,Oceania,5,Bronze
-1964,Others,7,Bronze
-1968,Asia,3,Bronze
-1968,Africa,5,Bronze
-1968,Europe,4,Bronze
-1968,North America,1,Bronze
-1968,South America,2,Bronze
-1968,Oceania,6,Bronze
-1968,Others,7,Bronze
-1972,Asia,5,Bronze
-1972,Africa,4,Bronze
-1972,Europe,3,Bronze
-1972,North America,1,Bronze
-1972,South America,6,Bronze
-1972,Oceania,2,Bronze
-1972,Others,7,Bronze
-1976,Asia,3,Bronze
-1976,Africa,5,Bronze
-1976,Europe,2,Bronze
-1976,North America,1,Bronze
-1976,South America,6,Bronze
-1976,Oceania,4,Bronze
-1976,Others,7,Bronze
-1980,Asia,4,Bronze
-1980,Africa,6,Bronze
-1980,Europe,2,Bronze
-1980,North America,1,Bronze
-1980,South America,5,Bronze
-1980,Oceania,3,Bronze
-1980,Others,7,Bronze
-1984,Asia,4,Bronze
-1984,Africa,5,Bronze
-1984,Europe,2,Bronze
-1984,North America,1,Bronze
-1984,South America,6,Bronze
-1984,Oceania,3,Bronze
-1984,Others,7,Bronze
-1988,Asia,5,Bronze
-1988,Africa,6,Bronze
-1988,Europe,3,Bronze
-1988,North America,2,Bronze
-1988,South America,4,Bronze
-1988,Oceania,1,Bronze
-1988,Others,7,Bronze
-1992,Asia,4,Bronze
-1992,Africa,5,Bronze
-1992,Europe,2,Bronze
-1992,North America,3,Bronze
-1992,South America,7,Bronze
-1992,Oceania,1,Bronze
-1992,Others,5,Bronze
-1996,Asia,4,Bronze
-1996,Africa,6,Bronze
-1996,Europe,3,Bronze
-1996,North America,2,Bronze
-1996,South America,5,Bronze
-1996,Oceania,1,Bronze
-1996,Others,7,Bronze
-2000,Asia,4,Bronze
-2000,Africa,5,Bronze
-2000,Europe,1,Bronze
-2000,North America,3,Bronze
-2000,South America,6,Bronze
-2000,Oceania,2,Bronze
-2000,Others,7,Bronze
-2004,Asia,4,Bronze
-2004,Africa,6,Bronze
-2004,Europe,2,Bronze
-2004,North America,3,Bronze
-2004,South America,5,Bronze
-2004,Oceania,1,Bronze
-2004,Others,7,Bronze
-2008,Asia,5,Bronze
-2008,Africa,6,Bronze
-2008,Europe,1,Bronze
-2008,North America,3,Bronze
-2008,South America,4,Bronze
-2008,Oceania,2,Bronze
-2008,Others,7,Bronze
-2012,Asia,4,Bronze
-2012,Africa,6,Bronze
-2012,Europe,1,Bronze
-2012,North America,3,Bronze
-2012,South America,5,Bronze
-2012,Oceania,2,Bronze
-2012,Others,7,Bronze
-2016,Asia,4,Bronze
-2016,Africa,6,Bronze
-2016,Europe,2,Bronze
-2016,North America,5,Bronze
-2016,South America,3,Bronze
-2016,Oceania,1,Bronze
-2016,Others,7,Bronze
-2020,Asia,4,Bronze
-2020,Africa,6,Bronze
-2020,Europe,2,Bronze
-2020,North America,5,Bronze
-2020,South America,3,Bronze
-2020,Oceania,1,Bronze
-2020,Others,7,Bronze
+﻿Year,Continent,Ranking_medal,Medal_Per_Country,Type
+1960,Asia,6,4,Total
+1960,Africa,5,5,Total
+1960,Europe,2,20,Total
+1960,North America,1,25,Total
+1960,South America,4,6,Total
+1960,Oceania,3,10,Total
+1960,Others,7,0,Total
+1964,Asia,4,16,Total
+1964,Africa,3,18,Total
+1964,Europe,6,14,Total
+1964,North America,1,123,Total
+1964,South America,2,37,Total
+1964,Oceania,5,15,Total
+1964,Others,7,0,Total
+1968,Asia,4,19,Total
+1968,Africa,6,15,Total
+1968,Europe,5,17,Total
+1968,North America,1,41,Total
+1968,South America,2,30,Total
+1968,Oceania,3,21,Total
+1968,Others,7,0,Total
+1972,Asia,5,8,Total
+1972,Africa,4,11,Total
+1972,Europe,3,16,Total
+1972,North America,1,22,Total
+1972,South America,6,3,Total
+1972,Oceania,2,17,Total
+1972,Others,7,0,Total
+1976,Asia,4,17,Total
+1976,Africa,5,9,Total
+1976,Europe,2,38,Total
+1976,North America,1,54,Total
+1976,South America,6,4,Total
+1976,Oceania,3,18,Total
+1976,Others,7,0,Total
+1980,Asia,4,15,Total
+1980,Africa,5,6,Total
+1980,Europe,2,48,Total
+1980,North America,1,78,Total
+1980,South America,6,6,Total
+1980,Oceania,3,37,Total
+1980,Others,7,0,Total
+1984,Asia,4,11,Total
+1984,Africa,6,4,Total
+1984,Europe,2,70,Total
+1984,North America,1,97,Total
+1984,South America,5,7,Total
+1984,Oceania,3,60,Total
+1984,Others,7,0,Total
+1988,Asia,4,16,Total
+1988,Africa,6,4,Total
+1988,Europe,3,51,Total
+1988,North America,1,57,Total
+1988,South America,5,12,Total
+1988,Oceania,2,56,Total
+1988,Others,7,0,Total
+1992,Asia,5,7,Total
+1992,Africa,6,3,Total
+1992,Europe,3,29,Total
+1992,North America,2,31,Total
+1992,South America,7,1,Total
+1992,Oceania,1,41,Total
+1992,Others,4,8,Total
+1996,Asia,4,6,Total
+1996,Africa,5,5,Total
+1996,Europe,3,22,Total
+1996,North America,2,25,Total
+1996,South America,6,4,Total
+1996,Oceania,1,41,Total
+1996,Others,7,0,Total
+2000,Asia,4,7,Total
+2000,Africa,5,5,Total
+2000,Europe,2,21,Total
+2000,North America,3,21,Total
+2000,South America,6,4,Total
+2000,Oceania,1,24,Total
+2000,Others,7,0,Total
+2004,Asia,4,9,Total
+2004,Africa,6,4,Total
+2004,Europe,2,18,Total
+2004,North America,3,14,Total
+2004,South America,5,5,Total
+2004,Oceania,1,22,Total
+2004,Others,7,0,Total
+2008,Asia,4,8,Total
+2008,Africa,6,4,Total
+2008,Europe,1,15,Total
+2008,North America,3,12,Total
+2008,South America,5,7,Total
+2008,Oceania,2,13,Total
+2008,Others,7,0,Total
+2012,Asia,4,8,Total
+2012,Africa,6,3,Total
+2012,Europe,1,16,Total
+2012,North America,3,9,Total
+2012,South America,5,6,Total
+2012,Oceania,2,13,Total
+2012,Others,7,0,Total
+2016,Asia,4,11,Total
+2016,Africa,6,2,Total
+2016,Europe,2,16,Total
+2016,North America,5,10,Total
+2016,South America,3,11,Total
+2016,Oceania,1,17,Total
+2016,Others,7,0,Total
+2020,Asia,4,11,Total
+2020,Africa,6,1,Total
+2020,Europe,2,18,Total
+2020,North America,5,8,Total
+2020,South America,3,12,Total
+2020,Oceania,1,23,Total
+2020,Others,7,0,Total
+1960,Asia,6,0,Gold
+1960,Africa,4,2,Gold
+1960,Europe,2,8,Gold
+1960,North America,1,11,Gold
+1960,South America,4,2,Gold
+1960,Oceania,3,3,Gold
+1960,Others,6,0,Gold
+1964,Asia,6,4,Gold
+1964,Africa,2,9,Gold
+1964,Europe,5,4,Gold
+1964,North America,1,50,Gold
+1964,South America,3,6,Gold
+1964,Oceania,3,6,Gold
+1964,Others,7,0,Gold
+1968,Asia,5,5,Gold
+1968,Africa,5,5,Gold
+1968,Europe,4,6,Gold
+1968,North America,1,14,Gold
+1968,South America,2,10,Gold
+1968,Oceania,3,8,Gold
+1968,Others,7,0,Gold
+1972,Asia,5,3,Gold
+1972,Africa,4,4,Gold
+1972,Europe,2,5,Gold
+1972,North America,1,6,Gold
+1972,South America,6,1,Gold
+1972,Oceania,3,5,Gold
+1972,Others,7,0,Gold
+1976,Asia,3,9,Gold
+1976,Africa,5,3,Gold
+1976,Europe,2,14,Gold
+1976,North America,1,21,Gold
+1976,South America,6,1,Gold
+1976,Oceania,4,8,Gold
+1976,Others,7,0,Gold
+1980,Asia,4,5,Gold
+1980,Africa,6,1,Gold
+1980,Europe,2,17,Gold
+1980,North America,1,33,Gold
+1980,South America,5,2,Gold
+1980,Oceania,3,10,Gold
+1980,Others,7,0,Gold
+1984,Asia,4,2,Gold
+1984,Africa,6,1,Gold
+1984,Europe,2,26,Gold
+1984,North America,1,33,Gold
+1984,South America,5,2,Gold
+1984,Oceania,3,19,Gold
+1984,Others,7,0,Gold
+1988,Asia,4,6,Gold
+1988,Africa,6,0,Gold
+1988,Europe,2,17,Gold
+1988,North America,1,20,Gold
+1988,South America,5,1,Gold
+1988,Oceania,3,13,Gold
+1988,Others,7,0,Gold
+1992,Asia,5,2,Gold
+1992,Africa,6,1,Gold
+1992,Europe,3,9,Gold
+1992,North America,2,12,Gold
+1992,South America,7,1,Gold
+1992,Oceania,1,15,Gold
+1992,Others,4,4,Gold
+1996,Asia,4,2,Gold
+1996,Africa,5,2,Gold
+1996,Europe,3,7,Gold
+1996,North America,2,8,Gold
+1996,South America,6,1,Gold
+1996,Oceania,1,17,Gold
+1996,Others,7,0,Gold
+2000,Asia,4,3,Gold
+2000,Africa,5,2,Gold
+2000,Europe,3,6,Gold
+2000,North America,2,7,Gold
+2000,South America,6,1,Gold
+2000,Oceania,1,10,Gold
+2000,Others,7,0,Gold
+2004,Asia,4,3,Gold
+2004,Africa,5,2,Gold
+2004,Europe,2,5,Gold
+2004,North America,3,5,Gold
+2004,South America,6,2,Gold
+2004,Oceania,1,6,Gold
+2004,Others,7,0,Gold
+2008,Asia,4,3,Gold
+2008,Africa,6,2,Gold
+2008,Europe,2,4,Gold
+2008,North America,1,5,Gold
+2008,South America,5,2,Gold
+2008,Oceania,3,4,Gold
+2008,Others,7,0,Gold
+2012,Asia,3,3,Gold
+2012,Africa,6,1,Gold
+2012,Europe,2,5,Gold
+2012,North America,4,3,Gold
+2012,South America,5,2,Gold
+2012,Oceania,1,5,Gold
+2012,Others,7,0,Gold
+2016,Asia,3,4,Gold
+2016,Africa,6,1,Gold
+2016,Europe,1,5,Gold
+2016,North America,4,3,Gold
+2016,South America,5,2,Gold
+2016,Oceania,2,5,Gold
+2016,Others,7,0,Gold
+2020,Asia,3,4,Gold
+2020,Africa,6,0,Gold
+2020,Europe,2,5,Gold
+2020,North America,5,3,Gold
+2020,South America,4,3,Gold
+2020,Oceania,1,7,Gold
+2020,Others,7,0,Gold
+1960,Asia,5,2,Silver
+1960,Africa,6,1,Silver
+1960,Europe,2,6,Silver
+1960,North America,1,7,Silver
+1960,South America,4,3,Silver
+1960,Oceania,3,6,Silver
+1960,Others,7,0,Silver
+1964,Asia,6,4,Silver
+1964,Africa,3,7,Silver
+1964,Europe,5,4,Silver
+1964,North America,1,41,Silver
+1964,South America,2,15,Silver
+1964,Oceania,4,6,Silver
+1964,Others,7,0,Silver
+1968,Asia,4,6,Silver
+1968,Africa,5,6,Silver
+1968,Europe,6,6,Silver
+1968,North America,1,11,Silver
+1968,South America,2,10,Silver
+1968,Oceania,3,9,Silver
+1968,Others,7,0,Silver
+1972,Asia,5,3,Silver
+1972,Africa,4,3,Silver
+1972,Europe,3,5,Silver
+1972,North America,1,7,Silver
+1972,South America,6,1,Silver
+1972,Oceania,2,6,Silver
+1972,Others,7,0,Silver
+1976,Asia,4,4,Silver
+1976,Africa,5,3,Silver
+1976,Europe,2,13,Silver
+1976,North America,1,17,Silver
+1976,South America,6,1,Silver
+1976,Oceania,3,6,Silver
+1976,Others,7,0,Silver
+1980,Asia,4,6,Silver
+1980,Africa,5,3,Silver
+1980,Europe,2,16,Silver
+1980,North America,1,25,Silver
+1980,South America,6,2,Silver
+1980,Oceania,3,14,Silver
+1980,Others,7,0,Silver
+1984,Asia,4,5,Silver
+1984,Africa,6,1,Silver
+1984,Europe,2,23,Silver
+1984,North America,1,33,Silver
+1984,South America,5,4,Silver
+1984,Oceania,3,21,Silver
+1984,Others,7,0,Silver
+1988,Asia,5,5,Silver
+1988,Africa,6,2,Silver
+1988,Europe,3,17,Silver
+1988,North America,2,18,Silver
+1988,South America,4,5,Silver
+1988,Oceania,1,19,Silver
+1988,Others,7,0,Silver
+1992,Asia,5,2,Silver
+1992,Africa,6,1,Silver
+1992,Europe,2,10,Silver
+1992,North America,3,9,Silver
+1992,South America,7,0,Silver
+1992,Oceania,1,14,Silver
+1992,Others,4,3,Silver
+1996,Asia,4,2,Silver
+1996,Africa,5,2,Silver
+1996,Europe,2,8,Silver
+1996,North America,3,8,Silver
+1996,South America,6,1,Silver
+1996,Oceania,1,14,Silver
+1996,Others,7,0,Silver
+2000,Asia,4,2,Silver
+2000,Africa,6,2,Silver
+2000,Europe,1,7,Silver
+2000,North America,2,7,Silver
+2000,South America,5,2,Silver
+2000,Oceania,3,7,Silver
+2000,Others,7,0,Silver
+2004,Asia,4,3,Silver
+2004,Africa,6,1,Silver
+2004,Europe,2,6,Silver
+2004,North America,3,4,Silver
+2004,South America,5,2,Silver
+2004,Oceania,1,8,Silver
+2004,Others,7,0,Silver
+2008,Asia,4,3,Silver
+2008,Africa,6,1,Silver
+2008,Europe,1,5,Silver
+2008,North America,3,3,Silver
+2008,South America,5,2,Silver
+2008,Oceania,2,5,Silver
+2008,Others,7,0,Silver
+2012,Asia,4,3,Silver
+2012,Africa,6,1,Silver
+2012,Europe,1,6,Silver
+2012,North America,3,3,Silver
+2012,South America,5,2,Silver
+2012,Oceania,2,4,Silver
+2012,Others,7,0,Silver
+2016,Asia,4,4,Silver
+2016,Africa,6,1,Silver
+2016,Europe,2,5,Silver
+2016,North America,5,3,Silver
+2016,South America,3,4,Silver
+2016,Oceania,1,6,Silver
+2016,Others,7,0,Silver
+2020,Asia,4,3,Silver
+2020,Africa,6,0,Silver
+2020,Europe,2,6,Silver
+2020,North America,5,3,Silver
+2020,South America,3,4,Silver
+2020,Oceania,1,8,Silver
+2020,Others,7,0,Silver
+1960,Asia,3,2,Bronze
+1960,Africa,3,2,Bronze
+1960,Europe,2,6,Bronze
+1960,North America,1,7,Bronze
+1960,South America,5,1,Bronze
+1960,Oceania,5,1,Bronze
+1960,Others,7,0,Bronze
+1964,Asia,3,8,Bronze
+1964,Africa,6,3,Bronze
+1964,Europe,4,5,Bronze
+1964,North America,1,32,Bronze
+1964,South America,2,16,Bronze
+1964,Oceania,5,4,Bronze
+1964,Others,7,0,Bronze
+1968,Asia,3,8,Bronze
+1968,Africa,5,5,Bronze
+1968,Europe,4,6,Bronze
+1968,North America,1,16,Bronze
+1968,South America,2,10,Bronze
+1968,Oceania,6,4,Bronze
+1968,Others,7,0,Bronze
+1972,Asia,5,2,Bronze
+1972,Africa,4,3,Bronze
+1972,Europe,3,6,Bronze
+1972,North America,1,9,Bronze
+1972,South America,6,1,Bronze
+1972,Oceania,2,7,Bronze
+1972,Others,7,0,Bronze
+1976,Asia,3,4,Bronze
+1976,Africa,5,3,Bronze
+1976,Europe,2,12,Bronze
+1976,North America,1,16,Bronze
+1976,South America,6,2,Bronze
+1976,Oceania,4,4,Bronze
+1976,Others,7,0,Bronze
+1980,Asia,4,5,Bronze
+1980,Africa,6,1,Bronze
+1980,Europe,2,15,Bronze
+1980,North America,1,20,Bronze
+1980,South America,5,2,Bronze
+1980,Oceania,3,14,Bronze
+1980,Others,7,0,Bronze
+1984,Asia,4,4,Bronze
+1984,Africa,5,3,Bronze
+1984,Europe,2,21,Bronze
+1984,North America,1,31,Bronze
+1984,South America,6,1,Bronze
+1984,Oceania,3,19,Bronze
+1984,Others,7,0,Bronze
+1988,Asia,5,5,Bronze
+1988,Africa,6,2,Bronze
+1988,Europe,3,17,Bronze
+1988,North America,2,19,Bronze
+1988,South America,4,5,Bronze
+1988,Oceania,1,25,Bronze
+1988,Others,7,0,Bronze
+1992,Asia,4,3,Bronze
+1992,Africa,5,1,Bronze
+1992,Europe,2,10,Bronze
+1992,North America,3,10,Bronze
+1992,South America,7,1,Bronze
+1992,Oceania,1,13,Bronze
+1992,Others,5,1,Bronze
+1996,Asia,4,2,Bronze
+1996,Africa,6,2,Bronze
+1996,Europe,3,8,Bronze
+1996,North America,2,9,Bronze
+1996,South America,5,2,Bronze
+1996,Oceania,1,10,Bronze
+1996,Others,7,0,Bronze
+2000,Asia,4,2,Bronze
+2000,Africa,5,2,Bronze
+2000,Europe,1,8,Bronze
+2000,North America,3,6,Bronze
+2000,South America,6,1,Bronze
+2000,Oceania,2,7,Bronze
+2000,Others,7,0,Bronze
+2004,Asia,4,3,Bronze
+2004,Africa,6,1,Bronze
+2004,Europe,2,7,Bronze
+2004,North America,3,6,Bronze
+2004,South America,5,1,Bronze
+2004,Oceania,1,8,Bronze
+2004,Others,7,0,Bronze
+2008,Asia,5,2,Bronze
+2008,Africa,6,1,Bronze
+2008,Europe,1,5,Bronze
+2008,North America,3,4,Bronze
+2008,South America,4,3,Bronze
+2008,Oceania,2,4,Bronze
+2008,Others,7,0,Bronze
+2012,Asia,4,3,Bronze
+2012,Africa,6,1,Bronze
+2012,Europe,1,6,Bronze
+2012,North America,3,3,Bronze
+2012,South America,5,2,Bronze
+2012,Oceania,2,4,Bronze
+2012,Others,7,0,Bronze
+2016,Asia,4,3,Bronze
+2016,Africa,6,1,Bronze
+2016,Europe,2,5,Bronze
+2016,North America,5,3,Bronze
+2016,South America,3,5,Bronze
+2016,Oceania,1,6,Bronze
+2016,Others,7,0,Bronze
+2020,Asia,4,3,Bronze
+2020,Africa,6,0,Bronze
+2020,Europe,2,7,Bronze
+2020,North America,5,3,Bronze
+2020,South America,3,5,Bronze
+2020,Oceania,1,8,Bronze
+2020,Others,7,0,Bronze
