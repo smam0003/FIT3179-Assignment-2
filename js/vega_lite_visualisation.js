@@ -12,3 +12,8 @@ var vg_3 = "./js/scatterplot_medal_players.vg.json";
 vegaEmbed("#scatter_plot", vg_3)
   .then(function (result) {})
   .catch(console.error);
+
+var vg_4 = "./js/spine_chart_men_women.vg.json";
+vegaEmbed("#spine_chart", vg_4)
+  .then(function (result) {})
+  .catch(console.error);
