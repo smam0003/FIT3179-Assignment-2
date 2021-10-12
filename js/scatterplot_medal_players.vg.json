@@ -43,12 +43,14 @@
         "x": {
           "field": "P_Total",
           "type": "quantitative",
-          "title": "Medal Count", "axis": {"grid": false}
+          "title": "Medal Count",
+          "axis": { "grid": false }
         },
         "y": {
           "field": "M_Total",
           "type": "quantitative",
-          "title": "Player Count", "axis": {"grid": false}
+          "title": "Player Count",
+          "axis": { "grid": false }
         },
         "color": { "field": "Continent" },
         "opacity": {
@@ -56,7 +58,12 @@
           "value": 0.2
         },
         "tooltip": [
-          { "field": "Ratio", "type": "quantitative" , "format": ".2f", "title": "Medal to Athlete Ratio"},
+          {
+            "field": "Ratio",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Medal to Athlete Ratio"
+          },
           { "field": "Country", "type": "nominal" },
           {
             "field": "P_Total",
