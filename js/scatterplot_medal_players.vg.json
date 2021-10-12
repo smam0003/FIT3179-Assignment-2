@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Test Title",
-  "width": 800,
-  "height": 600,
+  "width": 500,
+  "height": 400,
   "description": "Scatterplot",
   "data": {
     "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/summer_paralympics_with_continents.csv"
@@ -23,12 +23,29 @@
       "name": "Highlight_continent",
       "select": { "type": "point", "fields": ["Continent"] },
       "bind": "legend"
+    },
+    {
+      "name": "Select_medal",
+      "bind": {
+        "input": "select",
+        "options": [null, "M_Total", "Gold", "Silver", "Bronze"],
+        "labels": [
+          "Select one",
+          "Total Medals",
+          "Gold Medals",
+          "Silver Medals",
+          "Bronze Medals"
+        ],
+        "name": "Select Medal Type: "
+      }
     }
   ],
   "transform": [
     { "filter": "datum.Year == Year_selection" },
+    { "fold": ["M_Total", "Gold", "Silver", "Bronze"], "as": ["key", "value"] },
+    { "filter": "datum.key == Select_medal" },
     {
-      "calculate": "datum.M_Total / datum.P_Total",
+      "calculate": "datum.value / datum.P_Total",
       "as": "Ratio"
     }
   ],
@@ -43,19 +60,19 @@
         "x": {
           "field": "P_Total",
           "type": "quantitative",
-          "title": "Medal Count",
+          "title": "Player Count",
           "axis": { "grid": false }
         },
         "y": {
-          "field": "M_Total",
+          "field": "value",
           "type": "quantitative",
-          "title": "Player Count",
+          "title": "Medal Count",
           "axis": { "grid": false }
         },
         "color": { "field": "Continent" },
         "opacity": {
           "condition": { "param": "Highlight_continent", "value": 1 },
-          "value": 0.2
+          "value": 0.1
         },
         "tooltip": [
           {
@@ -70,7 +87,7 @@
             "type": "quantitative",
             "title": "Total Athletes"
           },
-          { "field": "M_Total", "type": "quantitative", "title": "Medals" },
+          { "field": "value", "type": "quantitative", "title": "Medals" },
           { "field": "Continent", "type": "nominal" }
         ]
       }
