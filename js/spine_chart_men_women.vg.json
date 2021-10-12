@@ -1,6 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Rankings of Continents 1960-2020 By Medals Won",
+  "width": "container",
+  "height": 600,
   "description": "Spine chart",
   "data": {
     "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/summer_paralympics_with_continents.csv"
@@ -61,11 +63,20 @@
         "x": { "field": "value", "type": "quantitative" },
         "color": { "field": "key" },
         "tooltip": [
-          { "field": "value", "type": "quantitative", "title": "Medals", "format": ".2f" },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Medals",
+            "format": ".2f"
+          },
           { "field": "Continent", "type": "nominal" }
         ]
       }
     }
   ],
-  "config": { "font": "Open Sans", "title": { "fontSize": 20 } }
+  "config": {
+    "font": "Open Sans",
+    "title": { "fontSize": 20 },
+    "background": "aliceblue"
+  }
 }

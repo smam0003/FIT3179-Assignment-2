@@ -3,6 +3,10 @@
   "data": {
     "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/total_medals_per_country_rankings_by_continent_final_enhanced[test].csv"
   },
+  "title": "Rankings of Continents 1960-2020 By Medals Won",
+  "width": "container",
+  "height": 600,
+  "description": "Bump chart",
   "params": [
     {
       "name": "Select_medal",
@@ -20,10 +24,6 @@
       }
     }
   ],
-  "title": "Rankings of Continents 1960-2020 By Medals Won",
-  "width": 500,
-  "height": 400,
-  "description": "Bump chart",
   "transform": [{ "filter": "datum.Type == Select_medal" }],
   "layer": [
     {
@@ -80,5 +80,9 @@
       }
     }
   ],
-  "config": { "font": "Open Sans", "title": { "fontSize": 20 } }
+  "config": {
+    "font": "Open Sans",
+    "title": { "fontSize": 20 },
+    "background": "aliceblue"
+  }
 }

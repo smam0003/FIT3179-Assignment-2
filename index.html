@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+      integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
 
     <meta charset="UTF-8" />
@@ -11,26 +21,115 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
     <script src="vega_lite_visualisation.js"></script>
-    <title>Number of Athletes in Paralympics 2020</title>
+    <title>Paralympics 1960-2020</title>
   </head>
-  <body>
+  <body class="l-box">
     <script src="./js/vega_lite_visualisation.js"></script>
-    <h1>Paralympics</h1>
-    <div id="chart_1">
-      <div id="choropleth_map"></div>
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <h1>Paralympics</h1>
+      </div>
     </div>
-    <br /><br />
-    <div id="chart_2">
-      <div id="bump_chart"></div>
-      <p>(Normalised By Number of Countries Attended Each Continent)</p>
+
+    <br><br>
+    <div class="pure-g">
+      <div class="pure-u-1">
+        <h2 id="header">Header 1</h2>
+      </div>
     </div>
-    <br /><br />
-    <div id="chart_3">
-      <div id="scatter_plot"></div>
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="pure-u-1" , id="choropleth_map"></div>
+      </div>
+      <div class="pure-u-1-2">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          interdum vel felis id volutpat. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Donec
+          consectetur, ligula ac congue consequat, lacus eros accumsan magna, ut
+          sagittis erat velit at velit. Curabitur ut vehicula erat. Donec sit
+          amet aliquam tortor. Nulla facilisis nunc nisi. Vestibulum ante ipsum
+          primis in faucibus orci luctus et ultrices posuere cubilia curae;
+          Suspendisse laoreet sapien libero, sit amet viverra quam rutrum at.
+          Integer pharetra at turpis dapibus imperdiet..
+        </p>
+      </div>
     </div>
-    <br /><br />
-    <div id="chart_4">
-      <div id="spine_chart"></div>
+
+    <br><br>
+    <div class="pure-g">
+      <div class="pure-u-1">
+        <h2 id="header">Header 2</h2>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="pure-u-1" , id="bump_chart"></div>
+        <p>(Normalised By Number of Countries Attended Each Continent)</p>
+      </div>
+      <div class="pure-u-1-2">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          interdum vel felis id volutpat. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Donec
+          consectetur, ligula ac congue consequat, lacus eros accumsan magna, ut
+          sagittis erat velit at velit. Curabitur ut vehicula erat. Donec sit
+          amet aliquam tortor. Nulla facilisis nunc nisi. Vestibulum ante ipsum
+          primis in faucibus orci luctus et ultrices posuere cubilia curae;
+          Suspendisse laoreet sapien libero, sit amet viverra quam rutrum at.
+          Integer pharetra at turpis dapibus imperdiet.
+        </p>
+      </div>
+    </div>
+
+    <br><br>
+    <div class="pure-g">
+      <div class="pure-u-1">
+        <h2 id="header">Header 3</h2>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="pure-u-1" , id="scatter_plot"></div>
+      </div>
+      <div class="pure-u-1-2">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          interdum vel felis id volutpat. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Donec
+          consectetur, ligula ac congue consequat, lacus eros accumsan magna, ut
+          sagittis erat velit at velit. Curabitur ut vehicula erat. Donec sit
+          amet aliquam tortor. Nulla facilisis nunc nisi. Vestibulum ante ipsum
+          primis in faucibus orci luctus et ultrices posuere cubilia curae;
+          Suspendisse laoreet sapien libero, sit amet viverra quam rutrum at.
+          Integer pharetra at turpis dapibus imperdiet.
+        </p>
+      </div>
+    </div>
+
+    <br><br>
+    <div class="pure-g">
+      <div class="pure-u-1">
+        <h2 id="header">Header 4</h2>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="pure-u-1" , id="spine_chart"></div>
+      </div>
+      <div class="pure-u-1-2">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          interdum vel felis id volutpat. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Donec
+          consectetur, ligula ac congue consequat, lacus eros accumsan magna, ut
+          sagittis erat velit at velit. Curabitur ut vehicula erat. Donec sit
+          amet aliquam tortor. Nulla facilisis nunc nisi. Vestibulum ante ipsum
+          primis in faucibus orci luctus et ultrices posuere cubilia curae;
+          Suspendisse laoreet sapien libero, sit amet viverra quam rutrum at.
+          Integer pharetra at turpis dapibus imperdiet.
+        </p>
+      </div>
     </div>
   </body>
 </html>
