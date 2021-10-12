@@ -24,49 +24,61 @@
       }
     }
   ],
-  "transform": [{"filter": "datum.Type == Select_medal"}],
+  "transform": [{ "filter": "datum.Type == Select_medal" }],
   "layer": [
     {
       "params": [
         {
           "name": "Highlight_continent",
-          "select": {"type": "point", "fields": ["Continent"]},
+          "select": { "type": "point", "fields": ["Continent"] },
           "bind": "legend"
         }
       ],
-      "mark": {"type": "line", "size": 10, "strokeCap": "round"},
+      "mark": { "type": "line", "size": 10, "strokeCap": "round" },
       "encoding": {
-        "x": {"field": "Year", "type": "ordinal"},
-        "y": {"field": "Ranking_medal", "type": "ordinal", "title": "Ranking"},
-        "color": {"field": "Continent"},
+        "x": { "field": "Year", "type": "ordinal" },
+        "y": {
+          "field": "Ranking_medal",
+          "type": "ordinal",
+          "title": "Ranking"
+        },
+        "color": { "field": "Continent" },
         "opacity": {
-          "condition": {"param": "Highlight_continent", "value": 1},
+          "condition": { "param": "Highlight_continent", "value": 1 },
           "value": 0.15
         }
       }
     },
     {
-      "mark": {"type": "circle", "size": 250},
+      "mark": { "type": "circle", "size": 250 },
       "encoding": {
-        "x": {"field": "Year", "type": "ordinal"},
-        "y": {"field": "Ranking_medal", "type": "ordinal", "title": "Ranking"},
-        "color": {"field": "Continent"},
+        "x": { "field": "Year", "type": "ordinal" },
+        "y": {
+          "field": "Ranking_medal",
+          "type": "ordinal",
+          "title": "Ranking"
+        },
+        "color": { "field": "Continent" },
         "opacity": {
-          "condition": {"param": "Highlight_continent", "value": 1},
+          "condition": { "param": "Highlight_continent", "value": 1 },
           "value": 0.2
         },
         "tooltip": [
-          {"field": "Continent", "type": "nominal"},
-          {"field": "Ranking_medal", "type": "ordinal", "title": "Rank"},
+          { "field": "Continent", "type": "nominal" },
+          { "field": "Ranking_medal", "type": "ordinal", "title": "Rank" },
           {
             "field": "Medal_Per_Country",
             "type": "quantitative",
             "title": "Medal Per Country"
           },
-          {"field": "Year", "type": "ordinal"}
+          { "field": "Year", "type": "ordinal" }
         ]
       }
     }
   ],
-  "config": {"font": "Open Sans", "title": {"fontSize": 20}}
+  "config": {
+    "font": "Open Sans",
+    "title": { "fontSize": 20 },
+    "background": "aliceblue"
+  }
 }
