@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Test Title",
+  "title": "Number of Athletes to Medals Won",
   "width": "container",
-  "height": 600,
+  "height": 500,
   "description": "Scatterplot",
   "data": {
     "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/summer_paralympics_with_continents.csv"
@@ -95,7 +95,7 @@
   ],
   "config": {
     "font": "Open Sans",
-    "title": { "fontSize": 20 },
+    "title": { "fontSize": 20, "anchor": "start" },
     "background": "aliceblue"
   }
 }

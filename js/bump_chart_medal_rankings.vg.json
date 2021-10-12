@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Rankings of Continents 1960-2020 By Medals Won",
+  "title": "Ranking of Continents By Medals Won",
   "width": "container",
-  "height": 400,
+  "height": 500,
   "description": "Bump chart",
   "data": {
     "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/total_medals_per_country_rankings_by_continent_final_enhanced[test].csv"
@@ -78,7 +78,7 @@
   ],
   "config": {
     "font": "Open Sans",
-    "title": { "fontSize": 20 },
+    "title": { "fontSize": 20, "anchor": "start" },
     "background": "aliceblue"
   }
 }

@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Rankings of Continents 1960-2020 By Medals Won",
+  "title": "% of Men And Women Difference",
   "width": "container",
-  "height": 600,
+  "height": 300,
   "description": "Spine chart",
   "data": {
     "url": "https://raw.githubusercontent.com/smam0003/FIT3179-Assignment-2/main/data/Total_Medals_Rankings_By_Continent/summer_paralympics_with_continents.csv"
@@ -43,40 +43,57 @@
       "groupby": ["Continent"]
     },
     {
-      "calculate": "(datum.smMen-datum.smWomen)/datum.smP_Total",
-      "as": "Men%"
-    },
-    { "calculate": "datum.smWomen", "as": "Women%" },
-    { "fold": ["Men%"], "as": ["key", "value"] }
+      "calculate": "((datum.smMen-datum.smWomen)/datum.smP_Total)*100",
+      "as": "Men_percent"
+    }
   ],
+
+  "encoding": {
+    "x": {
+      "field": "Men_percent",
+      "type": "quantitative",
+      "axis": null
+    },
+    "y": {
+      "field": "Continent",
+      "type": "nominal"
+    },
+    "color": {},
+    "tooltip": [
+      {
+        "field": "Men_percent",
+        "type": "quantitative",
+        "title": " There are % more men than women",
+        "format": ".2f"
+      }
+    ]
+  },
   "layer": [
     {
       "mark": {
         "type": "bar",
         "opacity": 1
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 3
       },
       "encoding": {
-        "y": {
-          "field": "Continent",
-          "type": "nominal"
-        },
-        "x": { "field": "value", "type": "quantitative" },
-        "color": { "field": "key" },
-        "tooltip": [
-          {
-            "field": "value",
-            "type": "quantitative",
-            "title": "Medals",
-            "format": ".2f"
-          },
-          { "field": "Continent", "type": "nominal" }
-        ]
+        "text": {
+          "field": "Men_percent",
+          "type": "quantitative",
+          "format": ".0f"
+        }
       }
     }
   ],
   "config": {
     "font": "Open Sans",
-    "title": { "fontSize": 20 },
+    "title": { "fontSize": 20, "anchor": "start" },
     "background": "aliceblue"
   }
 }
