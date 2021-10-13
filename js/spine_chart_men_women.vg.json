@@ -1,6 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "% of Men And Women Difference",
+  "title": {
+    "text": "% Of Difference Between Men And Women Athletes",
+    "subtitle": "The Lower The %, The More Balanced The Genders Are (No Difference)"
+  },
   "width": "container",
   "height": 300,
   "description": "Spine chart",
@@ -78,7 +81,7 @@
       {
         "field": "Men_percent",
         "type": "quantitative",
-        "title": "% Of More Men than Women Athletes In Continent",
+        "title": "There Are More Men Than Women Athletes By",
         "format": ".2f"
       }
     ]
@@ -105,7 +108,12 @@
     }
   ],
   "config": {
-    "title": { "fontSize": 20, "anchor": "start" },
+    "title": {
+      "fontSize": 20,
+      "anchor": "start",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 14
+    },
     "background": "aliceblue",
     "autosize": { "resize": true },
     "style": {

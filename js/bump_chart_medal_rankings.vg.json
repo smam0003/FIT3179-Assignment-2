@@ -1,6 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Ranking of Continents By Medals Won",
+  "title": {
+    "text": "Ranking of Continents By Medals Won From 1960-2020",
+    "subtitle": "The Lower The Rank, The Higher The Medals Won"
+  },
   "width": "container",
   "height": 500,
   "description": "Bump chart",
@@ -39,13 +42,12 @@
         "x": {
           "field": "Year",
           "type": "ordinal",
-          "axis": { "labelFontSize": 18 }
+          "axis": { "labelFontSize": 18, "title": null }
         },
         "y": {
           "field": "Ranking_medal",
           "type": "ordinal",
-          "title": "Ranking",
-          "axis": { "labelFontSize": 18 }
+          "axis": { "labelFontSize": 18, "title": null }
         },
         "color": {
           "field": "Continent",
@@ -70,11 +72,11 @@
     {
       "mark": { "type": "circle", "size": 250 },
       "encoding": {
-        "x": { "field": "Year", "type": "ordinal" },
+        "x": { "field": "Year", "type": "ordinal", "title": null },
         "y": {
           "field": "Ranking_medal",
           "type": "ordinal",
-          "title": "Ranking"
+          "axis": { "labelFontSize": 18, "title": null }
         },
         "color": {
           "field": "Continent",
@@ -103,7 +105,12 @@
     }
   ],
   "config": {
-    "title": { "fontSize": 20, "anchor": "start" },
+    "title": {
+      "fontSize": 20,
+      "anchor": "start",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 14
+    },
     "background": "aliceblue",
     "autosize": { "resize": true },
     "style": {
