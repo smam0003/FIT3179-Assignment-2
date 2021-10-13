@@ -68,7 +68,7 @@
           "as": "host_country"
         }
       ],
-
+      
       "layer": [
         {
           "mark": { "type": "geoshape", "stroke": "white", "strokeWidth": 0.2 },
@@ -113,6 +113,8 @@
             "type": "text",
             "align": "center",
             "fontSize": 16,
+            "fontStyle": "italic",
+            "baseline": "top",
             "dy": 200
           },
           "encoding": { "text": { "field": "host_country" } }

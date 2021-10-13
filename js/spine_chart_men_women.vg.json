@@ -57,7 +57,7 @@
     "y": {
       "field": "Continent",
       "type": "nominal",
-      "axis": { "title": null }
+      "axis": { "title": null, "labelFontSize": 18 }
     },
     "color": {
       "field": "Continent",
@@ -78,24 +78,22 @@
       {
         "field": "Men_percent",
         "type": "quantitative",
-        "title": " There are % more men than women",
+        "title": "% Of More Men than Women Athletes In Continent",
         "format": ".2f"
       }
     ]
   },
   "layer": [
     {
-      "mark": {
-        "type": "bar",
-        "opacity": 1
-      }
+      "mark": { "type": "bar" }
     },
     {
       "mark": {
         "type": "text",
         "align": "left",
         "baseline": "middle",
-        "dx": 3
+        "fontSize": 18,
+        "dx": 5
       },
       "encoding": {
         "text": {

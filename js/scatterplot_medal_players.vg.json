@@ -54,21 +54,21 @@
       "mark": {
         "type": "point",
         "filled": true,
-        "size": 75
+        "size": 135
       },
       "encoding": {
         "x": {
           "field": "P_Total",
           "type": "quantitative",
           "title": "Player Count",
-          "axis": { "grid": false },
+          "axis": { "grid": false, "labelFontSize": 18 },
           "scale": { "type": "symlog" }
         },
         "y": {
           "field": "value",
           "type": "quantitative",
           "title": "Medal Count",
-          "axis": { "grid": false },
+          "axis": { "grid": false, "labelFontSize": 18 },
           "scale": { "type": "symlog" }
         },
         "color": {
@@ -93,23 +93,23 @@
         },
         "opacity": {
           "condition": { "param": "Highlight_continent", "value": 1 },
-          "value": 0.1
+          "value": 0.15
         },
         "tooltip": [
-          {
-            "field": "Ratio",
-            "type": "quantitative",
-            "format": ".2f",
-            "title": "Medal to Athlete Ratio"
-          },
           { "field": "Country", "type": "nominal" },
+          { "field": "Continent", "type": "nominal" },
+          { "field": "value", "type": "quantitative", "title": "Medals" },
           {
             "field": "P_Total",
             "type": "quantitative",
             "title": "Total Athletes"
           },
-          { "field": "value", "type": "quantitative", "title": "Medals" },
-          { "field": "Continent", "type": "nominal" }
+          {
+            "field": "Ratio",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Medal to Athlete Ratio"
+          }
         ]
       }
     }

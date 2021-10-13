@@ -36,11 +36,16 @@
       ],
       "mark": { "type": "line", "size": 10, "strokeCap": "round" },
       "encoding": {
-        "x": { "field": "Year", "type": "ordinal" },
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "axis": { "labelFontSize": 18 }
+        },
         "y": {
           "field": "Ranking_medal",
           "type": "ordinal",
-          "title": "Ranking"
+          "title": "Ranking",
+          "axis": { "labelFontSize": 18 }
         },
         "color": {
           "field": "Continent",
@@ -82,17 +87,17 @@
         },
         "opacity": {
           "condition": { "param": "Highlight_continent", "value": 1 },
-          "value": 0.2
+          "value": 0.15
         },
         "tooltip": [
-          { "field": "Continent", "type": "nominal" },
           { "field": "Ranking_medal", "type": "ordinal", "title": "Rank" },
+          { "field": "Year", "type": "ordinal" },
+          { "field": "Continent", "type": "nominal" },
           {
             "field": "Medal_Per_Country",
             "type": "quantitative",
             "title": "Medal Per Country"
-          },
-          { "field": "Year", "type": "ordinal" }
+          }
         ]
       }
     }
