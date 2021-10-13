@@ -13,7 +13,7 @@ vegaEmbed("#scatter_plot", vg_3, { actions: false })
   .then(function (result) {})
   .catch(console.error);
 
-var vg_4 = "./js/spine_chart_men_women.vg.json";
-vegaEmbed("#spine_chart", vg_4, { actions: false })
+var vg_4 = "./js/diverging_bar_men_women.vg.json";
+vegaEmbed("#diverging_bar", vg_4, { actions: false })
   .then(function (result) {})
   .catch(console.error);

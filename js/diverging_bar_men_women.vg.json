@@ -60,35 +60,40 @@
     "y": {
       "field": "Continent",
       "type": "nominal",
-      "axis": { "title": null, "labelFontSize": 18 }
-    },
-    "color": {
-      "field": "Continent",
-      "legend": null,
-      "scale": {
-        "range": [
-          "#1b9e77",
-          "#d95f02",
-          "#7570b3",
-          "#e7298a",
-          "#66a61e",
-          "#e6ab02",
-          "#a6761d"
-        ]
-      }
-    },
-    "tooltip": [
-      {
-        "field": "Men_percent",
-        "type": "quantitative",
-        "title": "There Are More Men Than Women Athletes By",
-        "format": ".2f"
-      }
-    ]
+      "axis": { "title": null, "labelFontSize": 18, "ticks": false }
+    }
   },
   "layer": [
     {
-      "mark": { "type": "bar" }
+      "mark": { "type": "bar", "size": 36 },
+      "encoding": {
+        "color": {
+          "field": "Continent",
+          "legend": null,
+          "scale": {
+            "range": [
+              "#1b9e77",
+              "#d95f02",
+              "#7570b3",
+              "#e7298a",
+              "#66a61e",
+              "#e6ab02",
+              "#a6761d"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Men_percent",
+            "type": "quantitative",
+            "title": "There Are More Men Than Women Athletes By",
+            "format": ".2f"
+          },
+          {"field": "smMen", "type": "quantitative", "title": "Men"},
+          {"field": "smWomen", "type": "quantitative", "title": "Women"},
+          {"field": "smP_Total", "type": "quantitative", "title": "Total Athletes"}
+        ]
+      }
     },
     {
       "mark": {
