@@ -66,10 +66,6 @@
         {
           "calculate": "'Host Country: ' + datum.Host_Country",
           "as": "host_country"
-        },
-        {
-          "calculate": "datum.P_TotalPer10MPop",
-          "as": "Athletes Per 10M Population"
         }
       ],
 
@@ -79,11 +75,18 @@
           "encoding": {
             "shape": { "field": "geo", "type": "geojson" },
             "color": {
-              "field": "Athletes Per 10M Population",
+              "field": "P_TotalPer10MPop",
               "type": "quantitative",
+              "legend": {
+                "title": "Athletes Per 10M Population",
+                "values": [1, 5, 20, 50, 100, 150],
+                "orient": "bottom-left",
+                "gradientLength": 200,
+                "titleFontSize": 12
+              },
               "scale": {
                 "type": "symlog",
-                "domain": [1, 2, 5, 10, 50, 100],
+                "domain": [1, 2, 5, 10, 50, 150],
                 "range": [
                   "#feedde",
                   "#fdd0a2",
@@ -97,7 +100,7 @@
             "tooltip": [
               { "field": "Country", "type": "nominal", "title": "Country" },
               {
-                "field": "Athletes Per 10M Population",
+                "field": "P_TotalPer10MPop",
                 "type": "quantitative",
                 "title": "Total Per 10M Population"
               },

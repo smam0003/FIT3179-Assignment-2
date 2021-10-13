@@ -56,10 +56,12 @@
     },
     "y": {
       "field": "Continent",
-      "type": "nominal"
+      "type": "nominal",
+      "axis": { "title": null }
     },
     "color": {
       "field": "Continent",
+      "legend": null,
       "scale": {
         "range": [
           "#1b9e77",

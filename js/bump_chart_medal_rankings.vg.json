@@ -71,7 +71,15 @@
           "type": "ordinal",
           "title": "Ranking"
         },
-        "color": { "field": "Continent" },
+        "color": {
+          "field": "Continent",
+          "legend": {
+            "title": "Continents (Click to Filter)",
+            "orient": "bottom",
+            "titleFontSize": 12,
+            "symbolSize": 300
+          }
+        },
         "opacity": {
           "condition": { "param": "Highlight_continent", "value": 1 },
           "value": 0.2
