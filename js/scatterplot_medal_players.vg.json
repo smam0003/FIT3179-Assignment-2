@@ -61,15 +61,28 @@
           "field": "P_Total",
           "type": "quantitative",
           "title": "Player Count",
-          "axis": { "grid": false }
+          "axis": { "grid": false }, "scale":{"type":"symlog"}
         },
         "y": {
           "field": "value",
           "type": "quantitative",
           "title": "Medal Count",
-          "axis": { "grid": false }
+          "axis": { "grid": false}, "scale":{"type":"symlog"}
         },
-        "color": { "field": "Continent" },
+        "color": {
+          "field": "Continent",
+          "scale": {
+            "range": [
+              "#1b9e77",
+              "#d95f02",
+              "#7570b3",
+              "#e7298a",
+              "#66a61e",
+              "#e6ab02",
+              "#a6761d"
+            ]
+          }
+        },
         "opacity": {
           "condition": { "param": "Highlight_continent", "value": 1 },
           "value": 0.1
