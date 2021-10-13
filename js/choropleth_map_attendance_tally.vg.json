@@ -109,8 +109,8 @@
           "mark": {
             "type": "text",
             "align": "center",
-            "dy": 200,
-            "fontSize": 16
+            "fontSize": 16,
+            "dy":200
           },
           "encoding": { "text": { "field": "host_country" } }
         }
