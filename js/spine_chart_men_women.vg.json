@@ -94,6 +94,11 @@
   "config": {
     "font": "Open Sans",
     "title": { "fontSize": 20, "anchor": "start" },
-    "background": "aliceblue"
+    "background": "aliceblue",
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    }
   }
 }

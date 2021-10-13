@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Number of Athletes in Paralympics 1960-2020",
   "width": "container",
-  "height": 600,
+  "height": 500,
   "projection": {
     "type": "equirectangular"
   },
@@ -82,15 +82,15 @@
               "field": "Athletes Per 10M Population",
               "type": "quantitative",
               "scale": {
-                "type": "threshold",
+                "type": "symlog",
                 "domain": [1, 2, 5, 10, 50, 100],
                 "range": [
-                  "#f0f9e8",
-                  "#ccebc5",
-                  "#a8ddb5",
-                  "#7bccc4",
-                  "#43a2ca",
-                  "#0868ac"
+                  "#ffffcc",
+                  "#c7e9b4",
+                  "#7fcdbb",
+                  "#41b6c4",
+                  "#2c7fb8",
+                  "#000099"
                 ]
               }
             },
@@ -120,6 +120,11 @@
   "config": {
     "font": "Open Sans",
     "title": { "fontSize": 20, "anchor": "start" },
-    "background": "aliceblue"
+    "background": "aliceblue",
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    }
   }
 }
