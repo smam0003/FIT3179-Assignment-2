@@ -118,7 +118,6 @@
     }
   ],
   "config": {
-    
     "title": { "fontSize": 20, "anchor": "start" },
     "background": "aliceblue",
     "style": {
