@@ -109,6 +109,7 @@
   "config": {
     "title": { "fontSize": 20, "anchor": "start" },
     "background": "aliceblue",
+    "autosize": { "resize": true },
     "style": {
       "cell": {
         "stroke": "transparent"

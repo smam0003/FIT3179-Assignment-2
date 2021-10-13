@@ -110,7 +110,7 @@
             "type": "text",
             "align": "center",
             "fontSize": 16,
-            "dy":200
+            "dy": 200
           },
           "encoding": { "text": { "field": "host_country" } }
         }
@@ -120,6 +120,7 @@
   "config": {
     "title": { "fontSize": 20, "anchor": "start" },
     "background": "aliceblue",
+    "autosize": { "resize": true },
     "style": {
       "cell": {
         "stroke": "transparent"
