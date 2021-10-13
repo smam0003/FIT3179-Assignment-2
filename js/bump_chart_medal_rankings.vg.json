@@ -77,7 +77,6 @@
     }
   ],
   "config": {
-    "font": "Open Sans",
     "title": { "fontSize": 20, "anchor": "start" },
     "background": "aliceblue",
     "style": {
