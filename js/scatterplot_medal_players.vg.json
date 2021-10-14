@@ -20,11 +20,6 @@
       }
     },
     {
-      "name": "Highlight_continent",
-      "select": { "type": "point", "fields": ["Continent"] },
-      "bind": "legend"
-    },
-    {
       "name": "Select_medal",
       "bind": {
         "input": "select",
@@ -49,38 +44,47 @@
       "as": "Ratio"
     }
   ],
+  "encoding": {
+    "x": {
+      "field": "P_Total",
+      "type": "quantitative",
+      "title": "Number of Athletes",
+      "axis": {
+        "grid": false,
+        "labelFontSize": 18,
+        "titleFontSize": 18,
+        "values": [0, 5, 10, 20, 50, 100, 150, 200]
+      },
+      "scale": { "type": "symlog" }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Medals Won",
+      "axis": {
+        "grid": false,
+        "labelFontSize": 18,
+        "titleFontSize": 18,
+        "values": [0, 5, 10, 20, 50, 100, 150, 200, 260]
+      },
+      "scale": { "type": "symlog" }
+    }
+  },
   "layer": [
     {
+      "params": [
+        {
+          "name": "Highlight_continent",
+          "select": { "type": "point", "fields": ["Continent"] },
+          "bind": "legend"
+        }
+      ],
       "mark": {
         "type": "point",
         "filled": true,
         "size": 135
       },
       "encoding": {
-        "x": {
-          "field": "P_Total",
-          "type": "quantitative",
-          "title": "Number of Athletes",
-          "axis": {
-            "grid": false,
-            "labelFontSize": 18,
-            "titleFontSize": 18,
-            "values": [0, 5, 10, 20, 50, 100, 150, 200]
-          },
-          "scale": { "type": "symlog" }
-        },
-        "y": {
-          "field": "value",
-          "type": "quantitative",
-          "title": "Medals Won",
-          "axis": {
-            "grid": false,
-            "labelFontSize": 18,
-            "titleFontSize": 18,
-            "values": [0, 5, 10, 20, 50, 100, 150, 200, 260]
-          },
-          "scale": { "type": "symlog" }
-        },
         "color": {
           "field": "Continent",
           "legend": {
@@ -121,6 +125,26 @@
             "title": "Medal to Athlete Ratio"
           }
         ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "baseline": "middle",
+        "align": "right",
+        "dx": -10,
+        "fontSize": 13.5,
+        "fontStyle": "italic", "fontWeight":"bolder"
+      },
+      "encoding": {
+        "text": { "field": "Country", "type": "nominal" },
+        "opacity": {
+          "condition": {
+            "test": "datum['Country'] == 'People\\'s Republic of China' || datum['Country'] == 'Australia' || datum['Country'] == 'New Zealand'|| datum['Country'] == 'Italy' || datum['Country'] == 'United States of America'",
+            "value": 1
+          },
+          "value": 0
+        }
       }
     }
   ],
