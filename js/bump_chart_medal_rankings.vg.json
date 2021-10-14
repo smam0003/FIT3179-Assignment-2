@@ -28,6 +28,18 @@
     }
   ],
   "transform": [{ "filter": "datum.Type == Select_medal" }],
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "axis": { "labelFontSize": 18, "title": null, "ticks": false }
+    },
+    "y": {
+      "field": "Ranking_medal",
+      "type": "ordinal",
+      "axis": null
+    }
+  },
   "layer": [
     {
       "params": [
@@ -39,16 +51,6 @@
       ],
       "mark": { "type": "line", "size": 10, "strokeCap": "round" },
       "encoding": {
-        "x": {
-          "field": "Year",
-          "type": "ordinal",
-          "axis": { "labelFontSize": 18, "title": null, "ticks": false }
-        },
-        "y": {
-          "field": "Ranking_medal",
-          "type": "ordinal",
-          "axis": { "labelFontSize": 18, "title": null, "ticks": false }
-        },
         "color": {
           "field": "Continent",
           "scale": {
@@ -70,18 +72,8 @@
       }
     },
     {
-      "mark": { "type": "circle", "size": 250 },
+      "mark": { "type": "circle", "size": 400 },
       "encoding": {
-        "x": {
-          "field": "Year",
-          "type": "ordinal",
-          "title": null
-        },
-        "y": {
-          "field": "Ranking_medal",
-          "type": "ordinal",
-          "axis": { "labelFontSize": 18, "title": null, "ticks": false }
-        },
         "color": {
           "field": "Continent",
           "legend": {
@@ -106,6 +98,10 @@
           }
         ]
       }
+    },
+    {
+      "mark": { "type": "text" , "color":"white", "fontSize":13.5},
+      "encoding": {"text":{"field": "Ranking_medal", "type": "ordinal"}}
     }
   ],
   "config": {

@@ -19,9 +19,16 @@
 }
 
 #imp_text {
-  font-size: 100%;
+  font-size: 110%;
   font-weight:bold;
   color: brown;
+  background-color: transparent;
+} 
+
+#acknowledgement {
+  font-size: 75%;
+  text-align: right;
+  line-height: 50%;
 }
 
 /* #chart_1 {
