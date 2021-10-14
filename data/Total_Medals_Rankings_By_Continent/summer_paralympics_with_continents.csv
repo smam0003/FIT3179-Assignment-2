@@ -6,16 +6,16 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1960,Rome,Italy,Finland,FIN,1,0,0,1,1,0,1,4429634,2.26,Europe
 1960,Rome,Italy,France,FRA,3,3,1,7,10,1,11,46621688,2.36,Europe
 1960,Rome,Italy,Germany,GER,15,6,9,30,7,2,9,72814900,1.24,Europe
-1960,Rome,Italy,Great Britain,GBR,20,15,20,55,29,13,42,52400000,8.02,Europe
+1960,Rome,Italy,United Kingdom,GBR,20,15,20,55,29,13,42,52400000,8.02,Europe
 1960,Rome,Italy,Ireland,IRL,2,0,0,2,0,1,1,2828600,3.54,Europe
 1960,Rome,Italy,Israel,ISR,0,2,2,4,6,1,7,2114020,33.11,Asia
 1960,Rome,Italy,Italy,ITA,29,28,23,80,23,4,27,50199700,5.38,Europe
 1960,Rome,Italy,Malta,MLT,0,2,2,4,5,1,6,326550,183.74,Europe
 1960,Rome,Italy,Netherlands,NED,3,6,0,9,11,2,13,11486631,11.32,Europe
 1960,Rome,Italy,Norway,NOR,9,3,4,16,7,4,11,3581239,30.72,Europe
-1972,Heidelberg,Germany,Bahamas,BAH,0,0,0,0,1,0,1,177863,0.00,North America
+1972,Heidelberg,Germany,Bahamas,BAH,0,0,0,0,1,0,1,177863,0,North America
 1960,Rome,Italy,Switzerland,SUI,1,3,0,4,5,1,6,5327827,11.26,Europe
-1960,Rome,Italy,United States of America,USA,11,7,7,25,23,0,23,180671000,1.27,North America
+1960,Rome,Italy,United States,USA,11,7,7,25,23,0,23,180671000,1.27,North America
 1964,Tokyo,Japan,Argentina,ARG,6,15,16,37,19,6,25,21824427,11.46,South America
 1964,Tokyo,Japan,Australia,AUS,12,11,7,30,13,4,17,11167000,15.22,Oceania
 1964,Tokyo,Japan,Austria,AUT,4,1,7,12,3,4,7,7223801,9.69,Europe
@@ -23,19 +23,19 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1964,Tokyo,Japan,Fiji,FIJ,0,0,0,0,1,0,1,450538,22.2,Oceania
 1964,Tokyo,Japan,France,FRA,4,2,5,11,13,0,13,49230585,2.64,Europe
 1964,Tokyo,Japan,Germany,GER,5,2,5,12,8,1,9,75318337,1.19,Europe
-1964,Tokyo,Japan,Great Britain,GBR,18,23,20,61,30,14,44,54000000,8.15,Europe
+1964,Tokyo,Japan,United Kingdom,GBR,18,23,20,61,30,14,44,54000000,8.15,Europe
 1964,Tokyo,Japan,Ireland,IRL,0,0,0,0,2,0,2,2866550,6.98,Europe
 1964,Tokyo,Japan,Israel,ISR,7,3,11,21,16,3,19,2475000,76.77,Asia
 1964,Tokyo,Japan,Italy,ITA,14,15,16,45,14,5,19,51675350,3.68,Europe
 1964,Tokyo,Japan,Japan,JPN,1,5,4,10,14,2,16,96903000,1.65,Asia
 1964,Tokyo,Japan,Malta,MLT,0,0,2,2,2,0,2,321250,62.26,Europe
 1964,Tokyo,Japan,Netherlands,NED,4,6,4,14,4,3,7,12127120,5.77,Europe
-1976,Toronto,Canada,Bahamas,BAH,0,0,0,0,6,0,6,192903,0.00,North America
+1976,Toronto,Canada,Bahamas,BAH,0,0,0,0,6,0,6,192903,0,North America
 1964,Tokyo,Japan,South Africa,RSA,8,8,3,19,5,4,9,18896303,4.76,Africa
 1964,Tokyo,Japan,Sweden,SWE,0,0,1,1,1,0,1,7661354,1.31,Europe
 1964,Tokyo,Japan,Switzerland,SUI,0,1,0,1,0,1,1,5789228,1.73,Europe
-1964,Tokyo,Japan,United States of America,USA,50,41,32,123,45,20,65,191889000,3.39,North America
-1980,Arnhem,Netherlands,Bahamas,BAH,0,1,2,3,2,4,6,210589,0.00,North America
+1964,Tokyo,Japan,United States,USA,50,41,32,123,45,20,65,191889000,3.39,North America
+1980,Arnhem,Netherlands,Bahamas,BAH,0,1,2,3,2,4,6,210589,0,North America
 1968,Tel Aviv,Israel,Argentina,ARG,10,10,10,30,14,7,21,23168268,9.06,South America
 1968,Tel Aviv,Israel,Australia,AUS,15,16,7,38,23,12,35,12009000,29.14,Oceania
 1968,Tel Aviv,Israel,Austria,AUT,2,7,10,19,19,12,31,7415403,41.8,Europe
@@ -45,7 +45,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1968,Tel Aviv,Israel,Ethiopia,ETH,0,0,0,0,2,0,2,26944386,0.74,Africa
 1968,Tel Aviv,Israel,Finland,FIN,0,0,0,0,2,0,2,4626469,4.32,Europe
 1968,Tel Aviv,Israel,France,FRA,13,10,9,32,40,14,54,51175507,10.55,Europe
-1968,Tel Aviv,Israel,Great Britain,GBR,29,20,20,69,50,24,74,55211700,13.4,Europe
+1968,Tel Aviv,Israel,United Kingdom,GBR,29,20,20,69,50,24,74,55211700,13.4,Europe
 1968,Tel Aviv,Israel,India,IND,0,0,0,0,8,2,10,531513834,0.19,Asia
 1968,Tel Aviv,Israel,Ireland,IRL,0,4,5,9,5,2,7,2915550,24.01,Europe
 1968,Tel Aviv,Israel,Israel,ISR,18,21,23,62,38,16,54,2803000,192.65,Asia
@@ -57,26 +57,26 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1968,Tel Aviv,Israel,Netherlands,NED,12,4,4,20,24,11,35,12729721,27.49,Europe
 1968,Tel Aviv,Israel,New Zealand,NZL,1,2,1,4,17,1,18,2748100,65.5,Oceania
 1968,Tel Aviv,Israel,Norway,NOR,5,3,1,9,18,9,27,3816486,70.75,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Bahamas,BAH,0,1,1,2,0,2,2,229913,0.00,North America
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Bahamas,BAH,0,1,1,2,0,2,2,229913,0,North America
 1968,Tel Aviv,Israel,South Africa,RSA,9,10,7,26,5,3,8,20942147,3.82,Africa
 1968,Tel Aviv,Israel,Spain,ESP,0,3,1,4,9,2,11,33113134,3.32,Europe
 1968,Tel Aviv,Israel,Sweden,SWE,1,6,4,11,27,5,32,7912273,40.44,Europe
 1968,Tel Aviv,Israel,Switzerland,SUI,0,2,6,8,32,2,34,6067714,56.03,Europe
-1968,Tel Aviv,Israel,United States of America,USA,33,27,39,99,53,29,82,200706000,4.09,North America
-1988,Seoul,Republic of Korea,Bahamas,BAH,0,0,0,0,2,2,4,247451,0.00,North America
+1968,Tel Aviv,Israel,United States,USA,33,27,39,99,53,29,82,200706000,4.09,North America
+1988,Seoul,Republic of Korea,Bahamas,BAH,0,0,0,0,2,2,4,247451,0,North America
 1972,Heidelberg,Germany,Argentina,ARG,2,4,3,9,12,9,21,24653172,8.52,South America
 1972,Heidelberg,Germany,Australia,AUS,6,9,10,25,28,9,37,13177000,28.08,Oceania
 1972,Heidelberg,Germany,Austria,AUT,6,6,6,18,22,10,32,7544201,42.42,Europe
-1996,Atlanta,United States of America,Cote d'Ivoire,CIV,2,0,0,2,2,0,2,14665125,0.00,Africa
+1996,Atlanta,United States,Cote d'Ivoire,CIV,2,0,0,2,2,0,2,14665125,0,Africa
 1972,Heidelberg,Germany,Belgium,BEL,1,1,2,4,18,5,23,9711115,23.68,Europe
 1972,Heidelberg,Germany,Brazil,BRA,0,0,0,0,8,0,8,99859388,0.8,South America
 1972,Heidelberg,Germany,Canada,CAN,5,6,8,19,27,13,40,22218463,18,North America
-2000,Sydney,Australia,Cote d'Ivoire,CIV,1,0,1,2,2,0,2,16454660,0.00,Africa
+2000,Sydney,Australia,Cote d'Ivoire,CIV,1,0,1,2,2,0,2,16454660,0,Africa
 1972,Heidelberg,Germany,Denmark,DEN,0,0,0,0,8,2,10,4991596,20.03,Europe
 1972,Heidelberg,Germany,Egypt,EGY,0,0,0,0,1,0,1,36102670,0.28,Africa
 1972,Heidelberg,Germany,Finland,FIN,0,2,1,3,20,4,24,4639657,51.73,Europe
 1972,Heidelberg,Germany,France,FRA,10,8,15,33,42,19,61,52793151,11.55,Europe
-1972,Heidelberg,Germany,Great Britain,GBR,16,15,21,52,48,25,73,56086065,13.02,Europe
+1972,Heidelberg,Germany,United Kingdom,GBR,16,15,21,52,48,25,73,56086065,13.02,Europe
 1972,Heidelberg,Germany,Hong Kong,HKG,0,1,1,2,10,0,10,4123600,24.25,Asia
 1972,Heidelberg,Germany,Hungary,HUN,0,0,1,1,4,1,5,10398489,4.81,Europe
 1972,Heidelberg,Germany,India,IND,1,0,0,1,7,3,10,581087255,0.17,Asia
@@ -95,23 +95,23 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1972,Heidelberg,Germany,Norway,NOR,1,5,4,10,18,9,27,3933004,68.65,Europe
 1972,Heidelberg,Germany,Peru,PER,0,0,0,0,1,0,1,14221954,0.7,South America
 1972,Heidelberg,Germany,Poland,POL,14,12,7,33,12,10,22,33055650,6.66,Europe
-2004,Athens,Greece,Cote d'Ivoire,CIV,0,0,0,0,2,0,2,17970493,0.00,Africa
+2004,Athens,Greece,Cote d'Ivoire,CIV,0,0,0,0,2,0,2,17970493,0,Africa
 1972,Heidelberg,Germany,Romania,ROU,0,0,0,0,1,0,1,20657957,0.48,Europe
 1972,Heidelberg,Germany,South Africa,RSA,16,12,13,41,12,13,25,23281517,10.74,Africa
 1972,Heidelberg,Germany,Spain,ESP,0,4,0,4,11,9,20,34604469,5.78,Europe
 1972,Heidelberg,Germany,Sweden,SWE,5,6,6,17,30,8,38,8122300,46.78,Europe
 1972,Heidelberg,Germany,Switzerland,SUI,3,2,4,9,32,4,36,6260956,57.5,Europe
 1972,Heidelberg,Germany,Uganda,UGA,0,0,0,0,2,0,2,9929644,2.01,Africa
-1972,Heidelberg,Germany,United States of America,USA,17,27,31,75,49,17,66,209896000,3.14,North America
-2008,Beijing,China,Cote d'Ivoire,CIV,0,0,0,0,3,0,3,19605568,0.00,Africa
-2012,London,Great Britain,Cote d'Ivoire,CIV,0,0,0,0,3,1,4,21547188,0.00,Africa
+1972,Heidelberg,Germany,United States,USA,17,27,31,75,49,17,66,209896000,3.14,North America
+2008,Beijing,China,Cote d'Ivoire,CIV,0,0,0,0,3,0,3,19605568,0,Africa
+2012,London,United Kingdom,Cote d'Ivoire,CIV,0,0,0,0,3,1,4,21547188,0,Africa
 1976,Toronto,Canada,Argentina,ARG,3,4,7,14,8,12,20,26264681,7.61,South America
 1976,Toronto,Canada,Australia,AUS,16,18,7,41,35,11,46,14033000,32.78,Oceania
 1976,Toronto,Canada,Austria,AUT,18,16,17,51,32,10,42,7565525,55.51,Europe
-2016,Rio de Janeiro,Brazil,Cote d'Ivoire,CIV,0,1,0,1,3,2,5,23822726,0.00,Africa
+2016,Rio de Janeiro,Brazil,Cote d'Ivoire,CIV,0,1,0,1,3,2,5,23822726,0,Africa
 1976,Toronto,Canada,Belgium,BEL,7,7,8,22,41,4,45,9818227,45.83,Europe
 1976,Toronto,Canada,Brazil,BRA,0,1,0,1,21,2,23,109790943,2.09,South America
-2020,Tokyo,Japan,Cote d'Ivoire,CIV,0,0,0,0,2,1,3,26378275,0.00,Africa
+2020,Tokyo,Japan,Cote d'Ivoire,CIV,0,0,0,0,2,1,3,26378275,0,Africa
 1976,Toronto,Canada,Canada,CAN,25,26,26,77,66,23,89,23449808,37.95,North America
 1976,Toronto,Canada,Colombia,COL,0,0,0,0,8,3,11,24608102,4.47,South America
 1976,Toronto,Canada,Denmark,DEN,3,0,3,6,19,2,21,5072596,41.4,Europe
@@ -121,7 +121,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1976,Toronto,Canada,Fiji,FIJ,0,0,0,0,9,0,9,587561,153.18,Oceania
 1976,Toronto,Canada,Finland,FIN,12,20,18,50,46,4,50,4725664,105.81,Europe
 1976,Toronto,Canada,France,FRA,23,21,14,58,42,10,52,54220033,9.59,Europe
-1976,Toronto,Canada,Great Britain,GBR,29,28,37,94,64,23,87,56211968,15.48,Europe
+1976,Toronto,Canada,United Kingdom,GBR,29,28,37,94,64,23,87,56211968,15.48,Europe
 1976,Toronto,Canada,Greece,GRE,0,0,0,0,3,0,3,9188150,3.27,Europe
 1976,Toronto,Canada,Guatemala,GUA,0,0,1,1,11,0,11,6269983,17.54,North America
 1976,Toronto,Canada,Hong Kong,HKG,0,1,2,3,11,0,11,4518000,24.35,Asia
@@ -144,23 +144,23 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1976,Toronto,Canada,Sweden,SWE,21,28,25,74,56,13,69,8222286,83.92,Europe
 1976,Toronto,Canada,Switzerland,SUI,9,12,10,31,40,9,49,6302504,77.75,Europe
 1976,Toronto,Canada,Uganda,UGA,0,0,0,0,1,0,1,11042975,0.91,Africa
-1976,Toronto,Canada,United States of America,USA,66,44,45,155,63,34,97,218035000,4.45,North America
-1972,Heidelberg,Germany,Czechoslovakia,TCH,0,0,1,1,14,5,19,9867632,0.00,Europe
+1976,Toronto,Canada,United States,USA,66,44,45,155,63,34,97,218035000,4.45,North America
+1972,Heidelberg,Germany,Czechoslovakia,TCH,0,0,1,1,14,5,19,9867632,0,Europe
 1980,Arnhem,Netherlands,Argentina,ARG,4,5,6,15,6,5,11,27896532,3.94,South America
 1980,Arnhem,Netherlands,Australia,AUS,12,21,22,55,40,12,52,14692000,35.39,Oceania
 1980,Arnhem,Netherlands,Austria,AUT,14,23,8,45,38,10,48,7549433,63.58,Europe
-1980,Arnhem,Netherlands,Czechoslovakia,TCH,0,1,1,2,5,2,7,10304193,0.00,Europe
+1980,Arnhem,Netherlands,Czechoslovakia,TCH,0,1,1,2,5,2,7,10304193,0,Europe
 1980,Arnhem,Netherlands,Belgium,BEL,13,12,17,42,54,13,67,9859242,67.96,Europe
 1980,Arnhem,Netherlands,Brazil,BRA,0,0,0,0,2,0,2,120694012,0.17,South America
 1980,Arnhem,Netherlands,Canada,CAN,64,35,31,130,60,34,94,24515667,38.34,North America
 1980,Arnhem,Netherlands,Colombia,COL,1,0,1,2,8,3,11,26900508,4.09,South America
-1988,Seoul,Republic of Korea,Czechoslovakia,TCH,0,1,0,1,1,0,1,10355276,0.00,Europe
+1988,Seoul,Republic of Korea,Czechoslovakia,TCH,0,1,0,1,1,0,1,10355276,0,Europe
 1980,Arnhem,Netherlands,Denmark,DEN,6,4,7,17,32,10,42,5123027,81.98,Europe
 1980,Arnhem,Netherlands,Egypt,EGY,4,7,3,14,26,7,33,43309063,7.62,Africa
 1980,Arnhem,Netherlands,Ethiopia,ETH,0,0,0,0,1,0,1,35141703,0.28,Africa
 1980,Arnhem,Netherlands,Finland,FIN,8,19,13,40,50,10,60,4779535,125.54,Europe
 1980,Arnhem,Netherlands,France,FRA,28,26,31,85,76,21,97,55161510,17.58,Europe
-1980,Arnhem,Netherlands,Great Britain,GBR,47,32,21,100,65,31,96,56314216,17.05,Europe
+1980,Arnhem,Netherlands,United Kingdom,GBR,47,32,21,100,65,31,96,56314216,17.05,Europe
 1980,Arnhem,Netherlands,Greece,GRE,0,0,1,1,6,1,7,9642505,7.26,Europe
 1980,Arnhem,Netherlands,Hong Kong,HKG,0,1,2,3,11,0,11,5063100,21.73,Asia
 1980,Arnhem,Netherlands,Iceland,ISL,1,0,1,2,8,4,12,228138,526,Europe
@@ -184,68 +184,68 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1980,Arnhem,Netherlands,Sudan,SUD,1,0,0,1,8,3,11,14507466,7.58,Africa
 1980,Arnhem,Netherlands,Sweden,SWE,31,36,24,91,75,19,94,8310531,113.11,Europe
 1980,Arnhem,Netherlands,Switzerland,SUI,9,10,10,29,51,14,65,6319408,102.86,Europe
-1980,Arnhem,Netherlands,United States of America,USA,75,66,54,195,85,47,132,227225000,5.81,North America
-1992,Barcelona,Spain,Czechoslovakia,TCH,4,3,6,13,24,5,29,10319123,0.00,Europe
-2012,London,Great Britain,"Congo, Dem. Rep.",COD,0,0,0,0,1,1,2,69020749,0.00,Africa
+1980,Arnhem,Netherlands,United States,USA,75,66,54,195,85,47,132,227225000,5.81,North America
+1992,Barcelona,Spain,Czechoslovakia,TCH,4,3,6,13,24,5,29,10319123,0,Europe
+2012,London,United Kingdom,"Congo, Dem. Rep.",COD,0,0,0,0,1,1,2,69020749,0,Africa
 1980,Arnhem,Netherlands,Zimbabwe,ZIM,0,8,4,12,2,3,5,7408630,6.75,Africa
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Argentina,ARG,0,0,0,0,6,0,6,29737097,2.02,South America
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Australia,AUS,49,54,51,154,80,28,108,15544000,69.48,Oceania
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Austria,AUT,14,20,10,44,37,8,45,7561434,59.51,Europe
-2016,Rio de Janeiro,Brazil,"Congo, Dem. Rep.",COD,0,0,0,0,1,1,2,78789130,0.00,Africa
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Bahrain,BRN,0,0,2,2,10,2,12,407233,294.67,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Belgium,BEL,21,23,14,58,30,5,35,9855372,35.51,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Brazil,BRA,7,17,4,28,24,6,30,132383569,2.27,South America
-1964,Tokyo,Japan,Germany,FRG,0,0,0,0,0,1,1,75318337,0.00,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Canada,CAN,87,82,69,238,120,46,166,25607053,64.83,North America
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",China,CHN,2,12,8,22,17,6,23,1036825000,0.22,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Denmark,DEN,30,13,16,59,26,10,36,5111619,70.43,Europe
-1968,Tel Aviv,Israel,Germany,FRG,12,12,11,35,50,8,58,77294314,0.00,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Ecuador,ECU,0,0,0,0,2,0,2,8843463,2.26,South America
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Egypt,EGY,1,1,5,7,25,3,28,47968643,5.84,Africa
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Faroe Islands,FRO,0,0,0,0,1,2,3,44895,668.23,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Finland,FIN,18,14,27,59,49,8,57,4881803,116.76,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",France,FRA,71,69,46,186,78,37,115,56337675,20.41,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Great Britain,GBR,107,112,112,331,156,68,224,56422072,39.7,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Greece,GRE,0,0,0,0,2,1,3,9895801,3.03,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Guatemala,GUA,0,0,0,0,4,0,4,7669863,5.22,North America
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Hong Kong,HKG,3,5,9,17,14,11,25,5397900,46.31,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Hungary,HUN,12,13,3,28,22,4,26,10668095,24.37,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Iceland,ISL,0,2,8,10,8,5,13,239511,542.77,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",India,IND,0,2,2,4,5,0,5,766833411,0.07,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Indonesia,INA,0,1,1,2,6,2,8,161523353,0.5,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Ireland,IRL,20,15,31,66,38,13,51,3532423,144.38,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Israel,ISR,11,21,12,44,41,6,47,4159000,113.01,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Italy,ITA,9,19,14,42,47,13,60,56576718,10.61,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Jamaica,JAM,0,0,0,0,1,0,1,2306367,4.34,North America
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Japan,JPN,9,7,8,24,27,10,37,120083000,3.08,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Jordan,JOR,0,1,2,3,6,3,9,2784457,32.32,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Kenya,KEN,1,1,1,3,11,2,13,19146403,6.79,Africa
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Republic of Korea,KOR,0,2,2,4,15,3,18,40405956,4.45,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Kuwait,KUW,1,3,4,8,20,2,22,1652150,133.16,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Liechtenstein,LIE,0,0,0,0,0,1,1,27028,369.99,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Luxembourg,LUX,1,4,1,6,5,0,5,365998,136.61,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Malta,MLT,0,0,0,0,1,0,1,330593,30.25,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Mexico,MEX,6,14,17,37,40,14,54,74352631,7.26,North America
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Netherlands,NED,55,52,28,135,40,21,61,14424211,42.29,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",New Zealand,NZL,8,10,7,25,9,4,13,3227100,40.28,Oceania
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Norway,NOR,30,30,30,90,42,22,64,4140099,154.59,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Papua New Guinea,PNG,0,0,0,0,4,0,4,3975950,10.06,Oceania
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Poland,POL,46,39,21,106,25,9,34,36904134,9.21,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Portugal,POR,4,3,7,14,15,2,17,9996232,17.01,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Spain,ESP,22,10,12,44,20,9,29,38330364,7.57,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Sweden,SWE,83,43,34,160,79,18,97,8336605,116.35,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Switzerland,SUI,18,13,12,43,35,8,43,6441865,66.75,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Thailand,THA,0,0,0,0,4,0,4,51094870,0.78,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Trinidad and Tobago,TTO,2,0,1,3,7,1,8,1155083,69.26,North America
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",United States of America,USA,137,131,129,397,157,79,236,235825000,10.01,North America
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Venezuela,VEN,0,0,0,0,6,0,6,16876703,3.56,South America
-1972,Heidelberg,Germany,Germany,FRG,28,17,22,67,52,23,75,78688452,0.00,Europe
-1976,Toronto,Canada,Germany,FRG,37,34,26,97,76,17,93,78336950,0.00,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Zimbabwe,ZIM,0,1,2,3,5,3,8,8562259,9.34,Africa
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Argentina,ARG,0,0,0,0,6,0,6,29737097,2.02,South America
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Australia,AUS,49,54,51,154,80,28,108,15544000,69.48,Oceania
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Austria,AUT,14,20,10,44,37,8,45,7561434,59.51,Europe
+2016,Rio de Janeiro,Brazil,"Congo, Dem. Rep.",COD,0,0,0,0,1,1,2,78789130,0,Africa
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Bahrain,BRN,0,0,2,2,10,2,12,407233,294.67,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Belgium,BEL,21,23,14,58,30,5,35,9855372,35.51,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Brazil,BRA,7,17,4,28,24,6,30,132383569,2.27,South America
+1964,Tokyo,Japan,Germany,FRG,0,0,0,0,0,1,1,75318337,0,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Canada,CAN,87,82,69,238,120,46,166,25607053,64.83,North America
+1984,"Stoke Mandeville, New York","United Kingdom, United States",China,CHN,2,12,8,22,17,6,23,1036825000,0.22,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Denmark,DEN,30,13,16,59,26,10,36,5111619,70.43,Europe
+1968,Tel Aviv,Israel,Germany,FRG,12,12,11,35,50,8,58,77294314,0,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Ecuador,ECU,0,0,0,0,2,0,2,8843463,2.26,South America
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Egypt,EGY,1,1,5,7,25,3,28,47968643,5.84,Africa
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Faroe Islands,FRO,0,0,0,0,1,2,3,44895,668.23,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Finland,FIN,18,14,27,59,49,8,57,4881803,116.76,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",France,FRA,71,69,46,186,78,37,115,56337675,20.41,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",United Kingdom,GBR,107,112,112,331,156,68,224,56422072,39.7,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Greece,GRE,0,0,0,0,2,1,3,9895801,3.03,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Guatemala,GUA,0,0,0,0,4,0,4,7669863,5.22,North America
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Hong Kong,HKG,3,5,9,17,14,11,25,5397900,46.31,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Hungary,HUN,12,13,3,28,22,4,26,10668095,24.37,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Iceland,ISL,0,2,8,10,8,5,13,239511,542.77,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",India,IND,0,2,2,4,5,0,5,766833411,0.07,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Indonesia,INA,0,1,1,2,6,2,8,161523353,0.5,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Ireland,IRL,20,15,31,66,38,13,51,3532423,144.38,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Israel,ISR,11,21,12,44,41,6,47,4159000,113.01,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Italy,ITA,9,19,14,42,47,13,60,56576718,10.61,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Jamaica,JAM,0,0,0,0,1,0,1,2306367,4.34,North America
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Japan,JPN,9,7,8,24,27,10,37,120083000,3.08,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Jordan,JOR,0,1,2,3,6,3,9,2784457,32.32,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Kenya,KEN,1,1,1,3,11,2,13,19146403,6.79,Africa
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Republic of Korea,KOR,0,2,2,4,15,3,18,40405956,4.45,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Kuwait,KUW,1,3,4,8,20,2,22,1652150,133.16,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Liechtenstein,LIE,0,0,0,0,0,1,1,27028,369.99,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Luxembourg,LUX,1,4,1,6,5,0,5,365998,136.61,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Malta,MLT,0,0,0,0,1,0,1,330593,30.25,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Mexico,MEX,6,14,17,37,40,14,54,74352631,7.26,North America
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Netherlands,NED,55,52,28,135,40,21,61,14424211,42.29,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",New Zealand,NZL,8,10,7,25,9,4,13,3227100,40.28,Oceania
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Norway,NOR,30,30,30,90,42,22,64,4140099,154.59,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Papua New Guinea,PNG,0,0,0,0,4,0,4,3975950,10.06,Oceania
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Poland,POL,46,39,21,106,25,9,34,36904134,9.21,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Portugal,POR,4,3,7,14,15,2,17,9996232,17.01,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Spain,ESP,22,10,12,44,20,9,29,38330364,7.57,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Sweden,SWE,83,43,34,160,79,18,97,8336605,116.35,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Switzerland,SUI,18,13,12,43,35,8,43,6441865,66.75,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Thailand,THA,0,0,0,0,4,0,4,51094870,0.78,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Trinidad and Tobago,TTO,2,0,1,3,7,1,8,1155083,69.26,North America
+1984,"Stoke Mandeville, New York","United Kingdom, United States",United States,USA,137,131,129,397,157,79,236,235825000,10.01,North America
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Venezuela,VEN,0,0,0,0,6,0,6,16876703,3.56,South America
+1972,Heidelberg,Germany,Germany,FRG,28,17,22,67,52,23,75,78688452,0,Europe
+1976,Toronto,Canada,Germany,FRG,37,34,26,97,76,17,93,78336950,0,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Zimbabwe,ZIM,0,1,2,3,5,3,8,8562259,9.34,Africa
 1988,Seoul,Republic of Korea,Argentina,ARG,0,7,2,9,18,17,35,31668939,11.05,South America
 1988,Seoul,Republic of Korea,Australia,AUS,23,34,38,95,148,27,175,16532200,105.85,Oceania
 1988,Seoul,Republic of Korea,Austria,AUT,13,7,15,35,37,6,43,7585317,56.69,Europe
-1980,Arnhem,Netherlands,Germany,FRG,68,48,46,162,104,24,128,78288576,0.00,Europe
+1980,Arnhem,Netherlands,Germany,FRG,68,48,46,162,104,24,128,78288576,0,Europe
 1988,Seoul,Republic of Korea,Bahrain,BRN,1,1,1,3,11,0,11,465198,236.46,Asia
 1988,Seoul,Republic of Korea,Belgium,BEL,15,18,8,41,46,8,54,9901664,54.54,Europe
 1988,Seoul,Republic of Korea,Brazil,BRA,4,9,14,27,47,12,59,143627505,4.11,South America
@@ -254,13 +254,13 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1988,Seoul,Republic of Korea,China,CHN,16,17,8,41,27,14,41,1101630000,0.37,Asia
 1988,Seoul,Republic of Korea,Colombia,COL,0,0,0,0,16,0,16,31822527,5.03,South America
 1988,Seoul,Republic of Korea,Cyprus,CYP,0,0,0,0,6,0,6,736476,81.47,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Germany,GDR,0,3,1,4,3,1,4,,,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Germany,GDR,0,3,1,4,3,1,4,,,Europe
 1988,Seoul,Republic of Korea,Denmark,DEN,23,19,22,64,27,21,48,5129516,93.58,Europe
 1988,Seoul,Republic of Korea,Egypt,EGY,1,3,3,7,45,1,46,53399243,8.61,Africa
 1988,Seoul,Republic of Korea,Faroe Islands,FRO,1,3,3,7,1,3,4,46833,854.1,Europe
 1988,Seoul,Republic of Korea,Finland,FIN,11,23,16,50,50,11,61,4946481,123.32,Europe
 1988,Seoul,Republic of Korea,France,FRA,46,44,50,140,95,21,116,57627106,20.13,Europe
-1988,Seoul,Republic of Korea,Great Britain,GBR,65,65,54,184,169,55,224,56928327,39.35,Europe
+1988,Seoul,Republic of Korea,United Kingdom,GBR,65,65,54,184,169,55,224,56928327,39.35,Europe
 1988,Seoul,Republic of Korea,Greece,GRE,0,1,3,4,4,0,4,10036983,3.99,Europe
 1988,Seoul,Republic of Korea,Guatemala,GUA,1,0,0,1,1,0,1,8566331,1.17,North America
 1988,Seoul,Republic of Korea,Hong Kong,HKG,0,2,7,9,31,11,42,5627600,74.63,Asia
@@ -279,7 +279,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1988,Seoul,Republic of Korea,Republic of Korea,KOR,40,35,19,94,205,21,226,42031247,53.77,Asia
 1988,Seoul,Republic of Korea,Kuwait,KUW,5,5,7,17,27,3,30,2034850,147.43,Asia
 1988,Seoul,Republic of Korea,Liechtenstein,LIE,0,0,0,0,1,1,2,28135,710.86,Europe
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Germany,FRG,81,76,75,232,109,33,142,77858685,0.00,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Germany,FRG,81,76,75,232,109,33,142,77858685,0,Europe
 1988,Seoul,Republic of Korea,Malaysia,MAS,0,0,1,1,12,2,14,17022470,8.22,Asia
 1988,Seoul,Republic of Korea,Mexico,MEX,8,9,7,24,28,5,33,80788725,4.08,North America
 1988,Seoul,Republic of Korea,Morocco,MAR,0,0,1,1,14,0,14,23903592,5.86,Africa
@@ -298,8 +298,8 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1988,Seoul,Republic of Korea,Thailand,THA,0,1,0,1,10,0,10,54891520,1.82,Asia
 1988,Seoul,Republic of Korea,Trinidad and Tobago,TTO,0,0,0,0,4,0,4,1204150,33.22,North America
 1988,Seoul,Republic of Korea,Tunisia,TUN,0,0,2,2,1,0,1,7880333,1.27,Africa
-1988,Seoul,Republic of Korea,United States of America,USA,91,90,88,269,253,118,371,244499000,15.17,North America
-1988,Seoul,Republic of Korea,Germany,FRG,76,65,52,193,145,43,188,78144619,0.00,Europe
+1988,Seoul,Republic of Korea,United States,USA,91,90,88,269,253,118,371,244499000,15.17,North America
+1988,Seoul,Republic of Korea,Germany,FRG,76,65,52,193,145,43,188,78144619,0,Europe
 1992,Barcelona,Spain,Independent Paralympic Participants,IPP,4,3,1,8,13,3,16,,,Others
 2000,Sydney,Australia,Individual Paralympic Athletes,IPA,0,0,0,0,2,0,2,,,Others
 1992,Barcelona,Spain,Algeria,ALG,0,0,0,0,8,0,8,27028330,2.96,Africa
@@ -321,7 +321,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1992,Barcelona,Spain,Croatia,CRO,0,0,1,1,5,1,6,4575818,13.11,Europe
 1992,Barcelona,Spain,Cuba,CUB,3,3,3,9,10,0,10,10736386,9.31,North America
 1992,Barcelona,Spain,Cyprus,CYP,0,0,0,0,4,0,4,800610,49.96,Europe
-2012,London,Great Britain,"Korea, Dem. People's Rep.",PRK,0,0,0,0,1,0,1,24800638,0.00,Asia
+2012,London,United Kingdom,"Korea, Dem. People's Rep.",PRK,0,0,0,0,1,0,1,24800638,0,Asia
 1992,Barcelona,Spain,Denmark,DEN,12,22,12,46,22,21,43,5171370,83.15,Europe
 1992,Barcelona,Spain,Dominican Republic,DOM,0,0,0,0,1,0,1,7408339,1.35,North America
 1992,Barcelona,Spain,Ecuador,ECU,0,0,0,0,3,0,3,10716131,2.8,South America
@@ -331,12 +331,12 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1992,Barcelona,Spain,Finland,FIN,8,6,11,25,54,13,67,5041992,132.88,Europe
 1992,Barcelona,Spain,France,FRA,36,36,34,106,106,39,145,58851216,24.64,Europe
 1992,Barcelona,Spain,Germany,GER,61,51,59,171,174,64,238,80624598,29.52,Europe
-1992,Barcelona,Spain,Great Britain,GBR,40,47,41,128,156,52,208,57580402,36.12,Europe
+1992,Barcelona,Spain,United Kingdom,GBR,40,47,41,128,156,52,208,57580402,36.12,Europe
 1992,Barcelona,Spain,Greece,GRE,0,2,1,3,7,0,7,10399061,6.73,Europe
 1992,Barcelona,Spain,Hong Kong,HKG,3,4,4,11,16,5,21,5800500,36.2,Asia
 1992,Barcelona,Spain,Hungary,HUN,4,3,4,11,34,9,43,10369341,41.47,Europe
 1992,Barcelona,Spain,Iceland,ISL,3,2,12,17,8,4,12,261057,459.67,Europe
-2016,Rio de Janeiro,Brazil,"Korea, Dem. People's Rep.",PRK,0,0,0,0,1,1,2,25307665,0.00,Asia
+2016,Rio de Janeiro,Brazil,"Korea, Dem. People's Rep.",PRK,0,0,0,0,1,1,2,25307665,0,Asia
 1992,Barcelona,Spain,India,IND,0,0,0,0,7,2,9,909307018,0.1,Asia
 1992,Barcelona,Spain,Islamic Republic of Iran,IRI,1,2,1,4,25,4,29,58780376,4.93,Asia
 1992,Barcelona,Spain,Iraq,IRQ,0,0,1,1,18,0,18,18402740,9.78,Asia
@@ -352,7 +352,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1992,Barcelona,Spain,Liechtenstein,LIE,0,0,0,0,3,0,3,29552,"1,015.16",Europe
 1992,Barcelona,Spain,Lithuania,LTU,0,4,3,7,1,3,4,3700114,10.81,Europe
 1992,Barcelona,Spain,Luxembourg,LUX,0,0,0,0,2,0,2,392175,51,Europe
-1988,Seoul,Republic of Korea,Macao,MAC,0,0,0,0,6,1,7,320774,0.00,Asia
+1988,Seoul,Republic of Korea,Macao,MAC,0,0,0,0,6,1,7,320774,0,Asia
 1992,Barcelona,Spain,Malaysia,MAS,0,1,2,3,10,0,10,19002660,5.26,Asia
 1992,Barcelona,Spain,Mexico,MEX,0,1,10,11,9,10,19,87075136,2.18,North America
 1992,Barcelona,Spain,Morocco,MAR,0,0,0,0,5,0,5,25711410,1.94,Africa
@@ -376,120 +376,120 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1992,Barcelona,Spain,Sweden,SWE,7,22,9,38,72,27,99,8668067,114.21,Europe
 1992,Barcelona,Spain,Switzerland,SUI,6,16,13,35,36,5,41,6875364,59.63,Europe
 1992,Barcelona,Spain,Syrian Arab Republic,SYR,0,0,0,0,2,0,2,13187669,1.52,Asia
-1992,Barcelona,Spain,Macao,MAC,0,0,0,0,2,0,2,362308,0.00,Asia
+1992,Barcelona,Spain,Macao,MAC,0,0,0,0,2,0,2,362308,0,Asia
 1992,Barcelona,Spain,Thailand,THA,0,0,1,1,5,0,5,57811025,0.86,Asia
 1992,Barcelona,Spain,Tunisia,TUN,0,0,0,0,1,0,1,8613855,1.16,Africa
 1992,Barcelona,Spain,Turkey,TUR,0,0,0,0,1,0,1,55748946,0.18,Europe
-1996,Atlanta,United States of America,Macao,MAC,0,0,0,0,1,0,1,393376,0.00,Asia
+1996,Atlanta,United States,Macao,MAC,0,0,0,0,1,0,1,393376,0,Asia
 1992,Barcelona,Spain,United Arab Emirates,UAE,0,0,0,0,1,0,1,2052892,4.87,Asia
-1992,Barcelona,Spain,United States of America,USA,75,52,48,175,264,90,354,256514000,13.8,North America
+1992,Barcelona,Spain,United States,USA,75,52,48,175,264,90,354,256514000,13.8,North America
 1992,Barcelona,Spain,Uruguay,URU,0,0,0,0,2,0,2,3154459,6.34,South America
 1992,Barcelona,Spain,Venezuela,VEN,0,0,1,1,9,1,10,20557694,4.86,South America
 1992,Barcelona,Spain,Yemen,YEM,0,0,0,0,3,0,3,12954157,2.32,Asia
-1996,Atlanta,United States of America,Afghanistan,AFG,0,0,0,0,2,0,2,18853444,1.06,Asia
-1996,Atlanta,United States of America,Algeria,ALG,2,2,3,7,9,0,9,29266415,3.08,Africa
-1996,Atlanta,United States of America,Angola,ANG,0,0,0,0,2,0,2,14400722,1.39,Africa
-1996,Atlanta,United States of America,Argentina,ARG,2,5,2,9,49,7,56,35246376,15.89,South America
-1996,Atlanta,United States of America,Armenia,ARM,0,0,0,0,5,0,5,3168213,15.78,Europe
-1996,Atlanta,United States of America,Australia,AUS,42,37,27,106,99,62,161,18311000,87.93,Oceania
-1996,Atlanta,United States of America,Austria,AUT,6,6,10,22,44,5,49,7959017,61.57,Europe
-1996,Atlanta,United States of America,Azerbaijan,AZE,0,0,0,0,2,0,2,7763000,2.58,Europe
-1996,Atlanta,United States of America,Bahrain,BRN,0,0,0,0,6,0,6,578661,103.69,Asia
-1996,Atlanta,United States of America,Belarus,BLR,3,3,7,13,11,4,15,10160000,14.76,Europe
-1996,Atlanta,United States of America,Belgium,BEL,8,10,7,25,32,6,38,10156637,37.41,Europe
-1996,Atlanta,United States of America,Bermuda,BER,0,0,0,0,0,2,2,60129,332.62,North America
-1996,Atlanta,United States of America,Bosnia and Herzegovina,BIH,0,0,0,0,3,0,3,3764419,7.97,Europe
-1996,Atlanta,United States of America,Brazil,BRA,2,6,13,21,41,19,60,164614682,3.64,South America
-1996,Atlanta,United States of America,Bulgaria,BUL,0,1,1,2,4,2,6,8362826,7.17,Europe
-1996,Atlanta,United States of America,Burkina Faso,BUR,0,0,0,0,3,0,3,10372734,2.89,Africa
-1996,Atlanta,United States of America,Canada,CAN,24,21,24,69,94,38,132,29610218,44.58,North America
-1996,Atlanta,United States of America,Chile,CHI,0,0,0,0,2,0,2,14587367,1.37,South America
-1996,Atlanta,United States of America,China,CHN,16,13,10,39,27,10,37,1217550000,0.3,Asia
-2000,Sydney,Australia,Macao,MAC,0,0,0,0,1,1,2,427772,0.00,Asia
-1996,Atlanta,United States of America,Colombia,COL,0,0,0,0,2,0,2,37076387,0.54,South America
-2004,Athens,Greece,Macao,MAC,0,0,0,0,1,0,1,471600,0.00,Asia
-1996,Atlanta,United States of America,Croatia,CRO,0,0,0,0,2,3,5,4557097,10.97,Europe
-1996,Atlanta,United States of America,Cuba,CUB,8,3,0,11,9,1,10,10939285,9.14,North America
-1996,Atlanta,United States of America,Cyprus,CYP,0,0,0,0,4,0,4,873426,45.8,Europe
-1996,Atlanta,United States of America,Czech Republic,CZE,2,7,1,10,36,7,43,10315241,41.69,Europe
-1996,Atlanta,United States of America,Denmark,DEN,7,17,17,41,25,20,45,5263074,85.5,Europe
-1996,Atlanta,United States of America,Dominican Republic,DOM,1,0,0,1,2,0,2,7952766,2.51,North America
-1996,Atlanta,United States of America,Ecuador,ECU,0,0,0,0,2,0,2,11703169,1.71,South America
-1996,Atlanta,United States of America,Egypt,EGY,8,11,11,30,26,5,31,63601632,4.87,Africa
-1996,Atlanta,United States of America,Estonia,EST,3,4,2,9,2,8,10,1415594,70.64,Europe
-1996,Atlanta,United States of America,Faroe Islands,FRO,0,0,0,0,0,1,1,45624,219.18,Europe
-1996,Atlanta,United States of America,Fiji,FIJ,0,0,0,0,2,0,2,784389,25.5,Oceania
-1996,Atlanta,United States of America,Finland,FIN,4,5,4,13,53,12,65,5124573,126.84,Europe
-1996,Atlanta,United States of America,France,FRA,35,29,31,95,122,25,147,59753095,24.6,Europe
-1996,Atlanta,United States of America,Germany,GER,40,58,51,149,153,78,231,81914831,28.2,Europe
-1996,Atlanta,United States of America,Great Britain,GBR,39,42,41,122,165,83,248,58166950,42.64,Europe
-1996,Atlanta,United States of America,Greece,GRE,1,1,3,5,16,0,16,10608800,15.08,Europe
-1996,Atlanta,United States of America,Honduras,HON,0,0,0,0,2,0,2,5874814,3.4,North America
-1996,Atlanta,United States of America,Hong Kong,HKG,5,5,5,15,19,5,24,6435500,37.29,Asia
-1996,Atlanta,United States of America,Hungary,HUN,5,2,3,10,32,10,42,10311238,40.73,Europe
-1996,Atlanta,United States of America,Iceland,ISL,5,4,5,14,6,4,10,268916,371.86,Europe
-1996,Atlanta,United States of America,India,IND,0,0,0,0,9,0,9,982365248,0.09,Asia
-1996,Atlanta,United States of America,Indonesia,INA,0,0,0,0,1,0,1,199901231,0.05,Asia
-1996,Atlanta,United States of America,Islamic Republic of Iran,IRI,9,5,3,17,28,2,30,62294919,4.82,Asia
-1996,Atlanta,United States of America,Ireland,IRL,1,3,6,10,46,17,63,3637510,173.2,Europe
-1996,Atlanta,United States of America,Israel,ISR,0,4,5,9,37,3,40,5692000,70.27,Asia
-1996,Atlanta,United States of America,Italy,ITA,11,20,14,45,59,19,78,56860281,13.72,Europe
-1996,Atlanta,United States of America,Jamaica,JAM,0,0,1,1,2,1,3,2558631,11.73,North America
-1996,Atlanta,United States of America,Japan,JPN,14,10,13,37,58,23,81,125757000,6.44,Asia
-1996,Atlanta,United States of America,Jordan,JOR,0,1,0,1,5,0,5,4732848,10.56,Asia
-1996,Atlanta,United States of America,Kazakhstan,KAZ,0,0,0,0,13,0,13,15578227,8.34,Europe
-1996,Atlanta,United States of America,Kenya,KEN,1,1,0,2,11,6,17,28589456,5.95,Africa
-1996,Atlanta,United States of America,Republic of Korea,KOR,13,2,15,30,55,9,64,45524681,14.06,Asia
-1996,Atlanta,United States of America,Kuwait,KUW,1,1,1,3,17,0,17,1626858,104.5,Asia
-1996,Atlanta,United States of America,Kyrgyzstan,KGZ,0,0,0,0,2,0,2,4628400,4.32,Asia
-1996,Atlanta,United States of America,Latvia,LAT,0,0,0,0,4,1,5,2457222,20.35,Europe
-1996,Atlanta,United States of America,Libya,LBA,0,0,0,0,4,0,4,5036173,7.94,Africa
-1996,Atlanta,United States of America,Lithuania,LTU,3,2,6,11,6,3,9,3601613,24.99,Europe
-1996,Atlanta,United States of America,Luxembourg,LUX,0,0,0,0,1,0,1,414225,24.14,Europe
-2008,Beijing,China,Macao,MAC,0,0,0,0,1,1,2,515232,0.00,Asia
-1996,Atlanta,United States of America,Malaysia,MAS,0,0,0,0,6,0,6,21017619,2.85,Asia
-1996,Atlanta,United States of America,Mauritius,MRI,0,0,0,0,2,0,2,1133996,17.64,Africa
-1996,Atlanta,United States of America,Mexico,MEX,3,5,4,12,28,10,38,93147045,4.08,North America
-1996,Atlanta,United States of America,Republic of Moldova,MDA,0,0,2,2,5,0,5,2946401,16.97,Europe
-1996,Atlanta,United States of America,Morocco,MAR,0,0,0,0,4,0,4,27383472,1.46,Africa
-1996,Atlanta,United States of America,Netherlands,NED,17,11,17,45,73,33,106,15530498,68.25,Europe
-1996,Atlanta,United States of America,New Zealand,NZL,9,6,3,18,28,6,34,3732000,91.1,Oceania
-1996,Atlanta,United States of America,Nigeria,NGR,3,2,3,8,8,0,8,110668784,0.72,Africa
-1996,Atlanta,United States of America,North Macedonia,MKD,0,0,0,0,1,0,1,1989441,5.03,Europe
-1996,Atlanta,United States of America,Norway,NOR,9,7,4,20,35,7,42,4381336,95.86,Europe
-1996,Atlanta,United States of America,Oman,OMA,0,0,0,0,3,0,3,2236652,13.41,Asia
-1996,Atlanta,United States of America,Pakistan,PAK,0,0,0,0,1,0,1,127349293,0.08,Asia
-1996,Atlanta,United States of America,Panama,PAN,2,0,0,2,1,0,1,2796291,3.58,North America
-1996,Atlanta,United States of America,Peru,PER,1,0,0,1,3,0,3,24753825,1.21,South America
-1996,Atlanta,United States of America,Poland,POL,13,14,8,35,49,12,61,38624370,15.79,Europe
-1996,Atlanta,United States of America,Portugal,POR,6,4,4,14,29,6,35,10063945,34.78,Europe
-1996,Atlanta,United States of America,Puerto Rico,PUR,0,0,0,0,3,2,5,3724655,13.42,North America
-1996,Atlanta,United States of America,Qatar,QAT,0,0,0,0,1,0,1,522531,19.14,Asia
-1996,Atlanta,United States of America,Romania,ROU,0,0,0,0,1,0,1,22619004,0.44,Europe
-2012,London,Great Britain,Macao,MAC,0,0,0,0,1,1,2,564037,0.00,Asia
-1996,Atlanta,United States of America,Saudi Arabia,KSA,0,0,0,0,2,0,2,19033843,1.05,Asia
-2016,Rio de Janeiro,Brazil,Macao,MAC,0,0,0,0,1,0,1,612824,0.00,Asia
-1996,Atlanta,United States of America,Sierra Leone,SLE,0,0,0,0,1,0,1,4312660,2.32,Africa
-1996,Atlanta,United States of America,Singapore,SGP,0,0,0,0,1,2,3,3670704,8.17,Asia
-1996,Atlanta,United States of America,Slovakia,SVK,2,4,5,11,23,5,28,5373361,52.11,Europe
-1996,Atlanta,United States of America,Slovenia,SLO,0,2,3,5,13,1,14,1988628,70.4,Europe
-1996,Atlanta,United States of America,South Africa,RSA,10,8,10,28,29,11,40,42241007,9.47,Africa
-1996,Atlanta,United States of America,Spain,ESP,39,31,36,106,146,50,196,39889852,49.14,Europe
-1996,Atlanta,United States of America,Sri Lanka,SRI,0,0,0,0,1,0,1,18367290,0.54,Asia
-1996,Atlanta,United States of America,Sweden,SWE,12,14,11,37,83,27,110,8840998,124.42,Europe
-1996,Atlanta,United States of America,Switzerland,SUI,9,6,6,21,36,9,45,7071850,63.63,Europe
-1996,Atlanta,United States of America,Syrian Arab Republic,SYR,0,0,0,0,2,0,2,14754148,1.36,Asia
-1996,Atlanta,United States of America,Thailand,THA,0,0,2,2,7,0,7,60130190,1.16,Asia
-1996,Atlanta,United States of America,Tunisia,TUN,0,2,0,2,2,1,3,9267335,3.24,Africa
-1996,Atlanta,United States of America,Uganda,UGA,0,0,0,0,1,0,1,21032817,0.48,Africa
-1996,Atlanta,United States of America,Ukraine,UKR,1,4,2,7,25,5,30,51057800,5.88,Europe
-1996,Atlanta,United States of America,United Arab Emirates,UAE,0,0,0,0,5,0,5,2539121,19.69,Asia
-1996,Atlanta,United States of America,United States of America,USA,46,46,65,157,239,89,328,269394000,12.18,North America
-1996,Atlanta,United States of America,Uruguay,URU,0,0,1,1,1,0,1,3247383,3.08,South America
-1996,Atlanta,United States of America,Venezuela,VEN,0,0,0,0,4,0,4,22385650,1.79,South America
-1976,Toronto,Canada,Myanmar,MYA,1,1,1,3,4,0,4,31314347,0.00,Asia
-1996,Atlanta,United States of America,Zambia,ZAM,0,0,0,0,1,0,1,9339740,1.07,Africa
-1996,Atlanta,United States of America,Zimbabwe,ZIM,0,0,0,0,2,0,2,11541215,1.73,Africa
+1996,Atlanta,United States,Afghanistan,AFG,0,0,0,0,2,0,2,18853444,1.06,Asia
+1996,Atlanta,United States,Algeria,ALG,2,2,3,7,9,0,9,29266415,3.08,Africa
+1996,Atlanta,United States,Angola,ANG,0,0,0,0,2,0,2,14400722,1.39,Africa
+1996,Atlanta,United States,Argentina,ARG,2,5,2,9,49,7,56,35246376,15.89,South America
+1996,Atlanta,United States,Armenia,ARM,0,0,0,0,5,0,5,3168213,15.78,Europe
+1996,Atlanta,United States,Australia,AUS,42,37,27,106,99,62,161,18311000,87.93,Oceania
+1996,Atlanta,United States,Austria,AUT,6,6,10,22,44,5,49,7959017,61.57,Europe
+1996,Atlanta,United States,Azerbaijan,AZE,0,0,0,0,2,0,2,7763000,2.58,Europe
+1996,Atlanta,United States,Bahrain,BRN,0,0,0,0,6,0,6,578661,103.69,Asia
+1996,Atlanta,United States,Belarus,BLR,3,3,7,13,11,4,15,10160000,14.76,Europe
+1996,Atlanta,United States,Belgium,BEL,8,10,7,25,32,6,38,10156637,37.41,Europe
+1996,Atlanta,United States,Bermuda,BER,0,0,0,0,0,2,2,60129,332.62,North America
+1996,Atlanta,United States,Bosnia and Herzegovina,BIH,0,0,0,0,3,0,3,3764419,7.97,Europe
+1996,Atlanta,United States,Brazil,BRA,2,6,13,21,41,19,60,164614682,3.64,South America
+1996,Atlanta,United States,Bulgaria,BUL,0,1,1,2,4,2,6,8362826,7.17,Europe
+1996,Atlanta,United States,Burkina Faso,BUR,0,0,0,0,3,0,3,10372734,2.89,Africa
+1996,Atlanta,United States,Canada,CAN,24,21,24,69,94,38,132,29610218,44.58,North America
+1996,Atlanta,United States,Chile,CHI,0,0,0,0,2,0,2,14587367,1.37,South America
+1996,Atlanta,United States,China,CHN,16,13,10,39,27,10,37,1217550000,0.3,Asia
+2000,Sydney,Australia,Macao,MAC,0,0,0,0,1,1,2,427772,0,Asia
+1996,Atlanta,United States,Colombia,COL,0,0,0,0,2,0,2,37076387,0.54,South America
+2004,Athens,Greece,Macao,MAC,0,0,0,0,1,0,1,471600,0,Asia
+1996,Atlanta,United States,Croatia,CRO,0,0,0,0,2,3,5,4557097,10.97,Europe
+1996,Atlanta,United States,Cuba,CUB,8,3,0,11,9,1,10,10939285,9.14,North America
+1996,Atlanta,United States,Cyprus,CYP,0,0,0,0,4,0,4,873426,45.8,Europe
+1996,Atlanta,United States,Czech Republic,CZE,2,7,1,10,36,7,43,10315241,41.69,Europe
+1996,Atlanta,United States,Denmark,DEN,7,17,17,41,25,20,45,5263074,85.5,Europe
+1996,Atlanta,United States,Dominican Republic,DOM,1,0,0,1,2,0,2,7952766,2.51,North America
+1996,Atlanta,United States,Ecuador,ECU,0,0,0,0,2,0,2,11703169,1.71,South America
+1996,Atlanta,United States,Egypt,EGY,8,11,11,30,26,5,31,63601632,4.87,Africa
+1996,Atlanta,United States,Estonia,EST,3,4,2,9,2,8,10,1415594,70.64,Europe
+1996,Atlanta,United States,Faroe Islands,FRO,0,0,0,0,0,1,1,45624,219.18,Europe
+1996,Atlanta,United States,Fiji,FIJ,0,0,0,0,2,0,2,784389,25.5,Oceania
+1996,Atlanta,United States,Finland,FIN,4,5,4,13,53,12,65,5124573,126.84,Europe
+1996,Atlanta,United States,France,FRA,35,29,31,95,122,25,147,59753095,24.6,Europe
+1996,Atlanta,United States,Germany,GER,40,58,51,149,153,78,231,81914831,28.2,Europe
+1996,Atlanta,United States,United Kingdom,GBR,39,42,41,122,165,83,248,58166950,42.64,Europe
+1996,Atlanta,United States,Greece,GRE,1,1,3,5,16,0,16,10608800,15.08,Europe
+1996,Atlanta,United States,Honduras,HON,0,0,0,0,2,0,2,5874814,3.4,North America
+1996,Atlanta,United States,Hong Kong,HKG,5,5,5,15,19,5,24,6435500,37.29,Asia
+1996,Atlanta,United States,Hungary,HUN,5,2,3,10,32,10,42,10311238,40.73,Europe
+1996,Atlanta,United States,Iceland,ISL,5,4,5,14,6,4,10,268916,371.86,Europe
+1996,Atlanta,United States,India,IND,0,0,0,0,9,0,9,982365248,0.09,Asia
+1996,Atlanta,United States,Indonesia,INA,0,0,0,0,1,0,1,199901231,0.05,Asia
+1996,Atlanta,United States,Islamic Republic of Iran,IRI,9,5,3,17,28,2,30,62294919,4.82,Asia
+1996,Atlanta,United States,Ireland,IRL,1,3,6,10,46,17,63,3637510,173.2,Europe
+1996,Atlanta,United States,Israel,ISR,0,4,5,9,37,3,40,5692000,70.27,Asia
+1996,Atlanta,United States,Italy,ITA,11,20,14,45,59,19,78,56860281,13.72,Europe
+1996,Atlanta,United States,Jamaica,JAM,0,0,1,1,2,1,3,2558631,11.73,North America
+1996,Atlanta,United States,Japan,JPN,14,10,13,37,58,23,81,125757000,6.44,Asia
+1996,Atlanta,United States,Jordan,JOR,0,1,0,1,5,0,5,4732848,10.56,Asia
+1996,Atlanta,United States,Kazakhstan,KAZ,0,0,0,0,13,0,13,15578227,8.34,Europe
+1996,Atlanta,United States,Kenya,KEN,1,1,0,2,11,6,17,28589456,5.95,Africa
+1996,Atlanta,United States,Republic of Korea,KOR,13,2,15,30,55,9,64,45524681,14.06,Asia
+1996,Atlanta,United States,Kuwait,KUW,1,1,1,3,17,0,17,1626858,104.5,Asia
+1996,Atlanta,United States,Kyrgyzstan,KGZ,0,0,0,0,2,0,2,4628400,4.32,Asia
+1996,Atlanta,United States,Latvia,LAT,0,0,0,0,4,1,5,2457222,20.35,Europe
+1996,Atlanta,United States,Libya,LBA,0,0,0,0,4,0,4,5036173,7.94,Africa
+1996,Atlanta,United States,Lithuania,LTU,3,2,6,11,6,3,9,3601613,24.99,Europe
+1996,Atlanta,United States,Luxembourg,LUX,0,0,0,0,1,0,1,414225,24.14,Europe
+2008,Beijing,China,Macao,MAC,0,0,0,0,1,1,2,515232,0,Asia
+1996,Atlanta,United States,Malaysia,MAS,0,0,0,0,6,0,6,21017619,2.85,Asia
+1996,Atlanta,United States,Mauritius,MRI,0,0,0,0,2,0,2,1133996,17.64,Africa
+1996,Atlanta,United States,Mexico,MEX,3,5,4,12,28,10,38,93147045,4.08,North America
+1996,Atlanta,United States,Republic of Moldova,MDA,0,0,2,2,5,0,5,2946401,16.97,Europe
+1996,Atlanta,United States,Morocco,MAR,0,0,0,0,4,0,4,27383472,1.46,Africa
+1996,Atlanta,United States,Netherlands,NED,17,11,17,45,73,33,106,15530498,68.25,Europe
+1996,Atlanta,United States,New Zealand,NZL,9,6,3,18,28,6,34,3732000,91.1,Oceania
+1996,Atlanta,United States,Nigeria,NGR,3,2,3,8,8,0,8,110668784,0.72,Africa
+1996,Atlanta,United States,North Macedonia,MKD,0,0,0,0,1,0,1,1989441,5.03,Europe
+1996,Atlanta,United States,Norway,NOR,9,7,4,20,35,7,42,4381336,95.86,Europe
+1996,Atlanta,United States,Oman,OMA,0,0,0,0,3,0,3,2236652,13.41,Asia
+1996,Atlanta,United States,Pakistan,PAK,0,0,0,0,1,0,1,127349293,0.08,Asia
+1996,Atlanta,United States,Panama,PAN,2,0,0,2,1,0,1,2796291,3.58,North America
+1996,Atlanta,United States,Peru,PER,1,0,0,1,3,0,3,24753825,1.21,South America
+1996,Atlanta,United States,Poland,POL,13,14,8,35,49,12,61,38624370,15.79,Europe
+1996,Atlanta,United States,Portugal,POR,6,4,4,14,29,6,35,10063945,34.78,Europe
+1996,Atlanta,United States,Puerto Rico,PUR,0,0,0,0,3,2,5,3724655,13.42,North America
+1996,Atlanta,United States,Qatar,QAT,0,0,0,0,1,0,1,522531,19.14,Asia
+1996,Atlanta,United States,Romania,ROU,0,0,0,0,1,0,1,22619004,0.44,Europe
+2012,London,United Kingdom,Macao,MAC,0,0,0,0,1,1,2,564037,0,Asia
+1996,Atlanta,United States,Saudi Arabia,KSA,0,0,0,0,2,0,2,19033843,1.05,Asia
+2016,Rio de Janeiro,Brazil,Macao,MAC,0,0,0,0,1,0,1,612824,0,Asia
+1996,Atlanta,United States,Sierra Leone,SLE,0,0,0,0,1,0,1,4312660,2.32,Africa
+1996,Atlanta,United States,Singapore,SGP,0,0,0,0,1,2,3,3670704,8.17,Asia
+1996,Atlanta,United States,Slovakia,SVK,2,4,5,11,23,5,28,5373361,52.11,Europe
+1996,Atlanta,United States,Slovenia,SLO,0,2,3,5,13,1,14,1988628,70.4,Europe
+1996,Atlanta,United States,South Africa,RSA,10,8,10,28,29,11,40,42241007,9.47,Africa
+1996,Atlanta,United States,Spain,ESP,39,31,36,106,146,50,196,39889852,49.14,Europe
+1996,Atlanta,United States,Sri Lanka,SRI,0,0,0,0,1,0,1,18367290,0.54,Asia
+1996,Atlanta,United States,Sweden,SWE,12,14,11,37,83,27,110,8840998,124.42,Europe
+1996,Atlanta,United States,Switzerland,SUI,9,6,6,21,36,9,45,7071850,63.63,Europe
+1996,Atlanta,United States,Syrian Arab Republic,SYR,0,0,0,0,2,0,2,14754148,1.36,Asia
+1996,Atlanta,United States,Thailand,THA,0,0,2,2,7,0,7,60130190,1.16,Asia
+1996,Atlanta,United States,Tunisia,TUN,0,2,0,2,2,1,3,9267335,3.24,Africa
+1996,Atlanta,United States,Uganda,UGA,0,0,0,0,1,0,1,21032817,0.48,Africa
+1996,Atlanta,United States,Ukraine,UKR,1,4,2,7,25,5,30,51057800,5.88,Europe
+1996,Atlanta,United States,United Arab Emirates,UAE,0,0,0,0,5,0,5,2539121,19.69,Asia
+1996,Atlanta,United States,United States,USA,46,46,65,157,239,89,328,269394000,12.18,North America
+1996,Atlanta,United States,Uruguay,URU,0,0,1,1,1,0,1,3247383,3.08,South America
+1996,Atlanta,United States,Venezuela,VEN,0,0,0,0,4,0,4,22385650,1.79,South America
+1976,Toronto,Canada,Myanmar,MYA,1,1,1,3,4,0,4,31314347,0,Asia
+1996,Atlanta,United States,Zambia,ZAM,0,0,0,0,1,0,1,9339740,1.07,Africa
+1996,Atlanta,United States,Zimbabwe,ZIM,0,0,0,0,2,0,2,11541215,1.73,Africa
 2000,Sydney,Australia,Algeria,ALG,3,0,0,3,7,1,8,31042238,2.58,Africa
 2000,Sydney,Australia,Angola,ANG,0,0,0,0,1,0,1,16395477,0.61,Africa
 2000,Sydney,Australia,Argentina,ARG,0,2,3,5,31,12,43,36870796,11.66,South America
@@ -511,7 +511,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2000,Sydney,Australia,Canada,CAN,38,33,25,96,112,53,165,30685730,53.77,North America
 2000,Sydney,Australia,Chile,CHI,0,0,0,0,4,0,4,15342350,2.61,South America
 2000,Sydney,Australia,China,CHN,34,22,17,73,54,33,87,1262645000,0.69,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Myanmar,MYA,1,2,1,4,10,0,10,37241530,0.00,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Myanmar,MYA,1,2,1,4,10,0,10,37241530,0,Asia
 2000,Sydney,Australia,Colombia,COL,0,0,0,0,3,0,3,39629965,0.76,South America
 2000,Sydney,Australia,Costa Rica,CRC,0,0,0,0,1,0,1,3962369,2.52,North America
 2000,Sydney,Australia,Palestine,PLE,0,0,1,1,1,1,2,,,Asia
@@ -529,7 +529,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2000,Sydney,Australia,Finland,FIN,1,3,6,10,38,11,49,5176209,94.66,Europe
 2000,Sydney,Australia,France,FRA,30,28,28,86,116,30,146,60912500,23.97,Europe
 2000,Sydney,Australia,Germany,GER,16,41,38,95,181,69,250,82211508,30.41,Europe
-2000,Sydney,Australia,Great Britain,GBR,41,43,47,131,140,74,214,58892514,36.34,Europe
+2000,Sydney,Australia,United Kingdom,GBR,41,43,47,131,140,74,214,58892514,36.34,Europe
 2000,Sydney,Australia,Greece,GRE,4,4,3,11,41,3,44,10805808,40.72,Europe
 2000,Sydney,Australia,Honduras,HON,0,0,0,0,1,0,1,6574510,1.52,North America
 2000,Sydney,Australia,Hong Kong,HKG,8,3,7,18,22,6,28,6665000,42.01,Asia
@@ -573,7 +573,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2000,Sydney,Australia,Norway,NOR,2,6,7,15,26,13,39,4490967,86.84,Europe
 2000,Sydney,Australia,Oman,OMA,0,0,0,0,3,0,3,2267973,13.23,Asia
 2000,Sydney,Australia,Pakistan,PAK,0,0,0,0,1,0,1,142343583,0.07,Asia
-2012,London,Great Britain,Palestine,PLE,0,0,0,0,2,0,2,,,Asia
+2012,London,United Kingdom,Palestine,PLE,0,0,0,0,2,0,2,,,Asia
 2000,Sydney,Australia,Panama,PAN,0,1,1,2,1,0,1,3030333,3.3,North America
 2000,Sydney,Australia,Papua New Guinea,PNG,0,0,0,0,3,0,3,5847590,5.13,Oceania
 2000,Sydney,Australia,Peru,PER,1,1,0,2,3,1,4,26459944,1.51,South America
@@ -605,7 +605,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2000,Sydney,Australia,Uganda,UGA,0,0,0,0,0,1,1,23650159,0.42,Africa
 2000,Sydney,Australia,Ukraine,UKR,3,20,14,37,49,18,67,49176500,13.62,Europe
 2000,Sydney,Australia,United Arab Emirates,UAE,0,3,1,4,14,0,14,3134067,44.67,Asia
-2000,Sydney,Australia,United States of America,USA,36,39,34,109,181,86,267,282162411,9.46,North America
+2000,Sydney,Australia,United States,USA,36,39,34,109,181,86,267,282162411,9.46,North America
 2000,Sydney,Australia,Uruguay,URU,0,0,0,0,1,1,2,3319734,6.02,South America
 2000,Sydney,Australia,Vanuatu,VAN,0,0,0,0,1,1,2,184964,108.13,Oceania
 2000,Sydney,Australia,Venezuela,VEN,0,0,1,1,8,2,10,24192449,4.13,South America
@@ -641,7 +641,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1988,Seoul,Republic of Korea,Russia,URS,21,20,15,56,16,6,22,,,Europe
 2004,Athens,Greece,Colombia,COL,0,0,0,0,4,1,5,42075953,1.19,South America
 2004,Athens,Greece,Costa Rica,CRC,0,0,0,0,1,0,1,4225156,2.37,North America
-1996,Atlanta,United States of America,Russia,RUS,9,7,11,27,60,10,70,,,Europe
+1996,Atlanta,United States,Russia,RUS,9,7,11,27,60,10,70,,,Europe
 2004,Athens,Greece,Croatia,CRO,0,0,4,4,12,5,17,4304600,39.49,Europe
 2004,Athens,Greece,Cuba,CUB,2,2,7,11,19,5,24,11250369,21.33,North America
 2004,Athens,Greece,Cyprus,CYP,1,0,0,1,2,3,5,1010410,49.48,Europe
@@ -659,7 +659,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2004,Athens,Greece,France,FRA,18,26,30,74,102,30,132,62704901,21.05,Europe
 2004,Athens,Greece,Germany,GER,19,28,31,78,138,70,208,82516260,25.21,Europe
 2004,Athens,Greece,Ghana,GHA,0,0,0,0,2,1,3,21272328,1.41,Africa
-2004,Athens,Greece,Great Britain,GBR,35,30,29,94,99,65,164,59987905,27.34,Europe
+2004,Athens,Greece,United Kingdom,GBR,35,30,29,94,99,65,164,59987905,27.34,Europe
 2004,Athens,Greece,Greece,GRE,3,13,4,20,104,17,121,10955141,110.45,Europe
 2004,Athens,Greece,Guatemala,GUA,0,0,0,0,1,1,2,12682108,1.58,North America
 2004,Athens,Greece,Guinea,GUY,0,0,0,0,1,0,1,8925729,1.12,Africa
@@ -720,7 +720,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2004,Athens,Greece,Samoa,SAM,0,0,0,0,1,1,2,178597,111.98,Oceania
 2004,Athens,Greece,Saudi Arabia,KSA,0,0,0,0,6,0,6,23132686,2.59,Asia
 2004,Athens,Greece,Senegal,SEN,0,0,0,0,1,1,2,10810086,1.85,Africa
-2012,London,Great Britain,Russia,RUS,36,38,28,102,120,61,181,,,Europe
+2012,London,United Kingdom,Russia,RUS,36,38,28,102,120,61,181,,,Europe
 2004,Athens,Greece,Singapore,SGP,0,0,0,0,4,3,7,4166664,16.8,Asia
 2004,Athens,Greece,Slovakia,SVK,5,3,4,12,28,8,36,5372280,67.01,Europe
 2004,Athens,Greece,Slovenia,SLO,1,2,1,4,14,14,28,1997012,140.21,Europe
@@ -733,7 +733,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2004,Athens,Greece,Switzerland,SUI,2,6,8,16,26,14,40,7389625,54.13,Europe
 2004,Athens,Greece,Syrian Arab Republic,SYR,0,0,0,0,3,2,5,17827827,2.8,Asia
 2004,Athens,Greece,Tajikistan,TJK,0,0,0,0,1,0,1,6662391,1.5,Asia
-1996,Atlanta,United States of America,Serbia and Montenegro,SCG,0,0,0,0,3,1,4,,,Europe
+1996,Atlanta,United States,Serbia and Montenegro,SCG,0,0,0,0,3,1,4,,,Europe
 2004,Athens,Greece,Thailand,THA,3,6,6,15,33,10,43,64995303,6.62,Asia
 2004,Athens,Greece,Tonga,TGA,0,0,0,0,0,1,1,100214,99.79,Oceania
 2004,Athens,Greece,Tunisia,TUN,8,7,3,18,14,8,22,10022278,21.95,Africa
@@ -742,7 +742,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2004,Athens,Greece,Uganda,UGA,0,0,0,0,1,1,2,26821300,0.75,Africa
 2004,Athens,Greece,Ukraine,UKR,24,12,19,55,57,31,88,47451626,18.55,Europe
 2004,Athens,Greece,United Arab Emirates,UAE,1,1,2,4,10,0,10,4068577,24.58,Asia
-2004,Athens,Greece,United States of America,USA,27,22,39,88,147,87,234,292805298,7.99,North America
+2004,Athens,Greece,United States,USA,27,22,39,88,147,87,234,292805298,7.99,North America
 2004,Athens,Greece,Uruguay,URU,0,0,0,0,3,0,3,3321486,9.03,South America
 2004,Athens,Greece,Uzbekistan,UZB,0,0,0,0,1,0,1,25864350,0.39,Asia
 2004,Athens,Greece,Venezuela,VEN,0,1,2,3,14,2,16,25996594,6.15,South America
@@ -797,7 +797,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2008,Beijing,China,Georgia,GEO,0,0,0,0,1,0,1,3848449,2.6,Europe
 2008,Beijing,China,Germany,GER,14,25,20,59,104,66,170,82110097,20.7,Europe
 2008,Beijing,China,Ghana,GHA,0,0,0,0,1,1,2,23563832,0.85,Africa
-2008,Beijing,China,Great Britain,GBR,42,29,31,102,130,75,205,61806995,33.17,Europe
+2008,Beijing,China,United Kingdom,GBR,42,29,31,102,130,75,205,61806995,33.17,Europe
 2008,Beijing,China,Greece,GRE,5,9,10,24,52,15,67,11077841,60.48,Europe
 2008,Beijing,China,Guatemala,GUA,0,0,0,0,1,0,1,13739299,0.73,North America
 2008,Beijing,China,Guinea,GUY,0,0,0,0,1,0,1,9738796,1.03,Africa
@@ -849,7 +849,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2008,Beijing,China,Norway,NOR,1,3,3,7,14,10,24,4768212,50.33,Europe
 2008,Beijing,China,Oman,OMA,0,0,0,0,1,0,1,2750956,3.64,Asia
 2008,Beijing,China,Pakistan,PAK,0,1,0,1,2,1,3,171648984,0.17,Asia
-1996,Atlanta,United States of America,Taipei,TPE,1,0,2,3,13,1,14,,,Asia
+1996,Atlanta,United States,Taipei,TPE,1,0,2,3,13,1,14,,,Asia
 2008,Beijing,China,Panama,PAN,0,0,0,0,1,1,2,3516204,5.69,North America
 2008,Beijing,China,Papua New Guinea,PNG,0,1,0,1,1,1,2,6976200,2.87,Oceania
 2008,Beijing,China,Peru,PER,0,0,0,0,3,0,3,28562321,1.05,South America
@@ -886,7 +886,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2008,Beijing,China,Uganda,UGA,0,0,0,0,1,0,1,30431734,0.33,Africa
 2008,Beijing,China,Ukraine,UKR,24,18,32,74,74,49,123,46258189,26.59,Europe
 2008,Beijing,China,United Arab Emirates,UAE,0,1,0,1,6,1,7,7089486,9.87,Asia
-2008,Beijing,China,United States of America,USA,36,35,28,99,120,87,207,304093966,6.81,North America
+2008,Beijing,China,United States,USA,36,35,28,99,120,87,207,304093966,6.81,North America
 2008,Beijing,China,Uruguay,URU,0,0,0,0,2,0,2,3340221,5.99,South America
 2008,Beijing,China,Uzbekistan,UZB,0,0,0,0,2,0,2,27302800,0.73,Asia
 2008,Beijing,China,Vanuatu,VAN,0,0,0,0,1,0,1,224700,44.5,Oceania
@@ -894,170 +894,170 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2008,Beijing,China,Vietnam,VIE,0,0,0,0,3,5,8,86243424,0.93,Asia
 2008,Beijing,China,Zambia,ZAM,0,0,0,0,1,0,1,12848531,0.78,Africa
 2008,Beijing,China,Zimbabwe,ZIM,0,0,0,0,1,1,2,12379553,1.62,Africa
-2012,London,Great Britain,Afghanistan,AFG,0,0,0,0,1,0,1,31161378,0.32,Asia
-2012,London,Great Britain,Albania,ALB,0,0,0,0,1,0,1,2900401,3.45,Europe
-2012,London,Great Britain,Algeria,ALG,4,6,9,19,24,7,31,37383899,8.29,Africa
-2012,London,Great Britain,Andorra,AND,0,0,0,0,1,0,1,82427,121.32,Europe
-2012,London,Great Britain,Angola,ANG,1,0,1,2,2,2,4,25107925,1.59,Africa
-2012,London,Great Britain,Antigua and Barbuda,ANT,0,0,0,0,1,0,1,90407,110.61,North America
-2012,London,Great Britain,Argentina,ARG,0,1,4,5,47,10,57,41733271,13.66,South America
-2012,London,Great Britain,Armenia,ARM,0,0,0,0,0,2,2,2884239,6.93,Europe
-2012,London,Great Britain,Australia,AUS,32,23,30,85,88,70,158,22733465,69.5,Oceania
-2012,London,Great Britain,Austria,AUT,4,3,6,13,27,5,32,8429991,37.96,Europe
-2012,London,Great Britain,Azerbaijan,AZE,4,5,3,12,16,5,21,9295784,22.59,Europe
-2012,London,Great Britain,Bahrain,BRN,0,0,0,0,1,1,2,1299942,15.39,Asia
-2012,London,Great Britain,Barbados,BAR,0,0,0,0,1,0,1,283698,35.25,North America
-2012,London,Great Britain,Belarus,BLR,5,2,3,10,15,14,29,9464495,30.64,Europe
-2012,London,Great Britain,Belgium,BEL,3,1,3,7,31,9,40,11106932,36.01,Europe
-2012,London,Great Britain,Benin,BEN,0,0,0,0,1,0,1,9729254,1.03,Africa
-2012,London,Great Britain,Bermuda,BER,0,0,0,0,0,1,1,64798,154.33,North America
-2012,London,Great Britain,Bosnia and Herzegovina,BIH,1,0,0,1,11,1,12,3604972,33.29,Europe
-2012,London,Great Britain,Brazil,BRA,21,14,8,43,110,68,178,199287292,8.93,South America
-2012,London,Great Britain,Brunei Darussalam,BRU,0,0,0,0,1,0,1,398997,25.06,Asia
-2012,London,Great Britain,Bulgaria,BUL,0,2,1,3,4,4,8,7305888,10.95,Europe
-2012,London,Great Britain,Burkina Faso,BUR,0,0,0,0,1,1,2,16571252,1.21,Africa
-2012,London,Great Britain,Burundi,BDI,0,0,0,0,1,0,1,9245992,1.08,Africa
-2012,London,Great Britain,Cambodia,CAM,0,0,0,0,0,1,1,14780454,0.68,Asia
-2012,London,Great Britain,Cameroon,CMR,0,0,0,0,1,0,1,21485267,0.47,Africa
-2012,London,Great Britain,Canada,CAN,7,15,9,31,87,57,144,34714222,41.48,North America
-2012,London,Great Britain,Cape Verde,CPV,0,0,0,0,1,0,1,505241,19.79,Africa
-2012,London,Great Britain,Central African Republic,CAF,0,0,0,0,1,0,1,4436411,2.25,Africa
-2012,London,Great Britain,Chile,CHI,1,0,0,1,4,3,7,17400359,4.02,South America
-2012,London,Great Britain,China,CHN,95,71,65,231,154,128,282,1350695000,2.09,Asia
+2012,London,United Kingdom,Afghanistan,AFG,0,0,0,0,1,0,1,31161378,0.32,Asia
+2012,London,United Kingdom,Albania,ALB,0,0,0,0,1,0,1,2900401,3.45,Europe
+2012,London,United Kingdom,Algeria,ALG,4,6,9,19,24,7,31,37383899,8.29,Africa
+2012,London,United Kingdom,Andorra,AND,0,0,0,0,1,0,1,82427,121.32,Europe
+2012,London,United Kingdom,Angola,ANG,1,0,1,2,2,2,4,25107925,1.59,Africa
+2012,London,United Kingdom,Antigua and Barbuda,ANT,0,0,0,0,1,0,1,90407,110.61,North America
+2012,London,United Kingdom,Argentina,ARG,0,1,4,5,47,10,57,41733271,13.66,South America
+2012,London,United Kingdom,Armenia,ARM,0,0,0,0,0,2,2,2884239,6.93,Europe
+2012,London,United Kingdom,Australia,AUS,32,23,30,85,88,70,158,22733465,69.5,Oceania
+2012,London,United Kingdom,Austria,AUT,4,3,6,13,27,5,32,8429991,37.96,Europe
+2012,London,United Kingdom,Azerbaijan,AZE,4,5,3,12,16,5,21,9295784,22.59,Europe
+2012,London,United Kingdom,Bahrain,BRN,0,0,0,0,1,1,2,1299942,15.39,Asia
+2012,London,United Kingdom,Barbados,BAR,0,0,0,0,1,0,1,283698,35.25,North America
+2012,London,United Kingdom,Belarus,BLR,5,2,3,10,15,14,29,9464495,30.64,Europe
+2012,London,United Kingdom,Belgium,BEL,3,1,3,7,31,9,40,11106932,36.01,Europe
+2012,London,United Kingdom,Benin,BEN,0,0,0,0,1,0,1,9729254,1.03,Africa
+2012,London,United Kingdom,Bermuda,BER,0,0,0,0,0,1,1,64798,154.33,North America
+2012,London,United Kingdom,Bosnia and Herzegovina,BIH,1,0,0,1,11,1,12,3604972,33.29,Europe
+2012,London,United Kingdom,Brazil,BRA,21,14,8,43,110,68,178,199287292,8.93,South America
+2012,London,United Kingdom,Brunei Darussalam,BRU,0,0,0,0,1,0,1,398997,25.06,Asia
+2012,London,United Kingdom,Bulgaria,BUL,0,2,1,3,4,4,8,7305888,10.95,Europe
+2012,London,United Kingdom,Burkina Faso,BUR,0,0,0,0,1,1,2,16571252,1.21,Africa
+2012,London,United Kingdom,Burundi,BDI,0,0,0,0,1,0,1,9245992,1.08,Africa
+2012,London,United Kingdom,Cambodia,CAM,0,0,0,0,0,1,1,14780454,0.68,Asia
+2012,London,United Kingdom,Cameroon,CMR,0,0,0,0,1,0,1,21485267,0.47,Africa
+2012,London,United Kingdom,Canada,CAN,7,15,9,31,87,57,144,34714222,41.48,North America
+2012,London,United Kingdom,Cape Verde,CPV,0,0,0,0,1,0,1,505241,19.79,Africa
+2012,London,United Kingdom,Central African Republic,CAF,0,0,0,0,1,0,1,4436411,2.25,Africa
+2012,London,United Kingdom,Chile,CHI,1,0,0,1,4,3,7,17400359,4.02,South America
+2012,London,United Kingdom,China,CHN,95,71,65,231,154,128,282,1350695000,2.09,Asia
 2008,Beijing,China,Taipei,TPE,1,0,1,2,10,7,17,,,Asia
-2012,London,Great Britain,Colombia,COL,0,2,0,2,30,7,37,46075721,8.03,South America
-2012,London,Great Britain,Comoros,COM,0,0,0,0,1,0,1,723865,13.81,Africa
-2012,London,Great Britain,Costa Rica,CRC,0,0,0,0,2,0,2,4688003,4.27,North America
-2012,London,Great Britain,Taipei,TPE,0,1,2,3,9,9,18,,,Asia
-2012,London,Great Britain,Croatia,CRO,0,2,3,5,18,7,25,4267558,58.58,Europe
-2012,London,Great Britain,Cuba,CUB,9,5,3,17,18,4,22,11257112,19.54,North America
-2012,London,Great Britain,Cyprus,CYP,0,1,0,1,2,1,3,1135046,26.43,Europe
-2012,London,Great Britain,Czech Republic,CZE,1,6,4,11,31,15,46,10510785,43.76,Europe
-2012,London,Great Britain,Denmark,DEN,1,0,4,5,15,13,28,5591572,50.08,Europe
-2012,London,Great Britain,Djibouti,DJI,0,0,0,0,1,0,1,868136,11.52,Africa
-2012,London,Great Britain,Dominican Republic,DOM,0,0,0,0,2,0,2,9930916,2.01,North America
+2012,London,United Kingdom,Colombia,COL,0,2,0,2,30,7,37,46075721,8.03,South America
+2012,London,United Kingdom,Comoros,COM,0,0,0,0,1,0,1,723865,13.81,Africa
+2012,London,United Kingdom,Costa Rica,CRC,0,0,0,0,2,0,2,4688003,4.27,North America
+2012,London,United Kingdom,Taipei,TPE,0,1,2,3,9,9,18,,,Asia
+2012,London,United Kingdom,Croatia,CRO,0,2,3,5,18,7,25,4267558,58.58,Europe
+2012,London,United Kingdom,Cuba,CUB,9,5,3,17,18,4,22,11257112,19.54,North America
+2012,London,United Kingdom,Cyprus,CYP,0,1,0,1,2,1,3,1135046,26.43,Europe
+2012,London,United Kingdom,Czech Republic,CZE,1,6,4,11,31,15,46,10510785,43.76,Europe
+2012,London,United Kingdom,Denmark,DEN,1,0,4,5,15,13,28,5591572,50.08,Europe
+2012,London,United Kingdom,Djibouti,DJI,0,0,0,0,1,0,1,868136,11.52,Africa
+2012,London,United Kingdom,Dominican Republic,DOM,0,0,0,0,2,0,2,9930916,2.01,North America
 2016,Rio de Janeiro,Brazil,Taipei,TPE,0,1,1,2,5,8,13,,,Asia
-2012,London,Great Britain,Ecuador,ECU,0,0,0,0,1,1,2,15474099,1.29,South America
-2012,London,Great Britain,Egypt,EGY,4,4,7,15,29,11,40,86422240,4.63,Africa
-2012,London,Great Britain,El Salvador,ESA,0,0,0,0,1,0,1,6237922,1.6,North America
-2012,London,Great Britain,Estonia,EST,0,0,0,0,2,1,3,1322696,22.68,Europe
-2012,London,Great Britain,Ethiopia,ETH,0,1,0,1,3,1,4,92726982,0.43,Africa
-2012,London,Great Britain,Faroe Islands,FRO,0,0,0,0,1,0,1,47843,209.02,Europe
-2012,London,Great Britain,Fiji,FIJ,1,0,0,1,1,0,1,865065,11.56,Oceania
-2012,London,Great Britain,Finland,FIN,4,1,1,6,21,14,35,5413971,64.65,Europe
-2012,London,Great Britain,France,FRA,8,19,18,45,101,51,152,65659814,23.15,Europe
-2012,London,Great Britain,Gabon,GAB,0,0,0,0,1,0,1,1749677,5.72,Africa
-2012,London,Great Britain,Gambia,GAM,0,0,0,0,1,1,2,1905020,10.5,Africa
-2012,London,Great Britain,Georgia,GEO,0,0,0,0,2,0,2,3728874,5.36,Europe
-2012,London,Great Britain,Germany,GER,18,26,22,66,88,62,150,80425823,18.65,Europe
-2012,London,Great Britain,Ghana,GHA,0,0,0,0,3,1,4,25996454,1.54,Africa
-2012,London,Great Britain,Great Britain,GBR,34,43,43,120,177,109,286,63700215,44.9,Europe
-2012,London,Great Britain,Greece,GRE,1,3,8,12,47,13,60,11045011,54.32,Europe
-2012,London,Great Britain,Guatemala,GUA,0,0,0,0,1,0,1,14781942,0.68,North America
-2012,London,Great Britain,Guinea-Bissau,GBS,0,0,0,0,1,1,2,1604981,12.46,Africa
-2012,London,Great Britain,Haiti,HAI,0,0,0,0,2,1,3,10250922,2.93,North America
-2012,London,Great Britain,Honduras,HON,0,0,0,0,1,0,1,8640692,1.16,North America
-2012,London,Great Britain,Hong Kong,HKG,3,3,6,12,13,15,28,7150100,39.16,Asia
-2012,London,Great Britain,Hungary,HUN,2,6,6,14,19,14,33,9920362,33.26,Europe
-2012,London,Great Britain,Iceland,ISL,1,0,0,1,2,2,4,320716,124.72,Europe
-2012,London,Great Britain,India,IND,0,1,0,1,10,0,10,1265780243,0.08,Asia
-2012,London,Great Britain,Indonesia,INA,0,0,1,1,3,1,4,248451714,0.16,Asia
-2012,London,Great Britain,Islamic Republic of Iran,IRI,10,7,7,24,70,7,77,75539881,10.19,Asia
-2012,London,Great Britain,Iraq,IRQ,0,2,1,3,16,3,19,31890012,5.96,Asia
-2012,London,Great Britain,Ireland,IRL,8,3,5,16,28,17,45,4599533,97.84,Europe
-2012,London,Great Britain,Israel,ISR,1,2,5,8,18,7,25,7910500,31.6,Asia
-2012,London,Great Britain,Italy,ITA,9,8,11,28,65,31,96,59539717,16.12,Europe
-2012,London,Great Britain,Jamaica,JAM,1,0,0,1,2,1,3,2842128,10.56,North America
-2012,London,Great Britain,Japan,JPN,5,5,6,16,89,45,134,127629000,10.5,Asia
-2012,London,Great Britain,Jordan,JOR,0,0,0,0,4,4,8,8089963,9.89,Asia
-2012,London,Great Britain,Kazakhstan,KAZ,0,0,0,0,4,3,7,16792090,4.17,Europe
-2012,London,Great Britain,Kenya,KEN,2,2,2,6,10,2,12,44343469,2.71,Africa
-2012,London,Great Britain,Republic of Korea,KOR,9,9,9,27,60,28,88,50199853,17.53,Asia
+2012,London,United Kingdom,Ecuador,ECU,0,0,0,0,1,1,2,15474099,1.29,South America
+2012,London,United Kingdom,Egypt,EGY,4,4,7,15,29,11,40,86422240,4.63,Africa
+2012,London,United Kingdom,El Salvador,ESA,0,0,0,0,1,0,1,6237922,1.6,North America
+2012,London,United Kingdom,Estonia,EST,0,0,0,0,2,1,3,1322696,22.68,Europe
+2012,London,United Kingdom,Ethiopia,ETH,0,1,0,1,3,1,4,92726982,0.43,Africa
+2012,London,United Kingdom,Faroe Islands,FRO,0,0,0,0,1,0,1,47843,209.02,Europe
+2012,London,United Kingdom,Fiji,FIJ,1,0,0,1,1,0,1,865065,11.56,Oceania
+2012,London,United Kingdom,Finland,FIN,4,1,1,6,21,14,35,5413971,64.65,Europe
+2012,London,United Kingdom,France,FRA,8,19,18,45,101,51,152,65659814,23.15,Europe
+2012,London,United Kingdom,Gabon,GAB,0,0,0,0,1,0,1,1749677,5.72,Africa
+2012,London,United Kingdom,Gambia,GAM,0,0,0,0,1,1,2,1905020,10.5,Africa
+2012,London,United Kingdom,Georgia,GEO,0,0,0,0,2,0,2,3728874,5.36,Europe
+2012,London,United Kingdom,Germany,GER,18,26,22,66,88,62,150,80425823,18.65,Europe
+2012,London,United Kingdom,Ghana,GHA,0,0,0,0,3,1,4,25996454,1.54,Africa
+2012,London,United Kingdom,United Kingdom,GBR,34,43,43,120,177,109,286,63700215,44.9,Europe
+2012,London,United Kingdom,Greece,GRE,1,3,8,12,47,13,60,11045011,54.32,Europe
+2012,London,United Kingdom,Guatemala,GUA,0,0,0,0,1,0,1,14781942,0.68,North America
+2012,London,United Kingdom,Guinea-Bissau,GBS,0,0,0,0,1,1,2,1604981,12.46,Africa
+2012,London,United Kingdom,Haiti,HAI,0,0,0,0,2,1,3,10250922,2.93,North America
+2012,London,United Kingdom,Honduras,HON,0,0,0,0,1,0,1,8640692,1.16,North America
+2012,London,United Kingdom,Hong Kong,HKG,3,3,6,12,13,15,28,7150100,39.16,Asia
+2012,London,United Kingdom,Hungary,HUN,2,6,6,14,19,14,33,9920362,33.26,Europe
+2012,London,United Kingdom,Iceland,ISL,1,0,0,1,2,2,4,320716,124.72,Europe
+2012,London,United Kingdom,India,IND,0,1,0,1,10,0,10,1265780243,0.08,Asia
+2012,London,United Kingdom,Indonesia,INA,0,0,1,1,3,1,4,248451714,0.16,Asia
+2012,London,United Kingdom,Islamic Republic of Iran,IRI,10,7,7,24,70,7,77,75539881,10.19,Asia
+2012,London,United Kingdom,Iraq,IRQ,0,2,1,3,16,3,19,31890012,5.96,Asia
+2012,London,United Kingdom,Ireland,IRL,8,3,5,16,28,17,45,4599533,97.84,Europe
+2012,London,United Kingdom,Israel,ISR,1,2,5,8,18,7,25,7910500,31.6,Asia
+2012,London,United Kingdom,Italy,ITA,9,8,11,28,65,31,96,59539717,16.12,Europe
+2012,London,United Kingdom,Jamaica,JAM,1,0,0,1,2,1,3,2842128,10.56,North America
+2012,London,United Kingdom,Japan,JPN,5,5,6,16,89,45,134,127629000,10.5,Asia
+2012,London,United Kingdom,Jordan,JOR,0,0,0,0,4,4,8,8089963,9.89,Asia
+2012,London,United Kingdom,Kazakhstan,KAZ,0,0,0,0,4,3,7,16792090,4.17,Europe
+2012,London,United Kingdom,Kenya,KEN,2,2,2,6,10,2,12,44343469,2.71,Africa
+2012,London,United Kingdom,Republic of Korea,KOR,9,9,9,27,60,28,88,50199853,17.53,Asia
 2020,Tokyo,Japan,Taipei,TPE,0,0,1,1,4,6,10,,,Asia
-2012,London,Great Britain,Kuwait,KUW,0,0,0,0,6,0,6,3348852,17.92,Asia
-2012,London,Great Britain,Kyrgyzstan,KGZ,0,0,0,0,1,0,1,5607200,1.78,Asia
-2012,London,Great Britain,Lao People's Democratic Republic,LAO,0,0,0,0,1,0,1,6444527,1.55,Asia
-2012,London,Great Britain,Latvia,LAT,1,1,0,2,6,2,8,2034319,39.33,Europe
-2012,London,Great Britain,Lebanon,LBN,0,0,0,0,1,0,1,5537620,1.81,Asia
-2012,London,Great Britain,Lesotho,LES,0,0,0,0,0,1,1,2014988,4.96,Africa
-2012,London,Great Britain,Liberia,LBR,0,0,0,0,1,0,1,4135662,2.42,Africa
-2012,London,Great Britain,Libya,LBA,0,0,0,0,2,0,2,6285751,3.18,Africa
-2012,London,Great Britain,Lithuania,LTU,0,0,0,0,9,2,11,2987773,36.82,Europe
-1992,Barcelona,Spain,Tanzania,TAN,0,0,0,0,1,0,1,26961204,0.00,Africa
-2012,London,Great Britain,Madagascar,MAD,0,0,0,0,1,0,1,22346641,0.45,Africa
-2012,London,Great Britain,Malaysia,MAS,0,1,1,2,16,6,22,29068189,7.57,Asia
-2012,London,Great Britain,Mali,MLI,0,0,0,0,1,0,1,15979492,0.63,Africa
-2012,London,Great Britain,Malta,MLT,0,0,0,0,1,0,1,420028,23.81,Europe
-2012,London,Great Britain,Mauritania,MTN,0,0,0,0,1,1,2,3706555,5.4,Africa
-2012,London,Great Britain,Mauritius,MRI,0,0,0,0,1,1,2,1255882,15.93,Africa
-2012,London,Great Britain,Mexico,MEX,6,4,11,21,37,44,81,117274156,6.91,North America
-2012,London,Great Britain,Republic of Moldova,MDA,0,0,0,0,1,1,2,2859458,6.99,Europe
-2012,London,Great Britain,Mongolia,MGL,0,0,0,0,3,3,6,2824698,21.24,Asia
-2012,London,Great Britain,Montenegro,MNE,0,0,0,0,0,1,1,620601,16.11,Europe
-2012,London,Great Britain,Morocco,MAR,3,0,3,6,24,6,30,33241898,9.02,Africa
-2012,London,Great Britain,Mozambique,MOZ,0,0,0,0,1,1,2,24862673,0.8,Africa
-2012,London,Great Britain,Myanmar,MYA,0,0,0,0,2,0,2,51413703,0.39,Asia
-2012,London,Great Britain,Namibia,NAM,1,1,0,2,4,1,5,2194777,22.78,Africa
-2012,London,Great Britain,Nepal,NEP,0,0,0,0,1,1,2,26989160,0.74,Asia
-2012,London,Great Britain,Netherlands,NED,10,10,19,39,39,49,88,16754962,52.52,Europe
-2012,London,Great Britain,New Zealand,NZL,6,7,4,17,11,12,23,4408100,52.18,Oceania
-2012,London,Great Britain,Nicaragua,NCA,0,0,0,0,1,1,2,5982530,3.34,North America
-2012,London,Great Britain,Niger,NIG,0,0,0,0,1,1,2,17795209,1.12,Africa
-2012,London,Great Britain,Nigeria,NGR,6,5,2,13,17,12,29,167228803,1.73,Africa
-2012,London,Great Britain,North Macedonia,MKD,1,0,0,1,1,1,2,2074275,9.64,Europe
-2012,London,Great Britain,Norway,NOR,3,2,3,8,13,9,22,5018573,43.84,Europe
-2012,London,Great Britain,Oman,OMA,0,0,0,0,2,0,2,3498031,5.72,Asia
-2012,London,Great Britain,Pakistan,PAK,0,0,0,0,2,0,2,187280125,0.11,Asia
-2004,Athens,Greece,Tanzania,TAN,0,0,0,0,1,1,2,37379766,0.00,Africa
-2012,London,Great Britain,Panama,PAN,0,0,0,0,1,1,2,3770635,5.3,North America
-2012,London,Great Britain,Papua New Guinea,PNG,0,0,0,0,2,0,2,7631003,2.62,Oceania
-2012,London,Great Britain,Peru,PER,0,0,0,0,1,0,1,29506790,0.34,South America
-2012,London,Great Britain,Philippines,PHI,0,0,0,0,4,5,9,97212639,0.93,Asia
-2012,London,Great Britain,Poland,POL,14,13,9,36,64,35,99,38063164,26.01,Europe
-2012,London,Great Britain,Portugal,POR,0,1,2,3,22,8,30,10514844,28.53,Europe
-2012,London,Great Britain,Puerto Rico,PUR,0,0,0,0,2,0,2,3634488,5.5,North America
-2012,London,Great Britain,Qatar,QAT,0,0,0,0,1,0,1,2196078,4.55,Asia
-2012,London,Great Britain,Romania,ROU,1,1,0,2,4,1,5,20058035,2.49,Europe
-2008,Beijing,China,Tanzania,TAN,0,0,0,0,1,0,1,41853944,0.00,Africa
-2012,London,Great Britain,Rwanda,RWA,0,0,0,0,14,0,14,10549668,13.27,Africa
-2012,London,Great Britain,Samoa,SAM,0,0,0,0,1,1,2,189089,105.77,Oceania
-2012,London,Great Britain,San Marino,SMR,0,0,0,0,1,0,1,32103,311.5,Europe
-2012,London,Great Britain,Saudi Arabia,KSA,0,1,0,1,4,0,4,29154906,1.37,Asia
-2012,London,Great Britain,Senegal,SEN,0,0,0,0,1,0,1,13401990,0.75,Africa
-2012,London,Great Britain,Serbia,SRB,2,3,0,5,9,4,13,7199077,18.06,Europe
-2012,London,Great Britain,Sierra Leone,SLE,0,0,0,0,1,0,1,6712586,1.49,Africa
-2012,London,Great Britain,Singapore,SGP,0,1,1,2,2,6,8,5312437,15.06,Asia
-2012,London,Great Britain,Slovakia,SVK,2,1,3,6,25,8,33,5407579,61.03,Europe
-2012,London,Great Britain,Slovenia,SLO,0,1,0,1,7,15,22,2057159,106.94,Europe
-2012,London,Great Britain,Solomon Islands,SOL,0,0,0,0,0,1,1,556066,17.98,Oceania
-2012,London,Great Britain,South Africa,RSA,8,12,9,29,44,18,62,52832659,11.74,Africa
-2012,London,Great Britain,Spain,ESP,8,18,16,42,98,29,127,46773055,27.15,Europe
-2012,London,Great Britain,Sri Lanka,SRI,0,0,1,1,6,1,7,20425000,3.43,Asia
-2012,London,Great Britain,Suriname,SUR,0,0,0,0,1,0,1,541247,18.48,South America
-2012,London,Great Britain,Sweden,SWE,4,4,4,12,40,19,59,9519374,61.98,Europe
-2012,London,Great Britain,Switzerland,SUI,3,6,4,13,15,10,25,7996861,31.26,Europe
-2012,London,Great Britain,Syrian Arab Republic,SYR,0,0,0,0,3,2,5,20438861,2.45,Asia
-2012,London,Great Britain,Tajikistan,TJK,0,0,0,0,1,0,1,7874838,1.27,Asia
-2012,London,Great Britain,Tanzania,TAN,0,0,0,0,1,0,1,47053033,0.00,Africa
-2012,London,Great Britain,Thailand,THA,4,2,2,8,38,11,49,67835969,7.22,Asia
-2012,London,Great Britain,Timor-Leste,TLS,0,0,0,0,1,0,1,1133002,8.83,Asia
-2012,London,Great Britain,Tonga,TGA,0,0,0,0,1,0,1,102736,97.34,Oceania
-2012,London,Great Britain,Trinidad and Tobago,TTO,0,0,0,0,1,1,2,1344814,14.87,North America
-2012,London,Great Britain,Tunisia,TUN,9,5,5,19,18,13,31,10846993,28.58,Africa
-2012,London,Great Britain,Turkey,TUR,1,5,4,10,46,21,67,74651046,8.98,Europe
-2012,London,Great Britain,Turkmenistan,TKM,0,0,0,0,3,2,5,5267906,9.49,Asia
-2012,London,Great Britain,US Virgin Islands,ISV,0,0,0,0,0,1,1,108188,92.43,North America
-2012,London,Great Britain,Uganda,UGA,0,0,0,0,1,1,2,34558700,0.58,Africa
-2012,London,Great Britain,Ukraine,UKR,32,24,28,84,83,65,148,45593342,32.46,Europe
-2012,London,Great Britain,United Arab Emirates,UAE,1,1,1,3,11,4,15,9141598,16.41,Asia
-2012,London,Great Britain,United States of America,USA,31,29,38,98,128,93,221,313877662,7.04,North America
-2012,London,Great Britain,Uruguay,URU,0,0,0,0,1,0,1,3378975,2.96,South America
-2012,London,Great Britain,Uzbekistan,UZB,0,1,0,1,8,2,10,29774500,3.36,Asia
-2012,London,Great Britain,Vanuatu,VAN,0,0,0,0,1,0,1,249505,40.08,Oceania
-2012,London,Great Britain,Venezuela,VEN,0,0,2,2,21,6,27,29360827,9.2,South America
-2012,London,Great Britain,Vietnam,VIE,0,0,0,0,6,5,11,89801926,1.22,Asia
-2012,London,Great Britain,Zambia,ZAM,0,0,0,0,1,1,2,14465148,1.38,Africa
-2012,London,Great Britain,Zimbabwe,ZIM,0,0,0,0,2,0,2,13115149,1.52,Africa
+2012,London,United Kingdom,Kuwait,KUW,0,0,0,0,6,0,6,3348852,17.92,Asia
+2012,London,United Kingdom,Kyrgyzstan,KGZ,0,0,0,0,1,0,1,5607200,1.78,Asia
+2012,London,United Kingdom,Lao People's Democratic Republic,LAO,0,0,0,0,1,0,1,6444527,1.55,Asia
+2012,London,United Kingdom,Latvia,LAT,1,1,0,2,6,2,8,2034319,39.33,Europe
+2012,London,United Kingdom,Lebanon,LBN,0,0,0,0,1,0,1,5537620,1.81,Asia
+2012,London,United Kingdom,Lesotho,LES,0,0,0,0,0,1,1,2014988,4.96,Africa
+2012,London,United Kingdom,Liberia,LBR,0,0,0,0,1,0,1,4135662,2.42,Africa
+2012,London,United Kingdom,Libya,LBA,0,0,0,0,2,0,2,6285751,3.18,Africa
+2012,London,United Kingdom,Lithuania,LTU,0,0,0,0,9,2,11,2987773,36.82,Europe
+1992,Barcelona,Spain,Tanzania,TAN,0,0,0,0,1,0,1,26961204,0,Africa
+2012,London,United Kingdom,Madagascar,MAD,0,0,0,0,1,0,1,22346641,0.45,Africa
+2012,London,United Kingdom,Malaysia,MAS,0,1,1,2,16,6,22,29068189,7.57,Asia
+2012,London,United Kingdom,Mali,MLI,0,0,0,0,1,0,1,15979492,0.63,Africa
+2012,London,United Kingdom,Malta,MLT,0,0,0,0,1,0,1,420028,23.81,Europe
+2012,London,United Kingdom,Mauritania,MTN,0,0,0,0,1,1,2,3706555,5.4,Africa
+2012,London,United Kingdom,Mauritius,MRI,0,0,0,0,1,1,2,1255882,15.93,Africa
+2012,London,United Kingdom,Mexico,MEX,6,4,11,21,37,44,81,117274156,6.91,North America
+2012,London,United Kingdom,Republic of Moldova,MDA,0,0,0,0,1,1,2,2859458,6.99,Europe
+2012,London,United Kingdom,Mongolia,MGL,0,0,0,0,3,3,6,2824698,21.24,Asia
+2012,London,United Kingdom,Montenegro,MNE,0,0,0,0,0,1,1,620601,16.11,Europe
+2012,London,United Kingdom,Morocco,MAR,3,0,3,6,24,6,30,33241898,9.02,Africa
+2012,London,United Kingdom,Mozambique,MOZ,0,0,0,0,1,1,2,24862673,0.8,Africa
+2012,London,United Kingdom,Myanmar,MYA,0,0,0,0,2,0,2,51413703,0.39,Asia
+2012,London,United Kingdom,Namibia,NAM,1,1,0,2,4,1,5,2194777,22.78,Africa
+2012,London,United Kingdom,Nepal,NEP,0,0,0,0,1,1,2,26989160,0.74,Asia
+2012,London,United Kingdom,Netherlands,NED,10,10,19,39,39,49,88,16754962,52.52,Europe
+2012,London,United Kingdom,New Zealand,NZL,6,7,4,17,11,12,23,4408100,52.18,Oceania
+2012,London,United Kingdom,Nicaragua,NCA,0,0,0,0,1,1,2,5982530,3.34,North America
+2012,London,United Kingdom,Niger,NIG,0,0,0,0,1,1,2,17795209,1.12,Africa
+2012,London,United Kingdom,Nigeria,NGR,6,5,2,13,17,12,29,167228803,1.73,Africa
+2012,London,United Kingdom,North Macedonia,MKD,1,0,0,1,1,1,2,2074275,9.64,Europe
+2012,London,United Kingdom,Norway,NOR,3,2,3,8,13,9,22,5018573,43.84,Europe
+2012,London,United Kingdom,Oman,OMA,0,0,0,0,2,0,2,3498031,5.72,Asia
+2012,London,United Kingdom,Pakistan,PAK,0,0,0,0,2,0,2,187280125,0.11,Asia
+2004,Athens,Greece,Tanzania,TAN,0,0,0,0,1,1,2,37379766,0,Africa
+2012,London,United Kingdom,Panama,PAN,0,0,0,0,1,1,2,3770635,5.3,North America
+2012,London,United Kingdom,Papua New Guinea,PNG,0,0,0,0,2,0,2,7631003,2.62,Oceania
+2012,London,United Kingdom,Peru,PER,0,0,0,0,1,0,1,29506790,0.34,South America
+2012,London,United Kingdom,Philippines,PHI,0,0,0,0,4,5,9,97212639,0.93,Asia
+2012,London,United Kingdom,Poland,POL,14,13,9,36,64,35,99,38063164,26.01,Europe
+2012,London,United Kingdom,Portugal,POR,0,1,2,3,22,8,30,10514844,28.53,Europe
+2012,London,United Kingdom,Puerto Rico,PUR,0,0,0,0,2,0,2,3634488,5.5,North America
+2012,London,United Kingdom,Qatar,QAT,0,0,0,0,1,0,1,2196078,4.55,Asia
+2012,London,United Kingdom,Romania,ROU,1,1,0,2,4,1,5,20058035,2.49,Europe
+2008,Beijing,China,Tanzania,TAN,0,0,0,0,1,0,1,41853944,0,Africa
+2012,London,United Kingdom,Rwanda,RWA,0,0,0,0,14,0,14,10549668,13.27,Africa
+2012,London,United Kingdom,Samoa,SAM,0,0,0,0,1,1,2,189089,105.77,Oceania
+2012,London,United Kingdom,San Marino,SMR,0,0,0,0,1,0,1,32103,311.5,Europe
+2012,London,United Kingdom,Saudi Arabia,KSA,0,1,0,1,4,0,4,29154906,1.37,Asia
+2012,London,United Kingdom,Senegal,SEN,0,0,0,0,1,0,1,13401990,0.75,Africa
+2012,London,United Kingdom,Serbia,SRB,2,3,0,5,9,4,13,7199077,18.06,Europe
+2012,London,United Kingdom,Sierra Leone,SLE,0,0,0,0,1,0,1,6712586,1.49,Africa
+2012,London,United Kingdom,Singapore,SGP,0,1,1,2,2,6,8,5312437,15.06,Asia
+2012,London,United Kingdom,Slovakia,SVK,2,1,3,6,25,8,33,5407579,61.03,Europe
+2012,London,United Kingdom,Slovenia,SLO,0,1,0,1,7,15,22,2057159,106.94,Europe
+2012,London,United Kingdom,Solomon Islands,SOL,0,0,0,0,0,1,1,556066,17.98,Oceania
+2012,London,United Kingdom,South Africa,RSA,8,12,9,29,44,18,62,52832659,11.74,Africa
+2012,London,United Kingdom,Spain,ESP,8,18,16,42,98,29,127,46773055,27.15,Europe
+2012,London,United Kingdom,Sri Lanka,SRI,0,0,1,1,6,1,7,20425000,3.43,Asia
+2012,London,United Kingdom,Suriname,SUR,0,0,0,0,1,0,1,541247,18.48,South America
+2012,London,United Kingdom,Sweden,SWE,4,4,4,12,40,19,59,9519374,61.98,Europe
+2012,London,United Kingdom,Switzerland,SUI,3,6,4,13,15,10,25,7996861,31.26,Europe
+2012,London,United Kingdom,Syrian Arab Republic,SYR,0,0,0,0,3,2,5,20438861,2.45,Asia
+2012,London,United Kingdom,Tajikistan,TJK,0,0,0,0,1,0,1,7874838,1.27,Asia
+2012,London,United Kingdom,Tanzania,TAN,0,0,0,0,1,0,1,47053033,0,Africa
+2012,London,United Kingdom,Thailand,THA,4,2,2,8,38,11,49,67835969,7.22,Asia
+2012,London,United Kingdom,Timor-Leste,TLS,0,0,0,0,1,0,1,1133002,8.83,Asia
+2012,London,United Kingdom,Tonga,TGA,0,0,0,0,1,0,1,102736,97.34,Oceania
+2012,London,United Kingdom,Trinidad and Tobago,TTO,0,0,0,0,1,1,2,1344814,14.87,North America
+2012,London,United Kingdom,Tunisia,TUN,9,5,5,19,18,13,31,10846993,28.58,Africa
+2012,London,United Kingdom,Turkey,TUR,1,5,4,10,46,21,67,74651046,8.98,Europe
+2012,London,United Kingdom,Turkmenistan,TKM,0,0,0,0,3,2,5,5267906,9.49,Asia
+2012,London,United Kingdom,US Virgin Islands,ISV,0,0,0,0,0,1,1,108188,92.43,North America
+2012,London,United Kingdom,Uganda,UGA,0,0,0,0,1,1,2,34558700,0.58,Africa
+2012,London,United Kingdom,Ukraine,UKR,32,24,28,84,83,65,148,45593342,32.46,Europe
+2012,London,United Kingdom,United Arab Emirates,UAE,1,1,1,3,11,4,15,9141598,16.41,Asia
+2012,London,United Kingdom,United States,USA,31,29,38,98,128,93,221,313877662,7.04,North America
+2012,London,United Kingdom,Uruguay,URU,0,0,0,0,1,0,1,3378975,2.96,South America
+2012,London,United Kingdom,Uzbekistan,UZB,0,1,0,1,8,2,10,29774500,3.36,Asia
+2012,London,United Kingdom,Vanuatu,VAN,0,0,0,0,1,0,1,249505,40.08,Oceania
+2012,London,United Kingdom,Venezuela,VEN,0,0,2,2,21,6,27,29360827,9.2,South America
+2012,London,United Kingdom,Vietnam,VIE,0,0,0,0,6,5,11,89801926,1.22,Asia
+2012,London,United Kingdom,Zambia,ZAM,0,0,0,0,1,1,2,14465148,1.38,Africa
+2012,London,United Kingdom,Zimbabwe,ZIM,0,0,0,0,2,0,2,13115149,1.52,Africa
 2016,Rio de Janeiro,Brazil,Afghanistan,AFG,0,0,0,0,1,0,1,35383028,0.28,Asia
 2016,Rio de Janeiro,Brazil,Algeria,ALG,4,5,7,16,34,26,60,40551398,14.8,Africa
 2016,Rio de Janeiro,Brazil,Angola,ANG,0,0,0,0,2,2,4,28842482,1.39,Africa
@@ -1085,7 +1085,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2016,Rio de Janeiro,Brazil,Central African Republic,CAF,0,0,0,0,1,0,1,4537683,2.2,Africa
 2016,Rio de Janeiro,Brazil,Chile,CHI,0,0,0,0,7,8,15,18209072,8.24,South America
 2016,Rio de Janeiro,Brazil,China,CHN,107,81,51,239,161,146,307,1378665000,2.23,Asia
-2016,Rio de Janeiro,Brazil,Tanzania,TAN,0,0,0,0,1,0,1,53049231,0.00,Africa
+2016,Rio de Janeiro,Brazil,Tanzania,TAN,0,0,0,0,1,0,1,53049231,0,Africa
 2016,Rio de Janeiro,Brazil,Colombia,COL,2,5,10,17,26,13,39,48175048,8.1,South America
 2016,Rio de Janeiro,Brazil,Congo,CGO,0,0,0,0,1,0,1,4980996,2.01,Africa
 2016,Rio de Janeiro,Brazil,Costa Rica,CRC,0,0,0,0,2,1,3,4899336,6.12,North America
@@ -1111,7 +1111,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2016,Rio de Janeiro,Brazil,Georgia,GEO,1,0,0,1,3,2,5,3727505,13.41,Europe
 2016,Rio de Janeiro,Brazil,Germany,GER,18,25,14,57,89,66,155,82348669,18.82,Europe
 2016,Rio de Janeiro,Brazil,Ghana,GHA,0,0,0,0,3,0,3,28481947,1.05,Africa
-2016,Rio de Janeiro,Brazil,Great Britain,GBR,64,39,44,147,151,100,251,65611593,38.26,Europe
+2016,Rio de Janeiro,Brazil,United Kingdom,GBR,64,39,44,147,151,100,251,65611593,38.26,Europe
 2016,Rio de Janeiro,Brazil,Greece,GRE,5,4,4,13,44,16,60,10775971,55.68,Europe
 2016,Rio de Janeiro,Brazil,Guatemala,GUA,0,0,0,0,1,0,1,15827690,0.63,North America
 2016,Rio de Janeiro,Brazil,Guinea,GUY,0,0,0,0,1,0,1,11738434,0.85,Africa
@@ -1135,7 +1135,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2016,Rio de Janeiro,Brazil,Kazakhstan,KAZ,1,1,0,2,7,4,11,17794055,6.18,Europe
 2016,Rio de Janeiro,Brazil,Kenya,KEN,3,1,2,6,7,2,9,49051531,1.83,Africa
 2016,Rio de Janeiro,Brazil,Republic of Korea,KOR,7,11,17,35,53,29,82,51217803,16.01,Asia
-1984,"Stoke Mandeville, New York","Great Britain, United States of America",Yugoslavia,YUG,11,10,11,32,25,5,30,,,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States",Yugoslavia,YUG,11,10,11,32,25,5,30,,,Europe
 2016,Rio de Janeiro,Brazil,Kuwait,KUW,1,0,0,1,6,0,6,3956862,15.16,Asia
 2016,Rio de Janeiro,Brazil,Kyrgyzstan,KGZ,0,0,0,0,3,0,3,6079500,4.93,Asia
 2016,Rio de Janeiro,Brazil,Lao People's Democratic Republic,LAO,0,0,0,0,1,0,1,6845848,1.46,Asia
@@ -1169,7 +1169,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2016,Rio de Janeiro,Brazil,Norway,NOR,3,2,3,8,12,13,25,5234519,47.76,Europe
 2016,Rio de Janeiro,Brazil,Oman,OMA,0,0,0,0,1,1,2,4479217,4.47,Asia
 2016,Rio de Janeiro,Brazil,Pakistan,PAK,0,0,1,1,1,0,1,203631356,0.05,Asia
-1996,Atlanta,United States of America,Yugoslavia,YUG,2,2,0,4,5,1,6,,,Europe
+1996,Atlanta,United States,Yugoslavia,YUG,2,2,0,4,5,1,6,,,Europe
 2016,Rio de Janeiro,Brazil,Panama,PAN,0,0,0,0,1,1,2,4037073,4.95,North America
 2016,Rio de Janeiro,Brazil,Papua New Guinea,PNG,0,0,0,0,1,1,2,8271766,2.42,Oceania
 2016,Rio de Janeiro,Brazil,Peru,PER,0,0,0,0,5,1,6,30926036,1.94,South America
@@ -1212,7 +1212,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2016,Rio de Janeiro,Brazil,Uganda,UGA,0,1,0,1,1,0,1,39649173,0.25,Africa
 2016,Rio de Janeiro,Brazil,Ukraine,UKR,41,37,39,117,91,77,168,45004673,37.33,Europe
 2016,Rio de Janeiro,Brazil,United Arab Emirates,UAE,2,4,1,7,12,6,18,9360975,19.23,Asia
-2016,Rio de Janeiro,Brazil,United States of America,USA,40,44,31,115,154,124,278,323071755,8.6,North America
+2016,Rio de Janeiro,Brazil,United States,USA,40,44,31,115,154,124,278,323071755,8.6,North America
 2016,Rio de Janeiro,Brazil,Uruguay,URU,0,0,0,0,3,1,4,3424139,11.68,South America
 2016,Rio de Janeiro,Brazil,Uzbekistan,UZB,8,6,17,31,22,10,32,31847900,10.05,Asia
 2016,Rio de Janeiro,Brazil,Venezuela,VEN,0,3,3,6,16,8,24,29851249,8.04,South America
@@ -1246,11 +1246,11 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2020,Tokyo,Japan,Cape Verde,CPV,0,0,0,0,1,1,2,555988,35.97,Africa
 2020,Tokyo,Japan,Central African Republic,CAF,0,0,0,0,0,1,1,4829764,2.07,Africa
 2020,Tokyo,Japan,Chile,CHI,2,3,1,6,10,9,19,19116209,9.94,South America
-1960,Rome,Italy,Zimbabwe,ZIM,2,1,2,5,0,1,1,3776679,0.00,Africa
+1960,Rome,Italy,Zimbabwe,ZIM,2,1,2,5,0,1,1,3776679,0,Africa
 2020,Tokyo,Japan,Colombia,COL,3,7,14,24,44,22,66,50882884,12.97,South America
 2020,Tokyo,Japan,Congo,CGO,0,0,0,0,1,1,2,5518092,3.62,Africa
 2020,Tokyo,Japan,Costa Rica,CRC,1,1,0,2,7,2,9,5094114,17.67,North America
-1964,Tokyo,Japan,Zimbabwe,ZIM,10,5,2,17,4,2,6,4322854,0.00,Africa
+1964,Tokyo,Japan,Zimbabwe,ZIM,10,5,2,17,4,2,6,4322854,0,Africa
 2020,Tokyo,Japan,Croatia,CRO,0,3,4,7,16,6,22,4047200,54.36,Europe
 2020,Tokyo,Japan,Cuba,CUB,4,1,1,6,13,4,17,11326616,15.01,North America
 2020,Tokyo,Japan,Cyprus,CYP,1,0,1,2,1,2,3,1207361,24.85,Europe
@@ -1272,7 +1272,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2020,Tokyo,Japan,Georgia,GEO,0,3,0,3,9,4,13,3714000,35,Europe
 2020,Tokyo,Japan,Germany,GER,13,12,18,43,79,58,137,83240525,16.46,Europe
 2020,Tokyo,Japan,Ghana,GHA,0,0,0,0,3,0,3,31072945,0.97,Africa
-2020,Tokyo,Japan,Great Britain,GBR,41,38,45,124,124,97,221,67215293,32.88,Europe
+2020,Tokyo,Japan,United Kingdom,GBR,41,38,45,124,124,97,221,67215293,32.88,Europe
 2020,Tokyo,Japan,Greece,GRE,1,3,7,11,34,11,45,10715549,42,Europe
 2020,Tokyo,Japan,Grenada,GRN,0,0,0,0,0,2,2,112519,177.75,North America
 2020,Tokyo,Japan,Guatemala,GUA,0,0,0,0,1,1,2,16858333,1.19,North America
@@ -1329,7 +1329,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2020,Tokyo,Japan,Norway,NOR,2,0,2,4,5,10,15,5379475,27.88,Europe
 2020,Tokyo,Japan,Oman,OMA,0,0,1,1,2,1,3,5106622,5.87,Asia
 2020,Tokyo,Japan,Pakistan,PAK,1,0,0,1,1,1,2,220892331,0.09,Asia
-1968,Tel Aviv,Israel,Zimbabwe,ZIM,6,7,7,20,7,7,14,4941901,0.00,Africa
+1968,Tel Aviv,Israel,Zimbabwe,ZIM,6,7,7,20,7,7,14,4941901,0,Africa
 2020,Tokyo,Japan,Panama,PAN,0,0,0,0,2,1,3,4314768,6.95,North America
 2020,Tokyo,Japan,Papua New Guinea,PNG,0,0,0,0,1,1,2,8947027,2.24,Oceania
 2020,Tokyo,Japan,Paraguay,PAR,0,0,0,0,1,1,2,7132530,2.8,South America
@@ -1340,7 +1340,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2020,Tokyo,Japan,Portugal,POR,0,0,2,2,24,10,34,10305564,32.99,Europe
 2020,Tokyo,Japan,Puerto Rico,PUR,0,0,0,0,2,1,3,3194034,9.39,North America
 2020,Tokyo,Japan,Qatar,QAT,0,0,1,1,1,1,2,2881060,6.94,Asia
-1972,Heidelberg,Germany,Zimbabwe,ZIM,3,5,4,12,6,7,13,5673914,0.00,Africa
+1972,Heidelberg,Germany,Zimbabwe,ZIM,3,5,4,12,6,7,13,5673914,0,Africa
 2020,Tokyo,Japan,Republic of Korea,KOR,2,10,12,24,57,28,85,51780579,16.42,Asia
 2020,Tokyo,Japan,Republic of Moldova,MDA,0,0,0,0,4,2,6,2617820,22.92,Europe
 2020,Tokyo,Japan,Romania,ROU,0,1,1,2,8,1,9,19286123,4.67,Europe
@@ -1371,7 +1371,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2020,Tokyo,Japan,Ukraine,UKR,24,47,27,98,80,59,139,44134693,31.49,Europe
 2020,Tokyo,Japan,United Arab Emirates,UAE,1,1,1,3,7,5,12,9890400,12.13,Asia
 2020,Tokyo,Japan,United Republic of Tanzania,TAN,0,0,0,0,1,1,2,59734213,0.33,Africa
-2020,Tokyo,Japan,United States of America,USA,37,36,31,104,120,123,243,329484123,7.38,North America
+2020,Tokyo,Japan,United States,USA,37,36,31,104,120,123,243,329484123,7.38,North America
 2020,Tokyo,Japan,Uruguay,URU,0,0,0,0,1,1,2,3473727,5.76,South America
 2020,Tokyo,Japan,Uzbekistan,UZB,8,5,6,19,25,19,44,34232050,12.85,Asia
 2020,Tokyo,Japan,Venezuela,VEN,3,2,2,7,13,14,27,28435943,9.5,South America

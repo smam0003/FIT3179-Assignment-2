@@ -140,7 +140,7 @@
         "text": { "field": "Country", "type": "nominal" },
         "opacity": {
           "condition": {
-            "test": "datum['Country'] == 'People\\'s Republic of China' || datum['Country'] == 'Australia' || datum['Country'] == 'Latvia'|| datum['Country'] == 'Italy' || datum['Country'] == 'United States of America'",
+            "test": "datum['Country'] == 'China' || datum['Country'] == 'Australia' || datum['Country'] == 'Latvia'|| datum['Country'] == 'Italy' || datum['Country'] == 'United States of America'",
             "value": 1
           },
           "value": 0
