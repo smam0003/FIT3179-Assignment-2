@@ -14,16 +14,14 @@
   background-color: beige;
 }
 
-#logo {
-  display: block;
-  margin-left: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 7%;
-}
-
 #main_title {
   text-align: center;
+}
+
+#imp_text {
+  font-size: 100%;
+  font-weight:bold;
+  color: brown;
 }
 
 /* #chart_1 {
