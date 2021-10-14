@@ -61,14 +61,24 @@
           "field": "P_Total",
           "type": "quantitative",
           "title": "Number of Athletes",
-          "axis": { "grid": false, "labelFontSize": 18, "titleFontSize": 18 },
+          "axis": {
+            "grid": false,
+            "labelFontSize": 18,
+            "titleFontSize": 18,
+            "values": [0, 5, 10, 20, 50, 100, 150, 200]
+          },
           "scale": { "type": "symlog" }
         },
         "y": {
           "field": "value",
           "type": "quantitative",
           "title": "Medals Won",
-          "axis": { "grid": false, "labelFontSize": 18, "titleFontSize": 18 },
+          "axis": {
+            "grid": false,
+            "labelFontSize": 18,
+            "titleFontSize": 18,
+            "values": [0, 5, 10, 20, 50, 100, 150, 200, 260]
+          },
           "scale": { "type": "symlog" }
         },
         "color": {
