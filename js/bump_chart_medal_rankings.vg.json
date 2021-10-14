@@ -42,12 +42,12 @@
         "x": {
           "field": "Year",
           "type": "ordinal",
-          "axis": { "labelFontSize": 18, "title": null }
+          "axis": { "labelFontSize": 18, "title": null, "ticks": false }
         },
         "y": {
           "field": "Ranking_medal",
           "type": "ordinal",
-          "axis": { "labelFontSize": 18, "title": null }
+          "axis": { "labelFontSize": 18, "title": null, "ticks": false }
         },
         "color": {
           "field": "Continent",
@@ -72,11 +72,15 @@
     {
       "mark": { "type": "circle", "size": 250 },
       "encoding": {
-        "x": { "field": "Year", "type": "ordinal", "title": null },
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "title": null
+        },
         "y": {
           "field": "Ranking_medal",
           "type": "ordinal",
-          "axis": { "labelFontSize": 18, "title": null }
+          "axis": { "labelFontSize": 18, "title": null, "ticks": false }
         },
         "color": {
           "field": "Continent",
