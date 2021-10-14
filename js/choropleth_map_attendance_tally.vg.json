@@ -66,7 +66,9 @@
         {
           "calculate": "'Host Country: ' + datum.Host_Country",
           "as": "host_country"
-        }
+        },
+        { "calculate": "-79.0000", "as": "lat" },
+        { "calculate": "0.0000", "as": "long" }
       ],
 
       "layer": [
@@ -114,13 +116,12 @@
             "align": "center",
             "fontSize": 16,
             "fontStyle": "italic",
-            "baseline": "top",
-            "dy": 200
+            "baseline": "top"
           },
           "encoding": {
             "text": { "field": "host_country" },
-            "longitude": { "datum":true },
-            "latitude":{"datum":true}
+            "longitude": { "field": "long", "type": "quantitative" },
+            "latitude": { "field": "lat", "type": "quantitative" }
           }
         }
       ]
