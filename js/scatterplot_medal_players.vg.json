@@ -53,7 +53,7 @@
         "grid": false,
         "labelFontSize": 18,
         "titleFontSize": 18,
-        "values": [0, 5, 10, 20, 50, 100, 150, 200]
+        "values": [0, 5, 10, 20, 50, 100, 150, 200, 350]
       },
       "scale": { "type": "symlog" }
     },
