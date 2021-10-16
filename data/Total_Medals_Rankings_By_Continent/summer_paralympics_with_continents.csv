@@ -13,9 +13,9 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1960,Rome,Italy,Malta,MLT,0,2,2,4,5,1,6,326550,183.74,Europe
 1960,Rome,Italy,Netherlands,NED,3,6,0,9,11,2,13,11486631,11.32,Europe
 1960,Rome,Italy,Norway,NOR,9,3,4,16,7,4,11,3581239,30.72,Europe
-1972,Heidelberg,Germany,Bahamas,BAH,0,0,0,0,1,0,1,177863,0,North America
 1960,Rome,Italy,Switzerland,SUI,1,3,0,4,5,1,6,5327827,11.26,Europe
 1960,Rome,Italy,United States of America,USA,11,7,7,25,23,0,23,180671000,1.27,North America
+1960,Rome,Italy,Zimbabwe,ZIM,2,1,2,5,0,1,1,3776679,0,Africa
 1964,Tokyo,Japan,Argentina,ARG,6,15,16,37,19,6,25,21824427,11.46,South America
 1964,Tokyo,Japan,Australia,AUS,12,11,7,30,13,4,17,11167000,15.22,Oceania
 1964,Tokyo,Japan,Austria,AUT,4,1,7,12,3,4,7,7223801,9.69,Europe
@@ -30,12 +30,12 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1964,Tokyo,Japan,Japan,JPN,1,5,4,10,14,2,16,96903000,1.65,Asia
 1964,Tokyo,Japan,Malta,MLT,0,0,2,2,2,0,2,321250,62.26,Europe
 1964,Tokyo,Japan,Netherlands,NED,4,6,4,14,4,3,7,12127120,5.77,Europe
-1976,Toronto,Canada,Bahamas,BAH,0,0,0,0,6,0,6,192903,0,North America
 1964,Tokyo,Japan,South Africa,RSA,8,8,3,19,5,4,9,18896303,4.76,Africa
 1964,Tokyo,Japan,Sweden,SWE,0,0,1,1,1,0,1,7661354,1.31,Europe
 1964,Tokyo,Japan,Switzerland,SUI,0,1,0,1,0,1,1,5789228,1.73,Europe
 1964,Tokyo,Japan,United States of America,USA,50,41,32,123,45,20,65,191889000,3.39,North America
-1980,Arnhem,Netherlands,Bahamas,BAH,0,1,2,3,2,4,6,210589,0,North America
+1964,Tokyo,Japan,Germany,FRG,0,0,0,0,0,1,1,75318337,0,Europe
+1964,Tokyo,Japan,Zimbabwe,ZIM,10,5,2,17,4,2,6,4322854,0,Africa
 1968,Tel Aviv,Israel,Argentina,ARG,10,10,10,30,14,7,21,23168268,9.06,South America
 1968,Tel Aviv,Israel,Australia,AUS,15,16,7,38,23,12,35,12009000,29.14,Oceania
 1968,Tel Aviv,Israel,Austria,AUT,2,7,10,19,19,12,31,7415403,41.8,Europe
@@ -57,21 +57,20 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1968,Tel Aviv,Israel,Netherlands,NED,12,4,4,20,24,11,35,12729721,27.49,Europe
 1968,Tel Aviv,Israel,New Zealand,NZL,1,2,1,4,17,1,18,2748100,65.5,Oceania
 1968,Tel Aviv,Israel,Norway,NOR,5,3,1,9,18,9,27,3816486,70.75,Europe
-1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Bahamas,BAH,0,1,1,2,0,2,2,229913,0,North America
 1968,Tel Aviv,Israel,South Africa,RSA,9,10,7,26,5,3,8,20942147,3.82,Africa
 1968,Tel Aviv,Israel,Spain,ESP,0,3,1,4,9,2,11,33113134,3.32,Europe
 1968,Tel Aviv,Israel,Sweden,SWE,1,6,4,11,27,5,32,7912273,40.44,Europe
 1968,Tel Aviv,Israel,Switzerland,SUI,0,2,6,8,32,2,34,6067714,56.03,Europe
 1968,Tel Aviv,Israel,United States of America,USA,33,27,39,99,53,29,82,200706000,4.09,North America
-1988,Seoul,Republic of Korea,Bahamas,BAH,0,0,0,0,2,2,4,247451,0,North America
+1968,Tel Aviv,Israel,Germany,FRG,12,12,11,35,50,8,58,77294314,0,Europe
+1968,Tel Aviv,Israel,Zimbabwe,ZIM,6,7,7,20,7,7,14,4941901,0,Africa
+1972,Heidelberg,Germany,Bahamas,BAH,0,0,0,0,1,0,1,177863,0,North America
 1972,Heidelberg,Germany,Argentina,ARG,2,4,3,9,12,9,21,24653172,8.52,South America
 1972,Heidelberg,Germany,Australia,AUS,6,9,10,25,28,9,37,13177000,28.08,Oceania
 1972,Heidelberg,Germany,Austria,AUT,6,6,6,18,22,10,32,7544201,42.42,Europe
-1996,Atlanta,United States of America,Cote d'Ivoire,CIV,2,0,0,2,2,0,2,14665125,0,Africa
 1972,Heidelberg,Germany,Belgium,BEL,1,1,2,4,18,5,23,9711115,23.68,Europe
 1972,Heidelberg,Germany,Brazil,BRA,0,0,0,0,8,0,8,99859388,0.8,South America
 1972,Heidelberg,Germany,Canada,CAN,5,6,8,19,27,13,40,22218463,18,North America
-2000,Sydney,Australia,Cote d'Ivoire,CIV,1,0,1,2,2,0,2,16454660,0,Africa
 1972,Heidelberg,Germany,Denmark,DEN,0,0,0,0,8,2,10,4991596,20.03,Europe
 1972,Heidelberg,Germany,Egypt,EGY,0,0,0,0,1,0,1,36102670,0.28,Africa
 1972,Heidelberg,Germany,Finland,FIN,0,2,1,3,20,4,24,4639657,51.73,Europe
@@ -95,7 +94,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1972,Heidelberg,Germany,Norway,NOR,1,5,4,10,18,9,27,3933004,68.65,Europe
 1972,Heidelberg,Germany,Peru,PER,0,0,0,0,1,0,1,14221954,0.7,South America
 1972,Heidelberg,Germany,Poland,POL,14,12,7,33,12,10,22,33055650,6.66,Europe
-2004,Athens,Greece,Cote d'Ivoire,CIV,0,0,0,0,2,0,2,17970493,0,Africa
 1972,Heidelberg,Germany,Romania,ROU,0,0,0,0,1,0,1,20657957,0.48,Europe
 1972,Heidelberg,Germany,South Africa,RSA,16,12,13,41,12,13,25,23281517,10.74,Africa
 1972,Heidelberg,Germany,Spain,ESP,0,4,0,4,11,9,20,34604469,5.78,Europe
@@ -103,15 +101,16 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1972,Heidelberg,Germany,Switzerland,SUI,3,2,4,9,32,4,36,6260956,57.5,Europe
 1972,Heidelberg,Germany,Uganda,UGA,0,0,0,0,2,0,2,9929644,2.01,Africa
 1972,Heidelberg,Germany,United States of America,USA,17,27,31,75,49,17,66,209896000,3.14,North America
-2008,Beijing,China,Cote d'Ivoire,CIV,0,0,0,0,3,0,3,19605568,0,Africa
-2012,London,United Kingdom,Cote d'Ivoire,CIV,0,0,0,0,3,1,4,21547188,0,Africa
+1972,Heidelberg,Germany,Czechoslovakia,TCH,0,0,1,1,14,5,19,9867632,0,Europe
+1972,Heidelberg,Germany,Germany,FRG,28,17,22,67,52,23,75,78688452,0,Europe
+1972,Heidelberg,Germany,Yugoslavia,YUG,1,1,2,4,15,7,22,,,Europe
+1972,Heidelberg,Germany,Zimbabwe,ZIM,3,5,4,12,6,7,13,5673914,0,Africa
+1976,Toronto,Canada,Bahamas,BAH,0,0,0,0,6,0,6,192903,0,North America
 1976,Toronto,Canada,Argentina,ARG,3,4,7,14,8,12,20,26264681,7.61,South America
 1976,Toronto,Canada,Australia,AUS,16,18,7,41,35,11,46,14033000,32.78,Oceania
 1976,Toronto,Canada,Austria,AUT,18,16,17,51,32,10,42,7565525,55.51,Europe
-2016,Rio de Janeiro,Brazil,Cote d'Ivoire,CIV,0,1,0,1,3,2,5,23822726,0,Africa
 1976,Toronto,Canada,Belgium,BEL,7,7,8,22,41,4,45,9818227,45.83,Europe
 1976,Toronto,Canada,Brazil,BRA,0,1,0,1,21,2,23,109790943,2.09,South America
-2020,Tokyo,Japan,Cote d'Ivoire,CIV,0,0,0,0,2,1,3,26378275,0,Africa
 1976,Toronto,Canada,Canada,CAN,25,26,26,77,66,23,89,23449808,37.95,North America
 1976,Toronto,Canada,Colombia,COL,0,0,0,0,8,3,11,24608102,4.47,South America
 1976,Toronto,Canada,Denmark,DEN,3,0,3,6,19,2,21,5072596,41.4,Europe
@@ -145,7 +144,9 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1976,Toronto,Canada,Switzerland,SUI,9,12,10,31,40,9,49,6302504,77.75,Europe
 1976,Toronto,Canada,Uganda,UGA,0,0,0,0,1,0,1,11042975,0.91,Africa
 1976,Toronto,Canada,United States of America,USA,66,44,45,155,63,34,97,218035000,4.45,North America
-1972,Heidelberg,Germany,Czechoslovakia,TCH,0,0,1,1,14,5,19,9867632,0,Europe
+1976,Toronto,Canada,Germany,FRG,37,34,26,97,76,17,93,78336950,0,Europe
+1976,Toronto,Canada,Myanmar,MYA,1,1,1,3,4,0,4,31314347,0,Asia
+1980,Arnhem,Netherlands,Bahamas,BAH,0,1,2,3,2,4,6,210589,0,North America
 1980,Arnhem,Netherlands,Argentina,ARG,4,5,6,15,6,5,11,27896532,3.94,South America
 1980,Arnhem,Netherlands,Australia,AUS,12,21,22,55,40,12,52,14692000,35.39,Oceania
 1980,Arnhem,Netherlands,Austria,AUT,14,23,8,45,38,10,48,7549433,63.58,Europe
@@ -154,7 +155,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1980,Arnhem,Netherlands,Brazil,BRA,0,0,0,0,2,0,2,120694012,0.17,South America
 1980,Arnhem,Netherlands,Canada,CAN,64,35,31,130,60,34,94,24515667,38.34,North America
 1980,Arnhem,Netherlands,Colombia,COL,1,0,1,2,8,3,11,26900508,4.09,South America
-1988,Seoul,Republic of Korea,Czechoslovakia,TCH,0,1,0,1,1,0,1,10355276,0,Europe
 1980,Arnhem,Netherlands,Denmark,DEN,6,4,7,17,32,10,42,5123027,81.98,Europe
 1980,Arnhem,Netherlands,Egypt,EGY,4,7,3,14,26,7,33,43309063,7.62,Africa
 1980,Arnhem,Netherlands,Ethiopia,ETH,0,0,0,0,1,0,1,35141703,0.28,Africa
@@ -185,21 +185,19 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1980,Arnhem,Netherlands,Sweden,SWE,31,36,24,91,75,19,94,8310531,113.11,Europe
 1980,Arnhem,Netherlands,Switzerland,SUI,9,10,10,29,51,14,65,6319408,102.86,Europe
 1980,Arnhem,Netherlands,United States of America,USA,75,66,54,195,85,47,132,227225000,5.81,North America
-1992,Barcelona,Spain,Czechoslovakia,TCH,4,3,6,13,24,5,29,10319123,0,Europe
-2012,London,United Kingdom,"Congo, Dem. Rep.",COD,0,0,0,0,1,1,2,69020749,0,Africa
 1980,Arnhem,Netherlands,Zimbabwe,ZIM,0,8,4,12,2,3,5,7408630,6.75,Africa
+1980,Arnhem,Netherlands,Germany,FRG,68,48,46,162,104,24,128,78288576,0,Europe
+1980,Arnhem,Netherlands,Yugoslavia,YUG,4,5,9,18,25,6,31,,,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Bahamas,BAH,0,1,1,2,0,2,2,229913,0,North America
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Argentina,ARG,0,0,0,0,6,0,6,29737097,2.02,South America
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Australia,AUS,49,54,51,154,80,28,108,15544000,69.48,Oceania
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Austria,AUT,14,20,10,44,37,8,45,7561434,59.51,Europe
-2016,Rio de Janeiro,Brazil,"Congo, Dem. Rep.",COD,0,0,0,0,1,1,2,78789130,0,Africa
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Bahrain,BRN,0,0,2,2,10,2,12,407233,294.67,Asia
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Belgium,BEL,21,23,14,58,30,5,35,9855372,35.51,Europe
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Brazil,BRA,7,17,4,28,24,6,30,132383569,2.27,South America
-1964,Tokyo,Japan,Germany,FRG,0,0,0,0,0,1,1,75318337,0,Europe
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Canada,CAN,87,82,69,238,120,46,166,25607053,64.83,North America
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",China,CHN,2,12,8,22,17,6,23,1036825000,0.22,Asia
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Denmark,DEN,30,13,16,59,26,10,36,5111619,70.43,Europe
-1968,Tel Aviv,Israel,Germany,FRG,12,12,11,35,50,8,58,77294314,0,Europe
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Ecuador,ECU,0,0,0,0,2,0,2,8843463,2.26,South America
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Egypt,EGY,1,1,5,7,25,3,28,47968643,5.84,Africa
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Faroe Islands,FRO,0,0,0,0,1,2,3,44895,668.23,Europe
@@ -239,13 +237,16 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Trinidad and Tobago,TTO,2,0,1,3,7,1,8,1155083,69.26,North America
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",United States of America,USA,137,131,129,397,157,79,236,235825000,10.01,North America
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Venezuela,VEN,0,0,0,0,6,0,6,16876703,3.56,South America
-1972,Heidelberg,Germany,Germany,FRG,28,17,22,67,52,23,75,78688452,0,Europe
-1976,Toronto,Canada,Germany,FRG,37,34,26,97,76,17,93,78336950,0,Europe
 1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Zimbabwe,ZIM,0,1,2,3,5,3,8,8562259,9.34,Africa
+1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Germany,GDR,0,3,1,4,3,1,4,,,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Germany,FRG,81,76,75,232,109,33,142,77858685,0,Europe
+1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Myanmar,MYA,1,2,1,4,10,0,10,37241530,0,Asia
+1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Yugoslavia,YUG,11,10,11,32,25,5,30,,,Europe
+1988,Seoul,Republic of Korea,Bahamas,BAH,0,0,0,0,2,2,4,247451,0,North America
+1988,Seoul,Republic of Korea,Czechoslovakia,TCH,0,1,0,1,1,0,1,10355276,0,Europe
 1988,Seoul,Republic of Korea,Argentina,ARG,0,7,2,9,18,17,35,31668939,11.05,South America
 1988,Seoul,Republic of Korea,Australia,AUS,23,34,38,95,148,27,175,16532200,105.85,Oceania
 1988,Seoul,Republic of Korea,Austria,AUT,13,7,15,35,37,6,43,7585317,56.69,Europe
-1980,Arnhem,Netherlands,Germany,FRG,68,48,46,162,104,24,128,78288576,0,Europe
 1988,Seoul,Republic of Korea,Bahrain,BRN,1,1,1,3,11,0,11,465198,236.46,Asia
 1988,Seoul,Republic of Korea,Belgium,BEL,15,18,8,41,46,8,54,9901664,54.54,Europe
 1988,Seoul,Republic of Korea,Brazil,BRA,4,9,14,27,47,12,59,143627505,4.11,South America
@@ -254,7 +255,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1988,Seoul,Republic of Korea,China,CHN,16,17,8,41,27,14,41,1101630000,0.37,Asia
 1988,Seoul,Republic of Korea,Colombia,COL,0,0,0,0,16,0,16,31822527,5.03,South America
 1988,Seoul,Republic of Korea,Cyprus,CYP,0,0,0,0,6,0,6,736476,81.47,Europe
-1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Germany,GDR,0,3,1,4,3,1,4,,,Europe
 1988,Seoul,Republic of Korea,Denmark,DEN,23,19,22,64,27,21,48,5129516,93.58,Europe
 1988,Seoul,Republic of Korea,Egypt,EGY,1,3,3,7,45,1,46,53399243,8.61,Africa
 1988,Seoul,Republic of Korea,Faroe Islands,FRO,1,3,3,7,1,3,4,46833,854.1,Europe
@@ -279,7 +279,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1988,Seoul,Republic of Korea,Republic of Korea,KOR,40,35,19,94,205,21,226,42031247,53.77,Asia
 1988,Seoul,Republic of Korea,Kuwait,KUW,5,5,7,17,27,3,30,2034850,147.43,Asia
 1988,Seoul,Republic of Korea,Liechtenstein,LIE,0,0,0,0,1,1,2,28135,710.86,Europe
-1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Germany,FRG,81,76,75,232,109,33,142,77858685,0,Europe
 1988,Seoul,Republic of Korea,Malaysia,MAS,0,0,1,1,12,2,14,17022470,8.22,Asia
 1988,Seoul,Republic of Korea,Mexico,MEX,8,9,7,24,28,5,33,80788725,4.08,North America
 1988,Seoul,Republic of Korea,Morocco,MAR,0,0,1,1,14,0,14,23903592,5.86,Africa
@@ -300,8 +299,11 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1988,Seoul,Republic of Korea,Tunisia,TUN,0,0,2,2,1,0,1,7880333,1.27,Africa
 1988,Seoul,Republic of Korea,United States of America,USA,91,90,88,269,253,118,371,244499000,15.17,North America
 1988,Seoul,Republic of Korea,Germany,FRG,76,65,52,193,145,43,188,78144619,0,Europe
+1988,Seoul,Republic of Korea,Macao,MAC,0,0,0,0,6,1,7,320774,0,Asia
+1988,Seoul,Republic of Korea,Russia,URS,21,20,15,56,16,6,22,,,Europe
+1988,Seoul,Republic of Korea,Yugoslavia,YUG,4,4,11,19,30,4,34,,,Europe
+1992,Barcelona,Spain,Czechoslovakia,TCH,4,3,6,13,24,5,29,10319123,0,Europe
 1992,Barcelona,Spain,Independent Paralympic Participants,IPP,4,3,1,8,13,3,16,,,Others
-2000,Sydney,Australia,Individual Paralympic Athletes,IPA,0,0,0,0,2,0,2,,,Others
 1992,Barcelona,Spain,Algeria,ALG,0,0,0,0,8,0,8,27028330,2.96,Africa
 1992,Barcelona,Spain,Argentina,ARG,1,1,0,2,26,1,27,33529320,8.05,South America
 1992,Barcelona,Spain,Australia,AUS,24,27,25,76,93,41,134,17495000,76.59,Oceania
@@ -315,13 +317,11 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1992,Barcelona,Spain,Canada,CAN,28,21,26,75,89,49,138,28371264,48.64,North America
 1992,Barcelona,Spain,Chile,CHI,0,0,0,0,2,0,2,13719818,1.46,South America
 1992,Barcelona,Spain,China,CHN,11,7,7,25,13,11,24,1164970000,0.21,Asia
-2016,Rio de Janeiro,Brazil,Individual Paralympic Athletes,IPA,0,0,0,0,2,0,2,,,Others
 1992,Barcelona,Spain,Colombia,COL,0,0,0,0,4,2,6,34422568,1.74,South America
 1992,Barcelona,Spain,Costa Rica,CRC,0,0,0,0,2,0,2,3286525,6.09,North America
 1992,Barcelona,Spain,Croatia,CRO,0,0,1,1,5,1,6,4575818,13.11,Europe
 1992,Barcelona,Spain,Cuba,CUB,3,3,3,9,10,0,10,10736386,9.31,North America
 1992,Barcelona,Spain,Cyprus,CYP,0,0,0,0,4,0,4,800610,49.96,Europe
-2012,London,United Kingdom,"Korea, Dem. People's Rep.",PRK,0,0,0,0,1,0,1,24800638,0,Asia
 1992,Barcelona,Spain,Denmark,DEN,12,22,12,46,22,21,43,5171370,83.15,Europe
 1992,Barcelona,Spain,Dominican Republic,DOM,0,0,0,0,1,0,1,7408339,1.35,North America
 1992,Barcelona,Spain,Ecuador,ECU,0,0,0,0,3,0,3,10716131,2.8,South America
@@ -336,7 +336,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1992,Barcelona,Spain,Hong Kong,HKG,3,4,4,11,16,5,21,5800500,36.2,Asia
 1992,Barcelona,Spain,Hungary,HUN,4,3,4,11,34,9,43,10369341,41.47,Europe
 1992,Barcelona,Spain,Iceland,ISL,3,2,12,17,8,4,12,261057,459.67,Europe
-2016,Rio de Janeiro,Brazil,"Korea, Dem. People's Rep.",PRK,0,0,0,0,1,1,2,25307665,0,Asia
 1992,Barcelona,Spain,India,IND,0,0,0,0,7,2,9,909307018,0.1,Asia
 1992,Barcelona,Spain,Islamic Republic of Iran,IRI,1,2,1,4,25,4,29,58780376,4.93,Asia
 1992,Barcelona,Spain,Iraq,IRQ,0,0,1,1,18,0,18,18402740,9.78,Asia
@@ -352,7 +351,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1992,Barcelona,Spain,Liechtenstein,LIE,0,0,0,0,3,0,3,29552,"1,015.16",Europe
 1992,Barcelona,Spain,Lithuania,LTU,0,4,3,7,1,3,4,3700114,10.81,Europe
 1992,Barcelona,Spain,Luxembourg,LUX,0,0,0,0,2,0,2,392175,51,Europe
-1988,Seoul,Republic of Korea,Macao,MAC,0,0,0,0,6,1,7,320774,0,Asia
 1992,Barcelona,Spain,Malaysia,MAS,0,1,2,3,10,0,10,19002660,5.26,Asia
 1992,Barcelona,Spain,Mexico,MEX,0,1,10,11,9,10,19,87075136,2.18,North America
 1992,Barcelona,Spain,Morocco,MAR,0,0,0,0,5,0,5,25711410,1.94,Africa
@@ -380,12 +378,16 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1992,Barcelona,Spain,Thailand,THA,0,0,1,1,5,0,5,57811025,0.86,Asia
 1992,Barcelona,Spain,Tunisia,TUN,0,0,0,0,1,0,1,8613855,1.16,Africa
 1992,Barcelona,Spain,Turkey,TUR,0,0,0,0,1,0,1,55748946,0.18,Europe
-1996,Atlanta,United States of America,Macao,MAC,0,0,0,0,1,0,1,393376,0,Asia
 1992,Barcelona,Spain,United Arab Emirates,UAE,0,0,0,0,1,0,1,2052892,4.87,Asia
 1992,Barcelona,Spain,United States of America,USA,75,52,48,175,264,90,354,256514000,13.8,North America
 1992,Barcelona,Spain,Uruguay,URU,0,0,0,0,2,0,2,3154459,6.34,South America
 1992,Barcelona,Spain,Venezuela,VEN,0,0,1,1,9,1,10,20557694,4.86,South America
 1992,Barcelona,Spain,Yemen,YEM,0,0,0,0,3,0,3,12954157,2.32,Asia
+1992,Barcelona,Spain,Taipei,TPE,0,0,1,1,10,1,11,,,Asia
+1992,Barcelona,Spain,Tanzania,TAN,0,0,0,0,1,0,1,26961204,0,Africa
+1992,Barcelona,Spain,Unified Team,EUN,16,14,15,45,50,11,61,,,Europe
+1996,Atlanta,United States of America,Cote d'Ivoire,CIV,2,0,0,2,2,0,2,14665125,0,Africa
+1996,Atlanta,United States of America,Macao,MAC,0,0,0,0,1,0,1,393376,0,Asia
 1996,Atlanta,United States of America,Afghanistan,AFG,0,0,0,0,2,0,2,18853444,1.06,Asia
 1996,Atlanta,United States of America,Algeria,ALG,2,2,3,7,9,0,9,29266415,3.08,Africa
 1996,Atlanta,United States of America,Angola,ANG,0,0,0,0,2,0,2,14400722,1.39,Africa
@@ -405,9 +407,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1996,Atlanta,United States of America,Canada,CAN,24,21,24,69,94,38,132,29610218,44.58,North America
 1996,Atlanta,United States of America,Chile,CHI,0,0,0,0,2,0,2,14587367,1.37,South America
 1996,Atlanta,United States of America,China,CHN,16,13,10,39,27,10,37,1217550000,0.3,Asia
-2000,Sydney,Australia,Macao,MAC,0,0,0,0,1,1,2,427772,0,Asia
 1996,Atlanta,United States of America,Colombia,COL,0,0,0,0,2,0,2,37076387,0.54,South America
-2004,Athens,Greece,Macao,MAC,0,0,0,0,1,0,1,471600,0,Asia
 1996,Atlanta,United States of America,Croatia,CRO,0,0,0,0,2,3,5,4557097,10.97,Europe
 1996,Atlanta,United States of America,Cuba,CUB,8,3,0,11,9,1,10,10939285,9.14,North America
 1996,Atlanta,United States of America,Cyprus,CYP,0,0,0,0,4,0,4,873426,45.8,Europe
@@ -446,7 +446,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1996,Atlanta,United States of America,Libya,LBA,0,0,0,0,4,0,4,5036173,7.94,Africa
 1996,Atlanta,United States of America,Lithuania,LTU,3,2,6,11,6,3,9,3601613,24.99,Europe
 1996,Atlanta,United States of America,Luxembourg,LUX,0,0,0,0,1,0,1,414225,24.14,Europe
-2008,Beijing,China,Macao,MAC,0,0,0,0,1,1,2,515232,0,Asia
 1996,Atlanta,United States of America,Malaysia,MAS,0,0,0,0,6,0,6,21017619,2.85,Asia
 1996,Atlanta,United States of America,Mauritius,MRI,0,0,0,0,2,0,2,1133996,17.64,Africa
 1996,Atlanta,United States of America,Mexico,MEX,3,5,4,12,28,10,38,93147045,4.08,North America
@@ -466,9 +465,7 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1996,Atlanta,United States of America,Puerto Rico,PUR,0,0,0,0,3,2,5,3724655,13.42,North America
 1996,Atlanta,United States of America,Qatar,QAT,0,0,0,0,1,0,1,522531,19.14,Asia
 1996,Atlanta,United States of America,Romania,ROU,0,0,0,0,1,0,1,22619004,0.44,Europe
-2012,London,United Kingdom,Macao,MAC,0,0,0,0,1,1,2,564037,0,Asia
 1996,Atlanta,United States of America,Saudi Arabia,KSA,0,0,0,0,2,0,2,19033843,1.05,Asia
-2016,Rio de Janeiro,Brazil,Macao,MAC,0,0,0,0,1,0,1,612824,0,Asia
 1996,Atlanta,United States of America,Sierra Leone,SLE,0,0,0,0,1,0,1,4312660,2.32,Africa
 1996,Atlanta,United States of America,Singapore,SGP,0,0,0,0,1,2,3,3670704,8.17,Asia
 1996,Atlanta,United States of America,Slovakia,SVK,2,4,5,11,23,5,28,5373361,52.11,Europe
@@ -487,9 +484,15 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 1996,Atlanta,United States of America,United States of America,USA,46,46,65,157,239,89,328,269394000,12.18,North America
 1996,Atlanta,United States of America,Uruguay,URU,0,0,1,1,1,0,1,3247383,3.08,South America
 1996,Atlanta,United States of America,Venezuela,VEN,0,0,0,0,4,0,4,22385650,1.79,South America
-1976,Toronto,Canada,Myanmar,MYA,1,1,1,3,4,0,4,31314347,0,Asia
 1996,Atlanta,United States of America,Zambia,ZAM,0,0,0,0,1,0,1,9339740,1.07,Africa
 1996,Atlanta,United States of America,Zimbabwe,ZIM,0,0,0,0,2,0,2,11541215,1.73,Africa
+1996,Atlanta,United States of America,Russia,RUS,9,7,11,27,60,10,70,,,Europe
+1996,Atlanta,United States of America,Serbia and Montenegro,SCG,0,0,0,0,3,1,4,,,Europe
+1996,Atlanta,United States of America,Taipei,TPE,1,0,2,3,13,1,14,,,Asia
+1996,Atlanta,United States of America,Yugoslavia,YUG,2,2,0,4,5,1,6,,,Europe
+2000,Sydney,Australia,Cote d'Ivoire,CIV,1,0,1,2,2,0,2,16454660,0,Africa
+2000,Sydney,Australia,Individual Paralympic Athletes,IPA,0,0,0,0,2,0,2,,,Others
+2000,Sydney,Australia,Macao,MAC,0,0,0,0,1,1,2,427772,0,Asia
 2000,Sydney,Australia,Algeria,ALG,3,0,0,3,7,1,8,31042238,2.58,Africa
 2000,Sydney,Australia,Angola,ANG,0,0,0,0,1,0,1,16395477,0.61,Africa
 2000,Sydney,Australia,Argentina,ARG,0,2,3,5,31,12,43,36870796,11.66,South America
@@ -511,7 +514,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2000,Sydney,Australia,Canada,CAN,38,33,25,96,112,53,165,30685730,53.77,North America
 2000,Sydney,Australia,Chile,CHI,0,0,0,0,4,0,4,15342350,2.61,South America
 2000,Sydney,Australia,China,CHN,34,22,17,73,54,33,87,1262645000,0.69,Asia
-1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Myanmar,MYA,1,2,1,4,10,0,10,37241530,0,Asia
 2000,Sydney,Australia,Colombia,COL,0,0,0,0,3,0,3,39629965,0.76,South America
 2000,Sydney,Australia,Costa Rica,CRC,0,0,0,0,1,0,1,3962369,2.52,North America
 2000,Sydney,Australia,Palestine,PLE,0,0,1,1,1,1,2,,,Asia
@@ -536,7 +538,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2000,Sydney,Australia,Hungary,HUN,4,5,14,23,41,13,54,10210971,52.88,Europe
 2000,Sydney,Australia,Iceland,ISL,2,0,2,4,5,1,6,281205,213.37,Europe
 2000,Sydney,Australia,India,IND,0,0,0,0,4,0,4,1056575548,0.04,Asia
-2004,Athens,Greece,Palestine,PLE,0,1,1,2,2,0,2,,,Asia
 2000,Sydney,Australia,Indonesia,INA,0,0,0,0,4,0,4,211513822,0.19,Asia
 2000,Sydney,Australia,Islamic Republic of Iran,IRI,12,4,7,23,36,4,40,65623397,6.1,Asia
 2000,Sydney,Australia,Iraq,IRQ,0,0,0,0,3,0,3,23497589,1.28,Asia
@@ -557,7 +558,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2000,Sydney,Australia,Lesotho,LES,0,0,0,0,1,1,2,2032805,9.84,Africa
 2000,Sydney,Australia,Libya,LBA,0,0,1,1,16,1,17,5357893,31.73,Africa
 2000,Sydney,Australia,Lithuania,LTU,0,2,1,3,14,3,17,3499536,48.58,Europe
-2008,Beijing,China,Palestine,PLE,0,0,0,0,2,0,2,,,Asia
 2000,Sydney,Australia,Madagascar,MAD,0,0,0,0,1,0,1,15766806,0.63,Africa
 2000,Sydney,Australia,Malaysia,MAS,0,0,0,0,8,2,10,23194252,4.31,Asia
 2000,Sydney,Australia,Mali,MLI,0,0,0,0,1,0,1,10946448,0.91,Africa
@@ -573,7 +573,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2000,Sydney,Australia,Norway,NOR,2,6,7,15,26,13,39,4490967,86.84,Europe
 2000,Sydney,Australia,Oman,OMA,0,0,0,0,3,0,3,2267973,13.23,Asia
 2000,Sydney,Australia,Pakistan,PAK,0,0,0,0,1,0,1,142343583,0.07,Asia
-2012,London,United Kingdom,Palestine,PLE,0,0,0,0,2,0,2,,,Asia
 2000,Sydney,Australia,Panama,PAN,0,1,1,2,1,0,1,3030333,3.3,North America
 2000,Sydney,Australia,Papua New Guinea,PNG,0,0,0,0,3,0,3,5847590,5.13,Oceania
 2000,Sydney,Australia,Peru,PER,1,1,0,2,3,1,4,26459944,1.51,South America
@@ -583,11 +582,9 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2000,Sydney,Australia,Puerto Rico,PUR,0,0,1,1,1,2,3,3810605,7.87,North America
 2000,Sydney,Australia,Qatar,QAT,0,0,0,0,3,0,3,592467,50.64,Asia
 2000,Sydney,Australia,Romania,ROU,0,0,0,0,1,0,1,22442971,0.45,Europe
-2016,Rio de Janeiro,Brazil,Palestine,PLE,0,0,0,0,1,0,1,,,Asia
 2000,Sydney,Australia,Rwanda,RWA,0,0,0,0,1,0,1,7933688,1.26,Africa
 2000,Sydney,Australia,Samoa,SAM,0,0,0,0,1,0,1,174454,57.32,Oceania
 2000,Sydney,Australia,Saudi Arabia,KSA,0,0,0,0,4,0,4,20663840,1.94,Asia
-2020,Tokyo,Japan,Palestine,PLE,0,0,0,0,1,0,1,,,Asia
 2000,Sydney,Australia,Singapore,SGP,0,0,0,0,1,2,3,4027887,7.45,Asia
 2000,Sydney,Australia,Slovakia,SVK,3,5,5,13,34,11,45,5388720,83.51,Europe
 2000,Sydney,Australia,Slovenia,SLO,0,2,2,4,15,2,17,1988925,85.47,Europe
@@ -610,9 +607,15 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2000,Sydney,Australia,Vanuatu,VAN,0,0,0,0,1,1,2,184964,108.13,Oceania
 2000,Sydney,Australia,Venezuela,VEN,0,0,1,1,8,2,10,24192449,4.13,South America
 2000,Sydney,Australia,Vietnam,VIE,0,0,0,0,1,1,2,79910411,0.25,Asia
-2020,Tokyo,Japan,Refugee Paralympic Team,RPT,0,0,0,0,5,1,6,,,Others
 2000,Sydney,Australia,Zambia,ZAM,0,0,0,0,1,1,2,10415942,1.92,Africa
 2000,Sydney,Australia,Zimbabwe,ZIM,1,0,0,1,2,1,3,11881482,2.52,Africa
+2000,Sydney,Australia,Russia,RUS,12,11,12,35,69,20,89,,,Europe
+2000,Sydney,Australia,Serbia and Montenegro,SCG,0,0,0,0,3,1,4,,,Europe
+2000,Sydney,Australia,Taipei,TPE,1,2,4,7,17,8,25,,,Asia
+2000,Sydney,Australia,Yugoslavia,YUG,0,1,0,1,2,0,2,,,Europe
+2004,Athens,Greece,Cote d'Ivoire,CIV,0,0,0,0,2,0,2,17970493,0,Africa
+2004,Athens,Greece,Macao,MAC,0,0,0,0,1,0,1,471600,0,Asia
+2004,Athens,Greece,Palestine,PLE,0,1,1,2,2,0,2,,,Asia
 2004,Athens,Greece,Afghanistan,AFG,0,0,0,0,1,2,3,24726689,1.21,Asia
 2004,Athens,Greece,Algeria,ALG,6,2,5,13,14,4,18,32692153,5.51,Africa
 2004,Athens,Greece,Angola,ANG,3,0,0,3,3,1,4,18758138,2.13,Africa
@@ -638,10 +641,8 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2004,Athens,Greece,Central African Republic,CAF,0,0,0,0,1,0,1,3959883,2.53,Africa
 2004,Athens,Greece,Chile,CHI,0,0,0,0,4,0,4,16014972,2.5,South America
 2004,Athens,Greece,China,CHN,63,46,32,141,108,89,197,1296075000,1.52,Asia
-1988,Seoul,Republic of Korea,Russia,URS,21,20,15,56,16,6,22,,,Europe
 2004,Athens,Greece,Colombia,COL,0,0,0,0,4,1,5,42075953,1.19,South America
 2004,Athens,Greece,Costa Rica,CRC,0,0,0,0,1,0,1,4225156,2.37,North America
-1996,Atlanta,United States of America,Russia,RUS,9,7,11,27,60,10,70,,,Europe
 2004,Athens,Greece,Croatia,CRO,0,0,4,4,12,5,17,4304600,39.49,Europe
 2004,Athens,Greece,Cuba,CUB,2,2,7,11,19,5,24,11250369,21.33,North America
 2004,Athens,Greece,Cyprus,CYP,1,0,0,1,2,3,5,1010410,49.48,Europe
@@ -687,7 +688,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2004,Athens,Greece,Libya,LBA,0,0,0,0,1,1,2,5710163,3.5,Africa
 2004,Athens,Greece,Liechtenstein,LIE,0,0,0,0,1,0,1,34444,290.33,Europe
 2004,Athens,Greece,Lithuania,LTU,1,1,5,7,16,4,20,3377075,59.22,Europe
-2000,Sydney,Australia,Russia,RUS,12,11,12,35,69,20,89,,,Europe
 2004,Athens,Greece,Malaysia,MAS,0,0,0,0,15,4,19,25190647,7.54,Asia
 2004,Athens,Greece,Mauritania,MTN,0,0,0,0,0,1,1,2939246,3.4,Africa
 2004,Athens,Greece,Mauritius,MRI,0,0,0,0,1,1,2,1221003,16.38,Africa
@@ -715,12 +715,10 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2004,Athens,Greece,Puerto Rico,PUR,0,0,1,1,1,1,2,3826878,5.23,North America
 2004,Athens,Greece,Qatar,QAT,0,0,0,0,2,0,2,753332,26.55,Asia
 2004,Athens,Greece,Romania,ROU,0,0,0,0,2,0,2,21451748,0.93,Europe
-2008,Beijing,China,Russia,RUS,18,23,22,63,98,46,144,,,Europe
 2004,Athens,Greece,Rwanda,RWA,0,0,1,1,1,1,2,8680516,2.3,Africa
 2004,Athens,Greece,Samoa,SAM,0,0,0,0,1,1,2,178597,111.98,Oceania
 2004,Athens,Greece,Saudi Arabia,KSA,0,0,0,0,6,0,6,23132686,2.59,Asia
 2004,Athens,Greece,Senegal,SEN,0,0,0,0,1,1,2,10810086,1.85,Africa
-2012,London,United Kingdom,Russia,RUS,36,38,28,102,120,61,181,,,Europe
 2004,Athens,Greece,Singapore,SGP,0,0,0,0,4,3,7,4166664,16.8,Asia
 2004,Athens,Greece,Slovakia,SVK,5,3,4,12,28,8,36,5372280,67.01,Europe
 2004,Athens,Greece,Slovenia,SLO,1,2,1,4,14,14,28,1997012,140.21,Europe
@@ -733,7 +731,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2004,Athens,Greece,Switzerland,SUI,2,6,8,16,26,14,40,7389625,54.13,Europe
 2004,Athens,Greece,Syrian Arab Republic,SYR,0,0,0,0,3,2,5,17827827,2.8,Asia
 2004,Athens,Greece,Tajikistan,TJK,0,0,0,0,1,0,1,6662391,1.5,Asia
-1996,Atlanta,United States of America,Serbia and Montenegro,SCG,0,0,0,0,3,1,4,,,Europe
 2004,Athens,Greece,Thailand,THA,3,6,6,15,33,10,43,64995303,6.62,Asia
 2004,Athens,Greece,Tonga,TGA,0,0,0,0,0,1,1,100214,99.79,Oceania
 2004,Athens,Greece,Tunisia,TUN,8,7,3,18,14,8,22,10022278,21.95,Africa
@@ -748,6 +745,13 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2004,Athens,Greece,Venezuela,VEN,0,1,2,3,14,2,16,25996594,6.15,South America
 2004,Athens,Greece,Vietnam,VIE,0,0,0,0,0,4,4,83062819,0.48,Asia
 2004,Athens,Greece,Zimbabwe,ZIM,1,0,0,1,1,1,2,12019911,1.66,Africa
+2004,Athens,Greece,Serbia and Montenegro,SCG,0,0,2,2,5,0,5,,,Europe
+2004,Athens,Greece,Taipei,TPE,2,2,2,6,15,10,25,,,Asia
+2004,Athens,Greece,Tanzania,TAN,0,0,0,0,1,1,2,37379766,0,Africa
+2008,Beijing,China,Cote d'Ivoire,CIV,0,0,0,0,3,0,3,19605568,0,Africa
+2008,Beijing,China,Macao,MAC,0,0,0,0,1,1,2,515232,0,Asia
+2008,Beijing,China,Palestine,PLE,0,0,0,0,2,0,2,,,Asia
+2008,Beijing,China,Russia,RUS,18,23,22,63,98,46,144,,,Europe
 2008,Beijing,China,Afghanistan,AFG,0,0,0,0,1,0,1,27722281,0.36,Asia
 2008,Beijing,China,Algeria,ALG,4,3,8,15,21,7,28,34730604,8.06,Africa
 2008,Beijing,China,Angola,ANG,0,3,0,3,5,1,6,21695636,2.77,Africa
@@ -774,10 +778,8 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2008,Beijing,China,Central African Republic,CAF,0,0,0,0,1,0,1,4273368,2.34,Africa
 2008,Beijing,China,Chile,CHI,0,0,0,0,3,1,4,16708255,2.39,South America
 2008,Beijing,China,China,CHN,89,70,52,211,196,135,331,1324655000,2.5,Asia
-2000,Sydney,Australia,Serbia and Montenegro,SCG,0,0,0,0,3,1,4,,,Europe
 2008,Beijing,China,Colombia,COL,0,1,1,2,9,2,11,44254972,2.49,South America
 2008,Beijing,China,Costa Rica,CRC,0,0,0,0,2,0,2,4463123,4.48,North America
-2004,Athens,Greece,Serbia and Montenegro,SCG,0,0,2,2,5,0,5,,,Europe
 2008,Beijing,China,Croatia,CRO,3,1,0,4,19,6,25,4309705,58.01,Europe
 2008,Beijing,China,Cuba,CUB,5,3,6,14,26,5,31,11236975,27.59,North America
 2008,Beijing,China,Cyprus,CYP,1,2,1,4,3,1,4,1081568,36.98,Europe
@@ -828,7 +830,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2008,Beijing,China,Libya,LBA,0,0,0,0,2,1,3,6058740,4.95,Africa
 2008,Beijing,China,Lithuania,LTU,0,2,0,2,12,14,26,3198231,81.29,Europe
 2008,Beijing,China,Luxembourg,LUX,0,0,0,0,1,0,1,488650,20.46,Europe
-1992,Barcelona,Spain,Taipei,TPE,0,0,1,1,10,1,11,,,Asia
 2008,Beijing,China,Madagascar,MAD,0,0,0,0,1,0,1,19996476,0.5,Africa
 2008,Beijing,China,Malaysia,MAS,0,0,1,1,8,3,11,27236003,4.04,Asia
 2008,Beijing,China,Malta,MLT,0,0,0,0,1,0,1,409379,24.43,Europe
@@ -849,7 +850,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2008,Beijing,China,Norway,NOR,1,3,3,7,14,10,24,4768212,50.33,Europe
 2008,Beijing,China,Oman,OMA,0,0,0,0,1,0,1,2750956,3.64,Asia
 2008,Beijing,China,Pakistan,PAK,0,1,0,1,2,1,3,171648984,0.17,Asia
-1996,Atlanta,United States of America,Taipei,TPE,1,0,2,3,13,1,14,,,Asia
 2008,Beijing,China,Panama,PAN,0,0,0,0,1,1,2,3516204,5.69,North America
 2008,Beijing,China,Papua New Guinea,PNG,0,1,0,1,1,1,2,6976200,2.87,Oceania
 2008,Beijing,China,Peru,PER,0,0,0,0,3,0,3,28562321,1.05,South America
@@ -859,7 +859,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2008,Beijing,China,Puerto Rico,PUR,0,0,1,1,2,1,3,3760866,7.98,North America
 2008,Beijing,China,Qatar,QAT,0,0,0,0,2,0,2,1436670,13.92,Asia
 2008,Beijing,China,Romania,ROU,0,1,0,1,2,2,4,20537875,1.95,Europe
-2000,Sydney,Australia,Taipei,TPE,1,2,4,7,17,8,25,,,Asia
 2008,Beijing,China,Rwanda,RWA,0,0,0,0,1,0,1,9524532,1.05,Africa
 2008,Beijing,China,Samoa,SAM,0,0,0,0,1,0,1,183270,54.56,Oceania
 2008,Beijing,China,Saudi Arabia,KSA,1,1,0,2,3,0,3,25888535,1.16,Asia
@@ -876,7 +875,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2008,Beijing,China,Switzerland,SUI,3,2,6,11,18,8,26,7647675,34,Europe
 2008,Beijing,China,Syrian Arab Republic,SYR,0,0,1,1,3,2,5,20664037,2.42,Asia
 2008,Beijing,China,Tajikistan,TJK,0,0,0,0,0,1,1,7209924,1.39,Asia
-2004,Athens,Greece,Taipei,TPE,2,2,2,6,15,10,25,,,Asia
 2008,Beijing,China,Thailand,THA,1,5,7,13,33,7,40,66530980,6.01,Asia
 2008,Beijing,China,Timor-Leste,TLS,0,0,0,0,0,1,1,1055428,9.47,Asia
 2008,Beijing,China,Tonga,TGA,0,0,0,0,1,0,1,103384,96.73,Oceania
@@ -894,6 +892,14 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2008,Beijing,China,Vietnam,VIE,0,0,0,0,3,5,8,86243424,0.93,Asia
 2008,Beijing,China,Zambia,ZAM,0,0,0,0,1,0,1,12848531,0.78,Africa
 2008,Beijing,China,Zimbabwe,ZIM,0,0,0,0,1,1,2,12379553,1.62,Africa
+2008,Beijing,China,Taipei,TPE,1,0,1,2,10,7,17,,,Asia
+2008,Beijing,China,Tanzania,TAN,0,0,0,0,1,0,1,41853944,0,Africa
+2012,London,United Kingdom,Cote d'Ivoire,CIV,0,0,0,0,3,1,4,21547188,0,Africa
+2012,London,United Kingdom,"Congo, Dem. Rep.",COD,0,0,0,0,1,1,2,69020749,0,Africa
+2012,London,United Kingdom,"Korea, Dem. People's Rep.",PRK,0,0,0,0,1,0,1,24800638,0,Asia
+2012,London,United Kingdom,Macao,MAC,0,0,0,0,1,1,2,564037,0,Asia
+2012,London,United Kingdom,Palestine,PLE,0,0,0,0,2,0,2,,,Asia
+2012,London,United Kingdom,Russia,RUS,36,38,28,102,120,61,181,,,Europe
 2012,London,United Kingdom,Afghanistan,AFG,0,0,0,0,1,0,1,31161378,0.32,Asia
 2012,London,United Kingdom,Albania,ALB,0,0,0,0,1,0,1,2900401,3.45,Europe
 2012,London,United Kingdom,Algeria,ALG,4,6,9,19,24,7,31,37383899,8.29,Africa
@@ -924,7 +930,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2012,London,United Kingdom,Central African Republic,CAF,0,0,0,0,1,0,1,4436411,2.25,Africa
 2012,London,United Kingdom,Chile,CHI,1,0,0,1,4,3,7,17400359,4.02,South America
 2012,London,United Kingdom,China,CHN,95,71,65,231,154,128,282,1350695000,2.09,Asia
-2008,Beijing,China,Taipei,TPE,1,0,1,2,10,7,17,,,Asia
 2012,London,United Kingdom,Colombia,COL,0,2,0,2,30,7,37,46075721,8.03,South America
 2012,London,United Kingdom,Comoros,COM,0,0,0,0,1,0,1,723865,13.81,Africa
 2012,London,United Kingdom,Costa Rica,CRC,0,0,0,0,2,0,2,4688003,4.27,North America
@@ -936,7 +941,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2012,London,United Kingdom,Denmark,DEN,1,0,4,5,15,13,28,5591572,50.08,Europe
 2012,London,United Kingdom,Djibouti,DJI,0,0,0,0,1,0,1,868136,11.52,Africa
 2012,London,United Kingdom,Dominican Republic,DOM,0,0,0,0,2,0,2,9930916,2.01,North America
-2016,Rio de Janeiro,Brazil,Taipei,TPE,0,1,1,2,5,8,13,,,Asia
 2012,London,United Kingdom,Ecuador,ECU,0,0,0,0,1,1,2,15474099,1.29,South America
 2012,London,United Kingdom,Egypt,EGY,4,4,7,15,29,11,40,86422240,4.63,Africa
 2012,London,United Kingdom,El Salvador,ESA,0,0,0,0,1,0,1,6237922,1.6,North America
@@ -973,7 +977,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2012,London,United Kingdom,Kazakhstan,KAZ,0,0,0,0,4,3,7,16792090,4.17,Europe
 2012,London,United Kingdom,Kenya,KEN,2,2,2,6,10,2,12,44343469,2.71,Africa
 2012,London,United Kingdom,Republic of Korea,KOR,9,9,9,27,60,28,88,50199853,17.53,Asia
-2020,Tokyo,Japan,Taipei,TPE,0,0,1,1,4,6,10,,,Asia
 2012,London,United Kingdom,Kuwait,KUW,0,0,0,0,6,0,6,3348852,17.92,Asia
 2012,London,United Kingdom,Kyrgyzstan,KGZ,0,0,0,0,1,0,1,5607200,1.78,Asia
 2012,London,United Kingdom,Lao People's Democratic Republic,LAO,0,0,0,0,1,0,1,6444527,1.55,Asia
@@ -983,7 +986,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2012,London,United Kingdom,Liberia,LBR,0,0,0,0,1,0,1,4135662,2.42,Africa
 2012,London,United Kingdom,Libya,LBA,0,0,0,0,2,0,2,6285751,3.18,Africa
 2012,London,United Kingdom,Lithuania,LTU,0,0,0,0,9,2,11,2987773,36.82,Europe
-1992,Barcelona,Spain,Tanzania,TAN,0,0,0,0,1,0,1,26961204,0,Africa
 2012,London,United Kingdom,Madagascar,MAD,0,0,0,0,1,0,1,22346641,0.45,Africa
 2012,London,United Kingdom,Malaysia,MAS,0,1,1,2,16,6,22,29068189,7.57,Asia
 2012,London,United Kingdom,Mali,MLI,0,0,0,0,1,0,1,15979492,0.63,Africa
@@ -1008,7 +1010,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2012,London,United Kingdom,Norway,NOR,3,2,3,8,13,9,22,5018573,43.84,Europe
 2012,London,United Kingdom,Oman,OMA,0,0,0,0,2,0,2,3498031,5.72,Asia
 2012,London,United Kingdom,Pakistan,PAK,0,0,0,0,2,0,2,187280125,0.11,Asia
-2004,Athens,Greece,Tanzania,TAN,0,0,0,0,1,1,2,37379766,0,Africa
 2012,London,United Kingdom,Panama,PAN,0,0,0,0,1,1,2,3770635,5.3,North America
 2012,London,United Kingdom,Papua New Guinea,PNG,0,0,0,0,2,0,2,7631003,2.62,Oceania
 2012,London,United Kingdom,Peru,PER,0,0,0,0,1,0,1,29506790,0.34,South America
@@ -1018,7 +1019,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2012,London,United Kingdom,Puerto Rico,PUR,0,0,0,0,2,0,2,3634488,5.5,North America
 2012,London,United Kingdom,Qatar,QAT,0,0,0,0,1,0,1,2196078,4.55,Asia
 2012,London,United Kingdom,Romania,ROU,1,1,0,2,4,1,5,20058035,2.49,Europe
-2008,Beijing,China,Tanzania,TAN,0,0,0,0,1,0,1,41853944,0,Africa
 2012,London,United Kingdom,Rwanda,RWA,0,0,0,0,14,0,14,10549668,13.27,Africa
 2012,London,United Kingdom,Samoa,SAM,0,0,0,0,1,1,2,189089,105.77,Oceania
 2012,London,United Kingdom,San Marino,SMR,0,0,0,0,1,0,1,32103,311.5,Europe
@@ -1058,6 +1058,13 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2012,London,United Kingdom,Vietnam,VIE,0,0,0,0,6,5,11,89801926,1.22,Asia
 2012,London,United Kingdom,Zambia,ZAM,0,0,0,0,1,1,2,14465148,1.38,Africa
 2012,London,United Kingdom,Zimbabwe,ZIM,0,0,0,0,2,0,2,13115149,1.52,Africa
+2016,Rio de Janeiro,Brazil,Cote d'Ivoire,CIV,0,1,0,1,3,2,5,23822726,0,Africa
+2016,Rio de Janeiro,Brazil,"Congo, Dem. Rep.",COD,0,0,0,0,1,1,2,78789130,0,Africa
+2016,Rio de Janeiro,Brazil,Individual Paralympic Athletes,IPA,0,0,0,0,2,0,2,,,Others
+2016,Rio de Janeiro,Brazil,"Korea, Dem. People's Rep.",PRK,0,0,0,0,1,1,2,25307665,0,Asia
+2016,Rio de Janeiro,Brazil,Macao,MAC,0,0,0,0,1,0,1,612824,0,Asia
+2016,Rio de Janeiro,Brazil,Palestine,PLE,0,0,0,0,1,0,1,,,Asia
+2016,Rio de Janeiro,Brazil,Taipei,TPE,0,1,1,2,5,8,13,,,Asia
 2016,Rio de Janeiro,Brazil,Afghanistan,AFG,0,0,0,0,1,0,1,35383028,0.28,Asia
 2016,Rio de Janeiro,Brazil,Algeria,ALG,4,5,7,16,34,26,60,40551398,14.8,Africa
 2016,Rio de Janeiro,Brazil,Angola,ANG,0,0,0,0,2,2,4,28842482,1.39,Africa
@@ -1089,14 +1096,12 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2016,Rio de Janeiro,Brazil,Colombia,COL,2,5,10,17,26,13,39,48175048,8.1,South America
 2016,Rio de Janeiro,Brazil,Congo,CGO,0,0,0,0,1,0,1,4980996,2.01,Africa
 2016,Rio de Janeiro,Brazil,Costa Rica,CRC,0,0,0,0,2,1,3,4899336,6.12,North America
-1992,Barcelona,Spain,Unified Team,EUN,16,14,15,45,50,11,61,,,Europe
 2016,Rio de Janeiro,Brazil,Croatia,CRO,2,2,1,5,12,7,19,4174349,45.52,Europe
 2016,Rio de Janeiro,Brazil,Cuba,CUB,8,1,6,15,16,6,22,11335108,19.41,North America
 2016,Rio de Janeiro,Brazil,Cyprus,CYP,0,0,0,0,1,1,2,1170189,17.09,Europe
 2016,Rio de Janeiro,Brazil,Czech Republic,CZE,1,2,4,7,23,14,37,10566332,35.02,Europe
 2016,Rio de Janeiro,Brazil,Denmark,DEN,1,2,4,7,13,8,21,5728010,36.66,Europe
 2016,Rio de Janeiro,Brazil,Dominican Republic,DOM,0,0,0,0,2,0,2,10397738,1.92,North America
-1972,Heidelberg,Germany,Yugoslavia,YUG,1,1,2,4,15,7,22,,,Europe
 2016,Rio de Janeiro,Brazil,Ecuador,ECU,0,0,0,0,4,1,5,16491116,3.03,South America
 2016,Rio de Janeiro,Brazil,Egypt,EGY,3,5,4,12,34,11,45,94447071,4.76,Africa
 2016,Rio de Janeiro,Brazil,El Salvador,ESA,0,0,0,0,1,0,1,6356137,1.57,North America
@@ -1122,7 +1127,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2016,Rio de Janeiro,Brazil,Hungary,HUN,1,8,9,18,19,24,43,9814023,43.81,Europe
 2016,Rio de Janeiro,Brazil,Iceland,ISL,0,0,0,0,3,2,5,335439,149.06,Europe
 2016,Rio de Janeiro,Brazil,India,IND,2,1,1,4,16,3,19,1324517250,0.14,Asia
-1980,Arnhem,Netherlands,Yugoslavia,YUG,4,5,9,18,25,6,31,,,Europe
 2016,Rio de Janeiro,Brazil,Indonesia,INA,0,0,1,1,6,3,9,261556386,0.34,Asia
 2016,Rio de Janeiro,Brazil,Islamic Republic of Iran,IRI,8,9,7,24,85,23,108,79563991,13.57,Asia
 2016,Rio de Janeiro,Brazil,Iraq,IRQ,2,3,0,5,12,2,14,36610632,3.82,Asia
@@ -1135,7 +1139,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2016,Rio de Janeiro,Brazil,Kazakhstan,KAZ,1,1,0,2,7,4,11,17794055,6.18,Europe
 2016,Rio de Janeiro,Brazil,Kenya,KEN,3,1,2,6,7,2,9,49051531,1.83,Africa
 2016,Rio de Janeiro,Brazil,Republic of Korea,KOR,7,11,17,35,53,29,82,51217803,16.01,Asia
-1984,"Stoke Mandeville, New York","United Kingdom, United States of America",Yugoslavia,YUG,11,10,11,32,25,5,30,,,Europe
 2016,Rio de Janeiro,Brazil,Kuwait,KUW,1,0,0,1,6,0,6,3956862,15.16,Asia
 2016,Rio de Janeiro,Brazil,Kyrgyzstan,KGZ,0,0,0,0,3,0,3,6079500,4.93,Asia
 2016,Rio de Janeiro,Brazil,Lao People's Democratic Republic,LAO,0,0,0,0,1,0,1,6845848,1.46,Asia
@@ -1144,7 +1147,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2016,Rio de Janeiro,Brazil,Libya,LBA,0,0,0,0,1,2,3,6492160,4.62,Africa
 2016,Rio de Janeiro,Brazil,Lithuania,LTU,2,1,0,3,12,1,13,2868231,45.32,Europe
 2016,Rio de Janeiro,Brazil,Luxembourg,LUX,0,0,0,0,3,0,3,582014,51.55,Europe
-1988,Seoul,Republic of Korea,Yugoslavia,YUG,4,4,11,19,30,4,34,,,Europe
 2016,Rio de Janeiro,Brazil,Madagascar,MAD,0,0,0,0,1,0,1,24894370,0.4,Africa
 2016,Rio de Janeiro,Brazil,Malawi,MAW,0,0,0,0,0,1,1,17205253,0.58,Africa
 2016,Rio de Janeiro,Brazil,Malaysia,MAS,3,0,1,4,17,2,19,30684652,6.19,Asia
@@ -1169,7 +1171,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2016,Rio de Janeiro,Brazil,Norway,NOR,3,2,3,8,12,13,25,5234519,47.76,Europe
 2016,Rio de Janeiro,Brazil,Oman,OMA,0,0,0,0,1,1,2,4479217,4.47,Asia
 2016,Rio de Janeiro,Brazil,Pakistan,PAK,0,0,1,1,1,0,1,203631356,0.05,Asia
-1996,Atlanta,United States of America,Yugoslavia,YUG,2,2,0,4,5,1,6,,,Europe
 2016,Rio de Janeiro,Brazil,Panama,PAN,0,0,0,0,1,1,2,4037073,4.95,North America
 2016,Rio de Janeiro,Brazil,Papua New Guinea,PNG,0,0,0,0,1,1,2,8271766,2.42,Oceania
 2016,Rio de Janeiro,Brazil,Peru,PER,0,0,0,0,5,1,6,30926036,1.94,South America
@@ -1199,7 +1200,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2016,Rio de Janeiro,Brazil,Switzerland,SUI,2,2,1,5,14,10,24,8373338,28.66,Europe
 2016,Rio de Janeiro,Brazil,Syrian Arab Republic,SYR,0,0,0,0,1,1,2,17465567,1.15,Asia
 2016,Rio de Janeiro,Brazil,Tajikistan,TJK,0,0,0,0,1,0,1,8663575,1.15,Asia
-2000,Sydney,Australia,Yugoslavia,YUG,0,1,0,1,2,0,2,,,Europe
 2016,Rio de Janeiro,Brazil,Thailand,THA,6,6,6,18,30,15,45,68971313,6.52,Asia
 2016,Rio de Janeiro,Brazil,Timor-Leste,TLS,0,0,0,0,1,1,2,1219289,16.4,Asia
 2016,Rio de Janeiro,Brazil,Togo,TOG,0,0,0,0,1,0,1,7509952,1.33,Africa
@@ -1218,6 +1218,10 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2016,Rio de Janeiro,Brazil,Venezuela,VEN,0,3,3,6,16,8,24,29851249,8.04,South America
 2016,Rio de Janeiro,Brazil,Vietnam,VIE,1,1,2,4,7,4,11,93640435,1.17,Asia
 2016,Rio de Janeiro,Brazil,Zimbabwe,ZIM,0,0,0,0,2,3,5,14030338,3.56,Africa
+2020,Tokyo,Japan,Cote d'Ivoire,CIV,0,0,0,0,2,1,3,26378275,0,Africa
+2020,Tokyo,Japan,Palestine,PLE,0,0,0,0,1,0,1,,,Asia
+2020,Tokyo,Japan,Refugee Paralympic Team,RPT,0,0,0,0,5,1,6,,,Others
+2020,Tokyo,Japan,Taipei,TPE,0,0,1,1,4,6,10,,,Asia
 2020,Tokyo,Japan,Afghanistan,AFG,0,0,0,0,1,1,2,38928341,0.51,Asia
 2020,Tokyo,Japan,Algeria,ALG,4,4,4,12,35,21,56,43851043,12.77,Africa
 2020,Tokyo,Japan,Angola,ANG,0,0,0,0,1,1,2,32866268,0.61,Africa
@@ -1246,11 +1250,9 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2020,Tokyo,Japan,Cape Verde,CPV,0,0,0,0,1,1,2,555988,35.97,Africa
 2020,Tokyo,Japan,Central African Republic,CAF,0,0,0,0,0,1,1,4829764,2.07,Africa
 2020,Tokyo,Japan,Chile,CHI,2,3,1,6,10,9,19,19116209,9.94,South America
-1960,Rome,Italy,Zimbabwe,ZIM,2,1,2,5,0,1,1,3776679,0,Africa
 2020,Tokyo,Japan,Colombia,COL,3,7,14,24,44,22,66,50882884,12.97,South America
 2020,Tokyo,Japan,Congo,CGO,0,0,0,0,1,1,2,5518092,3.62,Africa
 2020,Tokyo,Japan,Costa Rica,CRC,1,1,0,2,7,2,9,5094114,17.67,North America
-1964,Tokyo,Japan,Zimbabwe,ZIM,10,5,2,17,4,2,6,4322854,0,Africa
 2020,Tokyo,Japan,Croatia,CRO,0,3,4,7,16,6,22,4047200,54.36,Europe
 2020,Tokyo,Japan,Cuba,CUB,4,1,1,6,13,4,17,11326616,15.01,North America
 2020,Tokyo,Japan,Cyprus,CYP,1,0,1,2,1,2,3,1207361,24.85,Europe
@@ -1329,7 +1331,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2020,Tokyo,Japan,Norway,NOR,2,0,2,4,5,10,15,5379475,27.88,Europe
 2020,Tokyo,Japan,Oman,OMA,0,0,1,1,2,1,3,5106622,5.87,Asia
 2020,Tokyo,Japan,Pakistan,PAK,1,0,0,1,1,1,2,220892331,0.09,Asia
-1968,Tel Aviv,Israel,Zimbabwe,ZIM,6,7,7,20,7,7,14,4941901,0,Africa
 2020,Tokyo,Japan,Panama,PAN,0,0,0,0,2,1,3,4314768,6.95,North America
 2020,Tokyo,Japan,Papua New Guinea,PNG,0,0,0,0,1,1,2,8947027,2.24,Oceania
 2020,Tokyo,Japan,Paraguay,PAR,0,0,0,0,1,1,2,7132530,2.8,South America
@@ -1340,7 +1341,6 @@ Year,Host_City,Host_Country,Country,Country_Code,Gold,Silver,Bronze,M_Total,Men,
 2020,Tokyo,Japan,Portugal,POR,0,0,2,2,24,10,34,10305564,32.99,Europe
 2020,Tokyo,Japan,Puerto Rico,PUR,0,0,0,0,2,1,3,3194034,9.39,North America
 2020,Tokyo,Japan,Qatar,QAT,0,0,1,1,1,1,2,2881060,6.94,Asia
-1972,Heidelberg,Germany,Zimbabwe,ZIM,3,5,4,12,6,7,13,5673914,0,Africa
 2020,Tokyo,Japan,Republic of Korea,KOR,2,10,12,24,57,28,85,51780579,16.42,Asia
 2020,Tokyo,Japan,Republic of Moldova,MDA,0,0,0,0,4,2,6,2617820,22.92,Europe
 2020,Tokyo,Japan,Romania,ROU,0,1,1,2,8,1,9,19286123,4.67,Europe
