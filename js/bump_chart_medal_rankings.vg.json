@@ -80,7 +80,8 @@
             "title": "Continents (Click to Filter)",
             "orient": "bottom",
             "titleFontSize": 12,
-            "symbolSize": 300
+            "symbolSize": 300,
+            "labelFontSize": 12
           }
         },
         "opacity": {
