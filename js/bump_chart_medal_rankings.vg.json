@@ -100,14 +100,14 @@
       }
     },
     {
-      "mark": { "type": "text" , "color":"white", "fontSize":13.5},
-      "encoding": {"text":{"field": "Ranking_medal", "type": "ordinal"}}
+      "mark": { "type": "text", "color": "white", "fontSize": 13.5 },
+      "encoding": { "text": { "field": "Ranking_medal", "type": "ordinal" } }
     }
   ],
   "config": {
     "title": {
       "fontSize": 20,
-      "anchor": "start",
+      "anchor": "middle",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 14
     },

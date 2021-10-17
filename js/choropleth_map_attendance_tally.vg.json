@@ -128,7 +128,7 @@
     }
   ],
   "config": {
-    "title": { "fontSize": 20, "anchor": "start" },
+    "title": { "fontSize": 20, "anchor": "middle" },
     "background": "aliceblue",
     "autosize": { "resize": true },
     "style": {

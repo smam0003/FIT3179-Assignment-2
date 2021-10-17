@@ -89,9 +89,13 @@
             "title": "There Are More Men Than Women Athletes By",
             "format": ".2f"
           },
-          {"field": "smMen", "type": "quantitative", "title": "Men"},
-          {"field": "smWomen", "type": "quantitative", "title": "Women"},
-          {"field": "smP_Total", "type": "quantitative", "title": "Total Athletes"}
+          { "field": "smMen", "type": "quantitative", "title": "Men" },
+          { "field": "smWomen", "type": "quantitative", "title": "Women" },
+          {
+            "field": "smP_Total",
+            "type": "quantitative",
+            "title": "Total Athletes"
+          }
         ]
       }
     },
@@ -115,7 +119,7 @@
   "config": {
     "title": {
       "fontSize": 20,
-      "anchor": "start",
+      "anchor": "middle",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 14
     },

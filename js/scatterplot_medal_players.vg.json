@@ -55,7 +55,7 @@
         "titleFontSize": 18,
         "values": [0, 5, 10, 20, 50, 100, 150, 200, 350]
       },
-      "scale": { "type": "symlog" }
+      "scale": { "type": "symlog", "domain": [0, 420] }
     },
     "y": {
       "field": "value",
@@ -67,7 +67,7 @@
         "titleFontSize": 18,
         "values": [0, 5, 10, 20, 50, 100, 150, 200, 260]
       },
-      "scale": { "type": "symlog" }
+      "scale": { "type": "symlog", "domain": [0, 420] }
     }
   },
   "layer": [
@@ -134,7 +134,8 @@
         "align": "right",
         "dx": -10,
         "fontSize": 13.5,
-        "fontStyle": "italic", "fontWeight":"bolder"
+        "fontStyle": "italic",
+        "fontWeight": "bolder"
       },
       "encoding": {
         "text": { "field": "Country", "type": "nominal" },
@@ -149,9 +150,8 @@
     }
   ],
   "config": {
-    "title": { "fontSize": 20, "anchor": "start" },
+    "title": { "fontSize": 20, "anchor": "middle" },
     "background": "aliceblue",
-    "autosize": { "resize": true },
     "style": {
       "cell": {
         "stroke": "transparent"
