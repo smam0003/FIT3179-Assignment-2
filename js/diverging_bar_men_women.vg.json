@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "% Of Difference Between Men And Women Athletes",
+    "text": "% Of Difference Between Men And Women Athletes 1960-2020",
     "subtitle": "The Lower The %, The More Balanced The Genders Are (No Difference)"
   },
   "width": "container",

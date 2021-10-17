@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Number of Athletes to Medals Won",
+  "title": "Number of Athletes to Medals Won 1960-2020",
   "width": "container",
   "height": 500,
   "description": "Scatterplot",
