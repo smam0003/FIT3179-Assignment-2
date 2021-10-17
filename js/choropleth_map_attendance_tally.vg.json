@@ -4,7 +4,9 @@
   "width": "container",
   "height": 500,
   "projection": {
-    "type": "equirectangular"
+    "type": "equirectangular",
+    "center": { "expr": "Center_to" },
+    "scale": { "expr": "Zoom_level" }
   },
 
   "params": [
@@ -17,6 +19,43 @@
         "max": 2020,
         "step": 4,
         "name": "Year:  "
+      }
+    },
+    {
+      "name": "Zoom_level",
+      "value": 140,
+      "bind": {
+        "input": "range",
+        "min": 140,
+        "max": 410,
+        "step": 10,
+        "name": "Zoom: "
+      }
+    },
+    {
+      "name": "Center_to",
+      "value": [0, 0],
+      "bind": {
+        "input": "select",
+        "options": [
+          [0, 0],
+          [12.955306, 48.909842],
+          [106.421745, 15.54542],
+          [-104.05122, 51.265959],
+          [-65.291455, -13.874471],
+          [16.317546, 3.011131],
+          [141.555454, -27.937671]
+        ],
+        "labels": [
+          "Default",
+          "Europe",
+          "Asia",
+          "NA",
+          "SA",
+          "Africa",
+          "Oceania"
+        ],
+        "name": "Map Centre: "
       }
     }
   ],
