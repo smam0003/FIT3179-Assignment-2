@@ -1,6 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Number of Athletes to Medals Won 1960-2020",
+  "title": {
+    "text": "Number of Athletes to Medals Won 1960-2020",
+    "subtitle": "(Select medal type to continue)"
+  },
   "width": "container",
   "height": 500,
   "description": "Scatterplot",
@@ -150,7 +153,12 @@
     }
   ],
   "config": {
-    "title": { "fontSize": 20, "anchor": "middle" },
+    "title": {
+      "fontSize": 20,
+      "anchor": "middle",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 14
+    },
     "background": "aliceblue",
     "style": {
       "cell": {

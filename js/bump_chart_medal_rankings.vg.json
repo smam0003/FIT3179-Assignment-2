@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Ranking of Continents By Medals Won 1960-2020",
-    "subtitle": "The Lower The Rank, The Higher The Medals Won"
+    "subtitle": "The Lower The Rank, The Higher The Medals Won (Select medal type to continue)"
   },
   "width": "container",
   "height": 500,
