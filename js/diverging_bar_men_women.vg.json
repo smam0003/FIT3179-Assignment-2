@@ -86,7 +86,7 @@
           {
             "field": "Men_percent",
             "type": "quantitative",
-            "title": "There Are More Men Than Women Athletes By",
+            "title": "There Are More % Men Than Women Athletes By",
             "format": ".2f"
           },
           { "field": "smMen", "type": "quantitative", "title": "Men" },
