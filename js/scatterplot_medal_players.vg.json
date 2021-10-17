@@ -89,7 +89,7 @@
           "field": "Continent",
           "legend": {
             "title": "Continents (Click to Filter)",
-            "orient": "bottom",
+            "orient": "top-left",
             "titleFontSize": 12,
             "symbolSize": 300
           },
